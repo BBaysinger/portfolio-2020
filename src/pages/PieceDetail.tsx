@@ -36,7 +36,13 @@ interface PieceDetailProps extends RouteComponentProps<PieceDetailRouterProps> {
 }
 
 /**
- * Parent class to contain the views for a portfolio item.
+ * The parent component that owns the different parts of the display of each portfolio item.
+ * There are screenshots, paragraphs, and then buttons.
+ * 
+ * Screenshots are displayed within depictions of devices. The paragraphs are sometimes styled
+ * differently depending on the type of information. And the buttons
+ * that link out to the features available for each portfolio peice. Features and some paragraph types
+ * switch on and off, based on flags in the data.
  *
  * @author Bradley Baysinger
  * @since  x.x.x

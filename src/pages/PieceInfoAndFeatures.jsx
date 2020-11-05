@@ -4,17 +4,19 @@ import React from "react";
 import Sniffer from "../utils/Sniffer";
 
 /**
- * The text and buttons of a portfolio item view.
+ * The component that owns the buttons and paragraphs of the display of each portfolio item.
  * 
- * Info in paragraphs sometimes styled differently depending on the type of information, then buttons
- * that link out to the features available for each portfolio peice.
+ * The paragraphs can be styled
+ * differently depending on the type of information. And the buttons
+ * link out to the features available for each portfolio peice.
+ * 
+ * TODO: This could be more pure if we separated these out to two components...
  *
  * @author Bradley Baysinger
  * @since  x.x.x
  * @version N/A
  */
 export default class PieceInfoAndFeatures extends React.Component {
-  
   /**
    *
    *
@@ -146,7 +148,7 @@ export default class PieceInfoAndFeatures extends React.Component {
     alert(
       "Viewable on desktop/laptop browsers (Firefox recommended) with Flash Player installed."
     );
-  }
+  };
 
   /**
    * TODO: Figure out why this member doesn't exist on refs at runtime.

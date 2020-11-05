@@ -8,6 +8,8 @@ I also kinda dig my mobile nav drawer slideout. There should be more like it out
 
 I've started refactoring for TypeScript, but gonna come back to it after frying some bigger fish. It's pretty tedious, but important as I like set certain things up to extract features into later projects. ¯\_(ツ)_/¯
 
+Another TODO is that I built this with the intention to make the technical scope tags for each project clickable to link out to a portfolio view of items filtered by the tag. Or it may be crazy to have that many portfolio items, but I think the idea was that I may want to continously contribute to projects, but only have a subset featured ones on the home page... Maybe in the next iteration...
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

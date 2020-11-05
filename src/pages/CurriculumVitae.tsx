@@ -461,7 +461,7 @@ export default class CurriculumVitae extends React.Component {
                 </div>
 
                 <p className="desc">
-                  Self directed learning of graphics software and cross platform
+                  Self-directed learning of graphics software and cross platform
                   dynamic and interactive front-end coding&nbsp;practices
                 </p>
 
