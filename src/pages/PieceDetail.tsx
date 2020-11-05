@@ -185,7 +185,7 @@ export default class PieceDetail extends React.Component<
   };
 
   /**
-   * TODO: Need to revisit this and see if there's a CSS3 solution so to
+   * TODO: Need to revisit this and see if there's a CSS3 solution and
    * take scaling off of state.
    *
    * @returns

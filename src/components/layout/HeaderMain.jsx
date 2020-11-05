@@ -8,7 +8,6 @@ import Scroll from "react-scroll";
 import headerLogo from "../../assets/images/main-header/logo-header.png";
 import caret from "../../assets/images/main-header/caret.png";
 
-
 // type State = {
 
 // }
@@ -18,7 +17,7 @@ import caret from "../../assets/images/main-header/caret.png";
 // }
 
 /**
- * This is the header on the home page.
+ * This is the header on the home page only, which is distinct from the header on every other page.
  *
  * @author Bradley Baysinger
  * @since  x.x.x
@@ -45,7 +44,6 @@ export default class HeaderMain extends React.Component {
    */
   // constructor(props: Props) {
   constructor(props) {
-    
     super(props);
 
     this.state = {
@@ -85,7 +83,7 @@ export default class HeaderMain extends React.Component {
   scrollDown = () => {
     this.stopCaret();
     Scroll.animateScroll.scrollTo(this.getHeight() - NavBar.HEIGHT);
-  }
+  };
 
   /**
    *
@@ -152,15 +150,13 @@ export default class HeaderMain extends React.Component {
     return (
       <header className="header_main">
         <div className="overheadFill"></div>
-        <div
-          className="header_container"
-          style={{ minHeight: this.state.height + "px" }}
-        >
+        <div className="header_container">
           <img src={headerLogo} className="header-logo" alt="BB Logo" />
           <h1>Bradley Baysinger</h1>
 
           <h5 className="subhead">
-            <span className="nobr">Interactive Web</span> &bull; <span className="nobr">Front-end Developer</span>
+            <span className="nobr">Interactive Web</span> &bull;{" "}
+            <span className="nobr">Front-end Developer</span>
           </h5>
         </div>
 
