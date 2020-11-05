@@ -1,0 +1,685 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		
+		
+		<script src="http://www.att.com/webtrends/scripts/dcs_tag.js" type="text/javascript">
+</script>
+		<script src="http://www.att.com/scripts/baynote.js" type="text/javascript">
+</script>
+		<link rel="stylesheet" type="text/css" href="media/standalone/data_calculator/css/styles.css">
+		<script type="text/javascript" src="media/standalone/data_calculator/js/js/jquery-1.7.2.js">
+</script>
+		<script type="text/javascript">
+jQuery.noConflict();
+		</script>
+		<!-- <script type="text/javascript" src="media/standalone/data_calculator/js/require.js" data-main="media/standalone/data_calculator/js/main"></script> -->
+		<script type="text/javascript" src="media/standalone/data_calculator/build-minified/js/require.js" data-main="media/standalone/data_calculator/build-minified/js/main"></script>
+		<title>
+			AT&amp;T Data Calculator from AT&amp;T
+		</title>
+		
+		<!-- Turnkey Overwrite Styles -->
+		<link rel="stylesheet" type="text/css" href="styles/tk-overwrite.css">
+		
+	</head>
+	<body>
+		<div class="dcalc_data_calc_wrapper" id="dcalc_data_calc_wrapper">
+			<div id="dcalc_modal_overlay"></div>
+			<div class="dcalc_top_links">
+				<a href='https://www.att.com/shop/wireless.html' class="dcalc_text_decoration_none" target="_blank">Wireless</a> / <a href='https://www.att.com/shop/wireless/data-plans.html' class="dcalc_text_decoration_none" target="_blank"> Mobile Share Data Plans</a> / Data Calculator
+			</div>
+			<h1 class="dcalc_panel_top">
+				Data Calculator
+			</h1>
+			<div class="dcalc_panel_body">
+				<div id="dcalc_left_side">
+					<div class="dcalc_data_calc_header">
+						<h2 class="dcalc_form_header">
+							<img src="media/standalone/data_calculator/images/header/txt_form_header.png" alt="Choose the plan that's right for you">
+						</h2>
+						<!-- <div class="dcalc_wifi_disclaimer">
+							<!-- Wi-Fi does not count against data plan usage.  With Wi-Fi capable devices you can save at home, at the office and enjoy FREE connections at over 30,000 AT&amp;T hotspots nationwide with an eligible data plan! ->
+						</div> -->
+						<div class="dcalc_visit_mobile_share">
+							<a href="http://www.att.com/att/planner" target="_blank">Visit the Mobile Share Planner</a> to estimate usage for multiple devices.
+						</div>
+					</div>
+					<div id="dcalc_slider_column"></div>
+					<div id="dclac_slider_col_footer">
+						<div class="dcalc_remove_type_row">
+							**75% basic email and 25% email with standard attachment.<img src="media/standalone/data_calculator/images/slider_col/reset_button.png" id="dcalc_reset_button" width="144" height="27" alt="reset" name="dcalc_reset_button">
+						</div>
+						<div id="dcalc_data_legend">
+							<span id="dcalc_legend_heading">Data Legend for </span><br>
+							<div class="dcalc_first_div">
+								Below are general guidelines for the amount of data used per service:
+							</div>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_smartphone">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>20KB</b></span>
+									</td>
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>350KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>2MB</b> (120MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">music</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b> (30MB/hour)</span>
+									</td>						
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>5.1MB</b> (306MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">app/game/song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>4MB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_tablet">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>20KB</b></span>
+									</td>
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>350KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>2MB</b> (120MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">music</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b> (30MB/hour)</span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>5.1MB</b> (306MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">app/game/song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>5MB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_basic_phone">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>20KB</b></span>
+									</td>
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>350KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">app/game/song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>4MB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span> (mobile optimized)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>7.5MB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_laptop">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>35KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>2MB</b> (120MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>5.1MB</b> (306MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>4MB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_mobile_hotspot_device">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>35KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>3MB</b> (180MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b> (900MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>4MB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_gaming_device">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>20KB</b></span>
+									</td>
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>350KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>2MB</b> (120MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">music</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b> (30MB/hour)</span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>5.1MB</b> (306MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">app/game/song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>5MB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_gophone_smartphone">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>20KB</b></span>
+									</td>
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>350KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>2MB</b> (120MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">music</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b> (30MB/hour)</span>
+									</td>						
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>5.1MB</b> (306MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">app/game/song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>4MB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_gophone_basic_phone">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>20KB</b></span>
+									</td>
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>350KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">app/game/song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>4MB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span> (mobile optimized)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>7.5MB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_gophone_tablet">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>20KB</b></span>
+									</td>
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>350KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>2MB</b> (120MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">music</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b> (30MB/hour)</span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>5.1MB</b> (306MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">app/game/song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>5MB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_gophone_mobile_hotspot">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>35KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>3MB</b> (180MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b> (900MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>4MB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b></span>
+									</td>
+								</tr>
+							</table>
+						     
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_wireless_home_phone__internet_device">
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>35KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>10MB</b> (600MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>25MB</b> (1500MB/hour)</span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">song</span> downloaded<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>4MB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b></span>
+									</td>
+									<td>
+										• 1 min. of interactive <span class="dcalc_bold">gaming</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>0.5MB</b> (30MB/hour)</span>
+									</td>
+								</tr>
+							</table>
+							
+							<table cellpadding="0" cellspacing="0" class="dcalc_data_legend_table" id="dcalc_data_legend_connected_car_wi_fi_hotspot">
+								<tr height="42">
+									<td width="247">
+										• 1 min. of streaming <span class="dcalc_bold">music</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b> (30MB/hour)</span>
+									</td>
+									<td>
+										• 1 social media post with <span class="dcalc_bold">photo</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>500KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (standard)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>3MB</b> (180MB/hour)</span>
+									</td>
+									<td width="247">
+										• 1 <span class="dcalc_bold">email </span>(with standard attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>300KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 min. of streaming <span class="dcalc_bold">video</span> (HD)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b> (900MB/hour)</span>
+									</td>
+									<td>
+										• 1 <span class="dcalc_bold">email </span>(no attachment)<br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>35KB</b></span>
+									</td>
+								</tr>
+								<tr height="42">
+									<td>
+										• 1 hour surfing the <span class="dcalc_bold">Web</span><br>
+										&nbsp;&nbsp;<span class="dclac_orange_highlight"><b>15MB</b></span>
+									</td>
+								</tr>
+							</table>
+							
+							<div class="dcalc_last_div">
+								<b>Note:</b> Data usage varies by device. The above examples are based on averages and are estimates only. The actual amount of data used for the described activity can vary.<br />
+								<b>1MB = 1,024KB<br /> 1GB = 1,024MB</b>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="dcalc_right_side">
+					<div class="dcalc_header_back_to_mobile_site tk-block">
+						<!--<a href="http://att.com/dataplans" id="back_to_data_plans_link" class="dcalc_text_decoration_none dcalc" target="_top">Back to Individual Data Plans</a> <img class="dcalc_back_to_mobile_site_left_arrow" src="media/standalone/data_calculator/images/footer/left_arrow.png" alt="">-->
+					</div>
+					<div id="dcalc_recommendation_pricing_box">
+						
+						<!--***** discontinued Turnkey edited *****-->
+							<div id="dcalc_recommendation_pricing_wrapper">
+							
+								<div class="dcalc_recommendation_pricing_overlay">
+									<p></p>
+								</div>
+								<div id="dcalc_recommendation_heading" class="tk-none">
+									Smartphone plan
+								</div><!-- <div id="dcalc_recommendation_subhead">
+										with Unlimited Talk &amp; Text
+									</div> -->
+								<div id="dcalc_recommendation_total_gb_wrapper" class="tk-none">
+									<div id="dcalc_recommendation_total_gb">
+										1GB
+									</div>
+								</div><!-- <div class="dcalc_recommendation_dots"></div> -->
+								<div id="dcalc_recommendation_or" class="tk-none">
+									or select a <a href="http://www.att.com/att/planner/" target="_blank">Mobile Share plan</a>
+								</div>
+								<div id="dcalc_recommendation_pricing" class="tk-none">
+
+									<div id="dcalc_recommendation_pricing_row_3" class="dcalc_recommendation_pricing_row">
+											<p class="dcalc_recommendation_total_estimate_label"><b>Total Estimate</b><br />(excluding other account charges)</p>
+											<p id="dcalc_recommendation_total_estimate"></p>
+									</div>
+
+									<div id="dcalc_recommendation_pricing_row_4">
+										<!-- <sup>&dagger;</sup>Some devices also require an <a href="http://www.att.com/shop/wireless/plans/individualplans.html" target="_top">Individual</a> or<br />
+										<a href="http://www.att.com/shop/wireless/plans/familyplans.html" target="_top">Family</a> voice plan. -->
+									</div>
+
+								</div>
+								
+								<!-- ***** 12-16 Turnkey ***** -->
+								<div id="tk-parent">
+									<div class="tk-top">
+										<a href="http://www.att.com/att/planner" target="_blank">AT&amp;T Mobile Share Value plans</a>
+										<p> No annual service contract. Big Savings.<sup>&dagger;</sup></p>
+									</div>
+									<div class="tk-mid">
+										<p>For other data plan options,<br/> <a id="logit" href="https://www.att.com/accounts/?source=IC4425j4900s2000" target="_blank">Log In</a> to your account.</p>	
+									</div>
+									<div class="tk-bot">
+										<sup>&dagger;</sup>Available with AT&amp;T Next<sup>SM</sup> or with purchase of smartphones at full retail price. Also eligible if out of contract or bringing own device.	
+									</div>
+								</div>
+								<!-- // -->
+								
+							</div>
+						<!--// discontinued *Turnkey edited //-->
+						
+						<!-- GoPhone Overlay -->
+						<div id="dcalc_recommendation_gophone_overlay">
+							<img src="media/standalone/data_calculator/images/recommender/gophone_graphic.gif" style="margin-top:0px;" alt="GoPhone">
+							<a id="dcalc_ecommendation_gophone_cta" href="http://www.att.com/shop/wireless/plans/prepaidplans.html" target="_blank"><img src="media/standalone/data_calculator/images/recommender/gophone_plans_btn.png" border="0" style="margin-top:10px;" alt="Veiw Current Rate Plans"></a>
+						</div>
+						
+						<!-- WHP&I Device Overlay -->
+						<div id="dcalc_recommendation_whpid_overlay">
+							<h2>Wireless Home Phone &amp;<br> Internet Device Plan</h2>
+							<a href="http://www.att.com/shop/wireless/devices/internethomephone.html" target="_blank"><img src="media/standalone/data_calculator/images/recommender/whpid_plans_btn.png" border="0" style="margin-top:10px;" alt="Get Wireless Home Phone Plan"></a>
+						</div>
+						
+						<!-- Connected Car Overlay -->
+						<div id="dcalc_recommendation_connected_car_overlay">
+							<h2>Connected Car <br> Wi-Fi Hotspot Plan</h2>
+							<!-- <span class="dcala_plan_coming_soon">Plan information coming soon.</span> -->
+							<a href="http://www.att.com/connectedcar" target="_blank"><img src="media/standalone/data_calculator/images/recommender/whpid_plans_btn.png" border="0" style="margin-top:10px;" alt="Get Wireless Home Phone Plan"></a>
+						</div>
+
+					</div>
+					<div id="dcalc_graph"></div>
+					<div id="dcalc_graph_footnotes">
+						<div id="dcalc_graph_footnotes_0" class="dcalc_graph_footnote">
+							<sup>1</sup> 5GB data plan is required to enable Mobile Hotspot or tethering.
+						</div>
+						<div id="dcalc_graph_footnotes_1" class="dcalc_graph_footnote">
+							<sup>2</sup> $35 with new 2-year contract. $30 with month-to-month contract.
+						</div>
+						<div id="dcalc_graph_footnotes_2" class="dcalc_graph_footnote">
+							<sup>3</sup> Prepaid data options available for Computers, Tablets, and Gaming Devices at <a href="http://www.att.com/buyasession" target="_blank" >att.com/buyasession.</a>
+						</div>
+						<div id="dcalc_graph_footnotes_3" class="dcalc_graph_footnote">
+							<sup>4</sup> $10/mo. unlimited data plan for standard phones requires Messaging Unlimited feature.
+						</div>
+						<div id="dcalc_graph_footnotes_4" class="dcalc_graph_footnote">
+							<sup>5</sup> Data overage charges are automatically applied.
+						</div>
+						<div id="dcalc_graph_footnotes_5" class="dcalc_graph_footnote">
+							<sup>5</sup> Requires monthly voice plan.
+						</div>
+					</div>
+				</div>
+				<div class="dcalc_data_calc_footer">
+					<div class="dcalc_promo dcalc_one">
+						<h2 class="dcalc_promo_header">
+							FREE myAT&amp;T app*
+						</h2>
+						<div>
+							Instantly track usage, review and pay your bill from your smartphone or tablet.
+						</div>
+						<div class="dcalc_promo_one_learn_more">
+							<a href='http://www.att.com/shop/apps/myatt-mobile.html' class="dcalc_text_decoration_none dcalc" target="_blank">Learn more</a> <img class="dcalc_learn_more_right_arrow" src='media/standalone/data_calculator/images/footer/right_arrow.png' alt="">
+						</div>
+					</div>
+					<div class="dcalc_promo dcalc_two">
+						<h2 class="dcalc_promo_header">
+							Need more information?
+						</h2>
+						<div>
+							<a href="https://www.att.com/olam/passthroughAction.myworld?actionType=Manage" target="_blank">Log in to myAT&amp;T</a> to view actual usage.
+						</div>
+						<div>
+							<a href="http://www.att.com/att/planner" target="_blank">Use the AT&amp;T Mobile Share Planner</a> to estimate shared data usage.
+						</div>
+					</div><br class="dcalc_clearBoth">
+				</div><br class="dcalc_clearBoth">
+			</div>
+			<div class="dcalc_panel_bottom"></div>
+			<div id="dcalc_footer_legal">
+				<div class="dcalc_legal">
+					*Online account registration is required for activation. myAT&amp;T app is available for Apple® iPhone®, Blackberry®, Windows®, and Android™ OS supported devices. Access to the myAT&amp;T mobile website is dependent on device operating systems, mobile browser, and device attributes.
+				</div>
+				<div class="dcalc_legal">
+					&copy;2014 AT&amp;T Intellectual Property. All rights reserved. AT&amp;T, the AT&amp;T logo and all other marks contained herein are trademarks of AT&amp;T Intellectual Property and/or AT&amp;T affiliated companies. AT&amp;T Mobility owns and reserves all rights to the Data Calculator.
+				</div>
+			</div>
+			<form action="">
+				<input type="hidden" id="refreshed" value="no"> <script type="text/javascript">
+onload=function(e){
+					var e=document.getElementById("refreshed");
+					if(e.value=="no")e.value="yes";
+					else{e.value="no";location.reload();}
+					}
+				</script>
+			</form>
+		</div>
+	</body>
+</html>

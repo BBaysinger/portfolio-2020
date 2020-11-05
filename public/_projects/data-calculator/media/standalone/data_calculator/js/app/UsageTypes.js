@@ -1,0 +1,103 @@
+define([
+
+"../lib/utils/trace"
+
+],
+
+function(
+
+trace
+
+)
+{
+	var u;
+	var UsageTypes = u = {};
+	
+	u.EMAILS = "emails";
+	
+	u.STREAMING_MUSIC = "streaming_music";
+	
+	u.WEB_BROWSING = "web_browsing";
+	
+	u.SOCIAL_MEDIA = "social_media";
+	
+	u.STREAMING_VIDEO = "streaming_video";
+	
+	u.STREAMING_VIDEO_HD = "streaming_video_hd";
+	
+	u.APP_AND_GAMES = "app_and_games";
+	
+	u.SONG_DOWNLOADS = "song_downloads";
+
+	u.INTERACTIVE_GAMING = "interactive_gaming";
+	
+	u.types =
+	[
+		u.EMAILS
+		,
+		u.STREAMING_MUSIC
+		,
+		u.WEB_BROWSING
+		,
+		u.SOCIAL_MEDIA
+		,
+		u.STREAMING_VIDEO
+		,
+		u.STREAMING_VIDEO_HD
+		,
+		u.APP_AND_GAMES
+		,
+		u.SONG_DOWNLOADS
+		,
+		u.INTERACTIVE_GAMING
+	]
+
+	u.titles = {};
+	u.titles[u.EMAILS] = "Emails** sent/received with attachments";
+	u.titles[u.STREAMING_MUSIC] = "Hours of streaming music";
+	u.titles[u.WEB_BROWSING] = "Hours surfing the Web";
+	u.titles[u.SOCIAL_MEDIA] = "Social media posts with photos";
+	u.titles[u.STREAMING_VIDEO] = "Hours of streaming video";
+	u.titles[u.STREAMING_VIDEO_HD] = "Hours of streaming HD video";
+	u.titles[u.APP_AND_GAMES] = "Apps/games/songs downloaded";
+	u.titles[u.SONG_DOWNLOADS] = "Songs downloaded";
+	u.titles[u.INTERACTIVE_GAMING] = "Interactive Gaming";
+		
+	u.units = {};
+	u.units[u.EMAILS] = "Emails";
+	u.units[u.STREAMING_MUSIC] = "Hours";
+	u.units[u.WEB_BROWSING] = "Hours";
+	u.units[u.SOCIAL_MEDIA] = "Posts";
+	u.units[u.STREAMING_VIDEO] = "Hours";
+	u.units[u.STREAMING_VIDEO_HD] = "Hours";
+	u.units[u.APP_AND_GAMES] = "Apps/ Games/ Songs";
+	u.units[u.SONG_DOWNLOADS] = "Songs";
+	u.units[u.INTERACTIVE_GAMING] = "Hours";
+		
+	return UsageTypes
+	
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

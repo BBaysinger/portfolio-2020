@@ -1,0 +1,47 @@
+define([
+
+"app/PlansModalView"
+
+], function(
+
+PlansModalView
+
+){
+
+	var PlansModalControl = function()
+	{
+		this.view = new PlansModalView();
+
+		var self = this;
+
+		jQuery(this.view.closeBtn).click(function(e){
+			e.preventDefault();
+			self.hide();
+		});
+	}
+
+	/* ---------------------------------------------------------------------------------------- */
+
+	var p = PlansModalControl.prototype;
+
+	/* ---------------------------------------------------------------------------------------- */
+
+	p.show = function()
+	{
+		this.view.element.style.display = "block";
+		this.view.overlay.style.display = "block";
+	}
+
+	/* ---------------------------------------------------------------------------------------- */
+
+	p.hide = function()
+	{
+		this.view.element.style.display = "none";
+		this.view.overlay.style.display = "none";
+	}
+
+	/* ---------------------------------------------------------------------------------------- */
+
+	return PlansModalControl;
+
+});

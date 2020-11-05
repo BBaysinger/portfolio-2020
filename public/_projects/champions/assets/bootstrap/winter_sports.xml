@@ -1,0 +1,70 @@
+<root>
+
+	<initialStoredState chosenCharacter="-1">
+		
+		<!-- -1 = not played, 0 = no medal, 1 = bronze, 2 = silver, 3 = gold -->
+		
+		<games>
+			<game id="HockeyGameScene" cheatUnlocked="0" medalsEarned="-1,-1,-1" />
+			<game id="BobsledGameScene" cheatUnlocked="0" medalsEarned="-1,-1,-1" />
+			<game id="SnowboardGameScene" cheatUnlocked="0" medalsEarned="-1,-1,-1" />
+			<game id="SkiJumpGameScene" cheatUnlocked="0" medalsEarned="-1,-1,-1" />
+		</games>
+		
+		<opponents>
+			<opponent id="0">
+				<game id="HockeyGameScene" medalsEarned="-1,-1,-1" />
+				<game id="BobsledGameScene" medalsEarned="-1,-1,-1" />
+				<game id="SnowboardGameScene" medalsEarned="-1,-1,-1" />
+				<game id="SkiJumpGameScene" medalsEarned="-1,-1,-1" />
+			</opponent>
+			<opponent id="1">
+				<game id="HockeyGameScene" medalsEarned="-1,-1,-1" />
+				<game id="BobsledGameScene" medalsEarned="-1,-1,-1" />
+				<game id="SnowboardGameScene" medalsEarned="-1,-1,-1" />
+				<game id="SkiJumpGameScene" medalsEarned="-1,-1,-1" />
+			</opponent>
+			<opponent id="2">
+				<game id="HockeyGameScene" medalsEarned="-1,-1,-1" />
+				<game id="BobsledGameScene" medalsEarned="-1,-1,-1" />
+				<game id="SnowboardGameScene" medalsEarned="-1,-1,-1" />
+				<game id="SkiJumpGameScene" medalsEarned="-1,-1,-1" />
+			</opponent>
+		</opponents>   
+				
+	</initialStoredState>
+	
+	<unstoredData>
+		
+		<games>
+		
+		<!-- We don't want this stuff to be saved, because it would prevent our later changes from propagating -->
+		
+			<game unlocked="1" cheatCode="132133" id="HockeyGameScene" medalThresholds="1500,2000,2500" />
+			<game unlocked="1" cheatCode="332121" id="BobsledGameScene" medalThresholds="1500,1750,2000" />
+			<game unlocked="1" cheatCode="121312" id="SnowboardGameScene" medalThresholds="1000,1300,1600" />
+			<game unlocked="1" cheatCode="212331" id="SkiJumpGameScene" medalThresholds="300,600,850" />
+			<!-- <game unlocked="0" id="MedalCeremonyScene" /> -->
+		
+		</games>
+				
+	</unstoredData>
+	
+</root>          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

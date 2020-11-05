@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<strings>
+
+	<global>
+		<windVane font="cubano_60_white_on_black" fontScale=".5"><![CDATA[ MPH]]></windVane>
+		<test font="cubano_40_yellow_on_black" fontScale=".6"><![CDATA[test]]></test>
+	</global>
+
+	<title>
+		<clickAnywhere font="cheap_signage_38_white_on_black" fontScale="1"><![CDATA[CLICK ANYWHERE TO PLAY!]]></clickAnywhere>
+		<unlockButton font="cubano_60_white_on_black" fontScale=".55"><![CDATA[UNLOCK]]></unlockButton>
+		<nextButton font="cubano_60_white_on_black" fontScale=".55"><![CDATA[NEXT]]></nextButton>
+	</title>
+	
+	<unlock>
+		<unlockSuccess font="cubano_60_white_on_black" fontScale=".55"><![CDATA[UNLOCK SUCCESSFUL!]]></unlockSuccess>
+		<btnUnlock font="cubano_60_white_on_black" fontScale=".55"><![CDATA[UNLOCK]]></btnUnlock>
+		<btnClear font="cubano_60_white_on_black" fontScale=".55"><![CDATA[CLEAR]]></btnClear>
+		<readout font="cubano_60_white_on_black" fontScale="1"><![CDATA[]]></readout>
+		<row1 font="cheap_signage_38_white_on_black" fontScale="1"><![CDATA[1234567890]]></row1>
+		<row2 font="cheap_signage_38_white_on_black" fontScale="1"><![CDATA[QWERTYUIOP]]></row2>
+		<row3 font="cheap_signage_38_white_on_black" fontScale="1"><![CDATA[ASDFGHJKL]]></row3>
+		<row4 font="cheap_signage_38_white_on_black" fontScale="1"><![CDATA[ZXCVBNM_!]]></row4>
+	</unlock>
+
+	<intro>
+		<skip font="cheap_signage_38_white_on_black" fontScale=".7"><![CDATA[CLICK ANYWHERE TO SKIP]]></skip>
+	</intro>
+
+	<confirmScene>
+		<yesButton font="cubano_60_white_on_black" fontScale=".70"><![CDATA[YES]]></yesButton>
+		<noButton font="cubano_60_white_on_black" fontScale=".70"><![CDATA[NO]]></noButton>
+		<message font="cheap_signage_38_white_on_black" fontScale=".9"><![CDATA[ARE YOU SURE YOU<br>WANT TO QUIT?]]></message>
+	</confirmScene>
+	
+	<instructions>
+		<backButton font="cubano_60_white_on_black" fontScale=".55"><![CDATA[BACK]]></backButton>
+		<nextButton font="cubano_60_white_on_black" fontScale=".55"><![CDATA[NEXT]]></nextButton>
+		<playButton font="cubano_60_white_on_black" fontScale=".55"><![CDATA[PLAY]]></playButton>
+		<tap font="cubano_60_white_on_black" fontScale=".55"><![CDATA[TAP]]></tap>
+		<click font="cubano_60_white_on_black" fontScale=".55"><![CDATA[CLICK]]></click>
+		<slide1 font="cubano_60_white_on_black" fontScale=".5"><![CDATA[PULL RASKA DOWN THE BUTTER SLIDE!<br>AIM & RELEASE HIM!]]></slide1>
+		<slide2_touch font="cubano_60_white_on_black" fontScale=".5"><![CDATA[TAP TO CONTROL HIS LANDING!]]></slide2_touch>
+		<slide2_mouse font="cubano_60_white_on_black" fontScale=".5"><![CDATA[CLICK TO CONTROL HIS LANDING!]]></slide2_mouse>
+		<slide3 font="cubano_60_white_on_black" fontScale=".5"><![CDATA[SCORE ENOUGH VIEWS TO UNOCK THE NEXT LEVEL!]]></slide3>
+	</instructions>
+	
+	<levelSelect>
+		<playBtn font="cubano_60_white_on_black" fontScale=".55"><![CDATA[PLAY]]></playBtn>
+		<score font="cubano_160_red_on_black_numbers" fontScale="0.3"><![CDATA[5,600]]></score>
+		<vidLabel font="cubano_60_white_on_black" fontScale="1"><![CDATA[LEVEL]]></vidLabel>
+		<unlockTxt font="abadimt_43_black" fontScale="0.65"><![CDATA[GET ]]></unlockTxt>
+		<btnPlay font="cubano_45_red_on_black" fontScale=".57"><![CDATA[PLAY]]></btnPlay>
+		<levelBtn1 font="cubano_60_white_on_black" fontScale=".55"><![CDATA[Level 1]]></levelBtn1>
+		<levelBtn2 font="cubano_60_white_on_black" fontScale=".55"><![CDATA[Level 2]]></levelBtn2>
+		<levelBtn3 font="cubano_60_white_on_black" fontScale=".55"><![CDATA[Level 3]]></levelBtn3>
+		<levelBtn4 font="cubano_60_white_on_black" fontScale=".55"><![CDATA[Level 4]]></levelBtn4>
+		<levelBtn5 font="cubano_60_white_on_black" fontScale=".55"><![CDATA[Level 5]]></levelBtn5>
+		<unlockMsg font="cubano_60_white_on_black" fontScale=".4545"><![CDATA[GET XXXX VIEWS TO UNLOCK THE NEXT LEVEL]]></unlockMsg>
+		<scoreLabel font="abadimt_43_black" fontScale=".6"><![CDATA[VIEWS]]></scoreLabel>
+		<bonusItemsLabel font="abadimt_43_black" fontScale=".6"><![CDATA[BONUS ITEMS]]></bonusItemsLabel>
+		<btnStat font="cubano_60_white_on_black" fontScale=".3"><![CDATA[/]]></btnStat>
+	</levelSelect>
+	
+	<map>
+		<trailerPointsValue1 font="cubano_45_yellow_on_black" fontScale="1"><![CDATA[0]]></trailerPointsValue1>
+		<trailerPointsValue2 font="cubano_45_green_on_black" fontScale="1"><![CDATA[0]]></trailerPointsValue2>
+		<trailerPointsValue3 font="cubano_45_red_on_black" fontScale="1"><![CDATA[0]]></trailerPointsValue3>
+	</map>
+
+	<launchScene>
+		<instruction font="cubano_45_red_on_black" fontScale=".8"><![CDATA[DRAG]]></instruction>
+		<scoreTxt font="cubano_160_red_on_black_numbers" fontScale="0.28"><![CDATA[2000]]></scoreTxt>
+		<scoreLabelTxt font="cubano_40_yellow_on_black" fontScale=".6"><![CDATA[VIEWS]]></scoreLabelTxt>
+		<turnsTxt font="cubano_160_red_on_black_numbers" fontScale="0.28"><![CDATA[10]]></turnsTxt>
+		<turnsLabelTxt font="cubano_40_yellow_on_black" fontScale=".6"><![CDATA[LAUNCHES]]></turnsLabelTxt>
+		<trailerPointVal1 font="cubano_45_yellow_on_black" fontScale=".4"><![CDATA[0]]></trailerPointVal1>
+		<trailerPointVal2 font="cubano_45_green_on_black" fontScale=".4"><![CDATA[0]]></trailerPointVal2>
+		<trailerPointVal3 font="cubano_45_red_on_black" fontScale=".4"><![CDATA[0]]></trailerPointVal3>
+	</launchScene>
+
+	<flightScene>
+		<skip font="cheap_signage_38_white_on_black" fontScale=".7"><![CDATA[CLICK ANYWHERE TO SKIP]]></skip>
+	</flightScene>
+
+	<descentScene>
+		<tap font="cubano_45_red_on_black" fontScale="1"><![CDATA[TAP!]]></tap>
+		<click font="cubano_45_red_on_black" fontScale="1"><![CDATA[CLICK!]]></click>
+	</descentScene>
+
+	<crashScene>
+		<levelName font="cubano_60_white_on_black" fontScale=".75"><![CDATA[LEVEL ]]></levelName>
+		<scoreTxt font="cubano_160_red_on_black_numbers" fontScale=".468"><![CDATA[2000]]></scoreTxt>
+		<turnsTxt font="cubano_160_red_on_black_numbers" fontScale=".248"><![CDATA[0]]></turnsTxt>
+		<turnsLabelTxt font="cubano_40_yellow_on_black" fontScale="1"><![CDATA[LAUNCHES]]></turnsLabelTxt>
+		<nextBtn font="abadimt_43_black" fontScale="1"><![CDATA[PLAY AGAIN]]></nextBtn>
+		<scored font="cubano_160_red_on_black_numbers" fontScale="1"><![CDATA[+1000]]></scored>
+		<nextLaunchBtn font="abadimt_43_black" fontScale="1"><![CDATA[NEXT SHOT]]></nextLaunchBtn>
+		<bonusCollected font="cubano_60_white_on_black" fontScale="1.15"><![CDATA[BONUS COLLECTED]]></bonusCollected>
+	</crashScene>
+	
+</strings>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

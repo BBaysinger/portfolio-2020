@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AT&amp;T Mobile Share with Unlimited Talk &amp; Text</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<style type="text/css">
+
+body, html{
+	padding:0px;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	/*width:806px;*/
+}
+table td {
+	text-align:left;
+}
+.b1 {
+	background-image:url(../../../../media/standalone/mobile_share/images/plans_modal/b1.png);
+	height:10px;
+}
+.b2 {
+	background-image:url(../../../../media/standalone/mobile_share/images/plans_modal/b2.png);
+	background-size:100% 10px;
+/*	width:584px;
+*/	width:898px;
+}
+.b3 {
+	background-image:url(../../../../media/standalone/mobile_share/images/plans_modal/b3.png);
+}
+.b4 {
+	background-image:url(../../../../media/standalone/mobile_share/images/plans_modal/b4.png);
+	background-size:9px 100%;
+	width:9px;
+}
+.b5 {
+	height:477px;
+}
+.b6 {
+	background-image:url(../../../../media/standalone/mobile_share/images/plans_modal/b6.png);
+	background-size:9px 100%;
+	width:9px;
+}
+.b7 {
+	background-image:url(../../../../media/standalone/mobile_share/images/plans_modal/b7.png);
+	height:10px;
+}
+.b8 {
+	background-image:url(../../../../media/standalone/mobile_share/images/plans_modal/b8.png);
+	background-size:100% 10px;
+}
+.b9 {
+	background-image:url(../../../../media/standalone/mobile_share/images/plans_modal/b9.png);
+}
+.header h1{
+	position:absolute;    
+	top:0px;
+	font-weight:100;
+	font-size:20px;
+	line-height:20px;
+	margin-left:16px;
+	margin-bottom:0px;
+}
+.header .per{
+	font-size:16px;
+	padding-left:16px;
+	position:absolute;
+	top:38px;
+}
+.subhead h2{  
+	position:absolute;    
+	top:2px;
+	font-weight:100;
+	font-size:20px;
+	line-height:20px;
+	margin-left:16px;
+}
+.header{
+	position:relative;
+	height:64px; 
+	background:url(../../../../media/standalone/mobile_share/images/plans_modal/header_bg.gif);
+	width:100%;
+/*	margin-bottom:-4px;
+*/}
+.subhead{
+	position:relative;
+	background:url(../../../../media/standalone/mobile_share/images/plans_modal/subhead_bg.gif);
+	height:58px;
+	width:100%;
+}
+table table td{
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	vertical-align:center;
+	border-right:1px solid #E5E5E5;
+	border-bottom:1px solid #E5E5E5;
+}
+.tr_bottom td{
+	border-bottom:0px;
+}
+.td_3{
+	width:150px;
+}
+.plans{
+	padding-left:0px;
+	width:900px;
+}
+.prices{
+	color:#FF7000;
+	font-size:20px;
+}
+
+.plus_signs td{
+	background:url(../../../../media/standalone/mobile_share/images/plans_modal/plus.png) no-repeat center;
+}
+.add_more_devices{
+	font-size:13px;
+	width:100%;
+}
+.add_more_devices td{
+	padding:10px 0px;
+	font-size:12px;
+}
+.add_more_devices td span{
+	color:#FF7000;
+	font-size:16px;
+	font-weight: 100;
+}
+
+td.row_title{
+	background-image:none;
+	text-align:left;
+	width:166px;
+	padding-left:24px;
+	font-size:16px;
+	color:#333;
+}
+.row_title span{
+	font-size:12px;
+}
+.show_toggle{
+	position:absolute;
+	right:12px;
+	font-size:14px;  
+	top:38px;
+}
+a:link{
+	color:#3381b7;  
+	text-decoration:none;
+}
+a:visited{ 
+	color:#3381b7;  
+}       
+a:hover{
+	text-decoration:underline;
+}       
+#msr_btn_close{
+	line-height:20px;
+	position:absolute;
+	top:12px;
+	right:12px;
+	height:20px;
+	padding-right:25px;
+	background:url("../../../../media/standalone/mobile_share/images/btn_remove.png") right top no-repeat;
+	font-size:12px;  
+}
+#content{
+	overflow:hidden;
+	width:900px;
+	/*width:586px;*/
+	background-color:#FFFFFF;
+}
+
+
+</style>
+ 
+<!--[if lte IE 7]>
+<style type="text/css">
+
+.subhead h2{
+    top:18px;
+}
+
+.header h1{ 
+     top:12px;
+}
+
+.borderfix td{
+	border-top:1px solid #E5E5E5;
+}
+
+</style>
+<![endif]-->
+
+<script src="http://www.att.com/scripts/jquery.min.js" type="text/javascript" ></script>
+
+<script type="text/javascript">
+jQuery.noConflict();
+// function showMore()
+// {             
+// 	jQuery("#show_more").css("visibility", "hidden");  
+// 	jQuery("#show_less").css("visibility", "visible"); 
+// 	jQuery("#content").animate({width:784}, 600);
+// 	jQuery(".b2").animate({width:782}, 600);
+// }
+// function showLess()
+// {   
+// 	jQuery("#show_more").css("visibility", "visible");  
+// 	jQuery("#show_less").css("visibility", "hidden"); 
+//  	jQuery("#content").animate({width:584}, 600);
+// 	jQuery(".b2").animate({width:582}, 600);   
+// }
+/*  */
+jQuery().ready(function()
+{   
+	function getParameterByName(name)
+	{
+	    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+	    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	        results = regex.exec(location.search);
+	    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+	
+	var includeHomeBase = getParameterByName("blender");
+	
+	if (includeHomeBase != "true")
+	{
+		jQuery(".att_home_base_col").remove();
+		jQuery(".att_home_base_col_fix1").width(300);
+		jQuery(".att_home_base_col_fix2").width(300);
+	}
+}); 
+
+</script>
+
+</head>
+<table border="0" cellpadding="0" cellspacing="0" style="text-align:center;margin-right:auto;margin-left:auto;">
+	<tr>
+		<td colspan="2" class="b1"></td>
+		<td class="b2"></td>
+		<td colspan="2" class="b3"></td>
+	</tr>
+	<tr>
+		<td class="b4"></td>
+		<td class="b5" colspan="3">
+			<div id="content">
+				<div class="header">
+					<h1>
+						AT&amp;T Mobile Share with Unlimited Talk &amp; Text plans:
+					</h1>
+					<div class="per">Per Month</div>
+					<!-- <a href="javascript:showMore();" class="show_toggle" id="show_more">Show more plans ></a>
+					<a href="javascript:showLess();" class="show_toggle" id="show_less" style="visibility:hidden;">< Show fewer plans</a> -->
+					<a href="javascript:window.parent.closePlansModal();" id="msr_btn_close">Close</a>
+				</div>
+				<table class="plans" cellpadding="0" cellspacing="0">
+					<tr height="45">
+						<td>&nbsp;</td>
+						<td width="65">
+							300MB
+						</td>
+						<td width="65">
+							1GB
+						</td>
+						<td width="65">
+							2GB
+						</td>
+						<td width="65">
+							4GB
+						</td>
+						<td width="65">
+							6GB
+						</td>
+						<td width="65">
+							10GB
+						</td>
+						<td width="65">
+							15GB
+						</td>
+						<td width="65">
+							20GB
+						</td>
+						<td width="65">
+							30GB
+						</td>
+						<td width="65">
+							40GB
+						</td>
+						<td width="65" class="td_right">
+							50GB
+						</td>
+					</tr>
+					<tr height="70" class="prices">
+						<td class="row_title">
+							Mobile Share<br>
+							<span>with Unlimited Talk &amp; Text</span>
+						</td>
+						<td>
+							$20
+						</td>
+						<td>
+							$40
+						</td>
+						<td>
+							$50
+						</td>
+						<td>
+							$70
+						</td>
+						<td>
+							$90
+						</td>
+						<td>
+							$120
+						</td>
+						<td>
+							$160
+						</td>
+						<td>
+							$200
+						</td>
+						<td>
+							$300
+						</td>
+						<td>
+							$400
+						</td>
+						<td class="td_right">
+							$500
+						</td>
+					</tr>
+					<tr class="plus_signs" height="38">
+						<td class="row_title"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="td_right"></td>
+					</tr>
+					<tr height="70" class="prices borderfix">
+						<td class="row_title">
+							<!-- Each Smartphone* -->
+							Each Smartphone
+						</td>
+						<td>
+							$50
+						</td>
+						<td>
+							$45
+						</td>
+						<td>
+							$45
+						</td>
+						<td>
+							$40
+						</td>
+						<td>
+							$35
+						</td>
+						<td>
+							$30
+						</td>
+						<td>
+							$30
+						</td>
+						<td>
+							$30
+						</td>
+						<td>
+							$30
+						</td>
+						<td>
+							$30
+						</td>
+						<td class="td_right">
+							$30
+						</td>
+					</tr>
+				</table>
+				<div class="subhead">
+					<h2 class="add_more">
+						Add more devices to your Mobile Share plan:
+					</h2>
+				</div>
+				<table class="add_more_devices" cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="att_home_base_col_fix1">
+							Basic &amp; Messaging<br>
+							Phones
+						</td>
+						<td class="">
+							<div style="width:200px;margin-right:auto;margin-left:auto;">
+							Laptops, LaptopConnect, Mobile<br>
+							Hotspot Devices &amp; Netbooks    
+							</div>
+						</td>
+						<td class="td_3 att_home_base_col_fix2">
+							Tablets &amp; Gaming<br>
+							Devices
+						</td>
+						<td class="att_home_base_col">
+							Wireless Home Phone &amp; Internet Device<br>
+							<!-- (AT&amp;T Home Base) -->
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Shared Data, Unlimited<br>
+							Talk &amp; Text
+						</td>
+						<td>
+							Shared Data
+						</td>
+						<td class="">
+							Shared Data
+						</td>
+						<td class="att_home_base_col td_right">
+							Shared Data &amp;<br> Unlimited Talk (no text)
+						</td>
+					</tr>
+					<tr class="tr_bottom">
+						<td>
+							<span>$30</span> each/month
+						</td>
+						<td>
+							<span>$20</span> each/month
+						</td>
+						<td class="">
+							<span>$10</span> each/month
+						</td>
+						<td class="att_home_base_col">
+							<span>$30</span> each/month
+						</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+		<td class="b6"></td>
+	</tr>
+	<tr>
+		<td colspan="2" class="b7"></td>
+		<td class="b8"></td>
+		<td colspan="2" class="b9"></td>
+	</tr>
+</table>

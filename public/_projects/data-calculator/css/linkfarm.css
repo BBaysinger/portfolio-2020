@@ -1,0 +1,41 @@
+/*-------------------------------------------Link farm layouts-----------------------------------------------------*/
+#linkFarm {width:972px;}
+#linkFarm.fiveCol{background: url(http://www.att.com/shopcms/media/att/2012/shop/wireless/common/linkfarm-sprite.png) no-repeat scroll left top transparent;}
+#linkFarm.homepage {border:none; margin-top:2em; padding-bottom:3em; border-bottom:1px solid #e3e3e3;}
+#linkFarmTopLinks {background:url(http://www.att.com/shopcms/media/att/2012/shop/wireless/common/linkfarm-sprite.png) -325px -366px; margin:25px 0px 25px 30px; padding:4px 0 4px 24px; width:600px; min-height:13px;}
+#linkFarmTopLinks .topLinkImg {vertical-align:middle;}
+#linkFarmTopLinks p {color:#666666;}
+#linkFarmTopLinks .pipe {color:#d9d9d9;}
+#linkFarmTopAndMain {float:left; width:765px; height:auto;}
+#linkFarm.fullWidth #linkFarmTopAndMain {width:972px; background-color:#f9f9f9;}
+#linkFarm.homepage #linkFarmTopAndMain {background-color:transparent;}
+#linkFarmMain {position:relative; margin-left:42px; width:932px; padding-bottom:15px;}
+.fourColumnFormat {width:976px;}
+.fourColumnFormat  .linkFarmCol {width:200px; padding-left:20px; text-align:left;}
+.fourColumnFormat  .linkFarmCol img {width:37px; height:40px;}
+#fiveColumnFormat {position:relative; margin-left:42px; width:720px; float:left; padding-bottom:25px;}
+#fiveColumnFormat .linkFarmSectionWithImg div.leftImg {width:200px}
+#fiveColumnFormat .linkFarmSectionWithImg .titleAndList {width:145px}
+#linkFarmOther {float:left; width:207px; height:auto; padding-bottom:25px;}
+#linkFarmTopAndMain .linkFarmCol {float:left; margin-left:4px;}
+.linkFarmSectionWithImg .leftImg, .linkFarmSectionWithImg .titleAndList {float:left;}
+.linkFarmSectionWithImg .leftImg {margin-right:22px;}
+.linkFarmCol .linkFarmSection {width:160px;}
+#fiveColumnFormat .linkFarmCol .linkFarmSection {width:150px;}
+#linkFarm.homepage .linkFarmSection {width:210px;}
+.linkFarmCol .linkFarmSectionWithImg {width:220px;}
+#linkFarm.fullWidth .linkFarmSectionWithImg {width:auto;}
+.linkFarmSectionWithMargin {margin-left:55px; margin-top:20px;}
+.linkFarmSection h4, .linkFarmSectionWithImg h4, .linkFarmSectionWithMargin h4 {color:#666666; font-size:10px; line-height:.9em; text-transform:uppercase; position:relative; margin-bottom:5px; padding-right:5px;}
+#linkFarm.homepage .linkFarmSection h4, #linkFarm.homepage .linkFarmSectionWithImg h4, #linkFarm.homepage .linkFarmSectionWithMargin h4 {font-size:1.2em; margin-bottom:20px; padding-right:0px;}
+.linkFarmSection ul, .linkFarmSectionWithImg ul, .linkFarmSectionWithMargin ul {font-size:12px;}
+.linkFarmSection ul li, .linkFarmSectionWithImg ul li, .linkFarmSectionWithMargin ul li {font-size:12px; line-height:15px; padding-bottom:7px;}
+#linkFarm.homepage .linkFarmSection ul li, #linkFarm.homepage .linkFarmSectionWithImg ul li, #linkFarm.homepage .linkFarmSectionWithMargin ul li {line-height:18px; padding-bottom:0px;}
+.linkFarmSection ul li a, .linkFarmSectionWithImg ul li a, .linkFarmSectionWithMargin ul li a {font-size:12px; color:#3381B7;}
+#linkFarmOther .linkFarmCol {margin-left:30px;}
+#linkFarmOther .linkFarmSection {margin-top:71px;}
+#fiveColLinkFarm .bg-gr-bottom-shadow {background:transparent url(https://0.ecom.attccc.com/media/att/2011/shop/common/ie-gr-bottom-background-5tile-nofat.png) no-repeat top left;}
+.bg-gr-bottom-shadow {top:-10px; background:url(https://0.ecom.attccc.com/media/att/2011/shop/common/ie-gr-shop-bottom-background-nofat.png) no-repeat scroll left top transparent;}
+.esupport #linkFarmTopLinks {padding:0; width:auto; background:none;}
+.esupport #linkFarmTopLinks p {border-bottom:1px dotted #ccc; width:95%; padding-bottom:10px;}
+.esupport .topLinkImg {vertical-align:middle; padding-right:15px; border-right:1px dotted #ccc;}

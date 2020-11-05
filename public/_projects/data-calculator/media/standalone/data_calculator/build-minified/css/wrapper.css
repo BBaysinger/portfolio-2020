@@ -1,0 +1,22 @@
+#dcalc_app_window {
+	position:relative;
+	left:-16px;
+	top:0px;
+	width:1000px;
+	height:1720px;
+}
+#main-container{
+}
+#stayConnectedID{
+	margin:14px 0px 14px 35px;
+	float:none;
+	width:900px;
+}
+.logos{
+	float:left;
+	min-width:860px;
+}
+#bbro .inner .socialmedia
+{
+	top :41px;
+}

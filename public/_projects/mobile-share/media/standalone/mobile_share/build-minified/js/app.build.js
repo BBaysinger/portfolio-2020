@@ -1,0 +1,1 @@
+({appDir:"../",baseUrl:"js/",dir:"../build-minified",modules:[{name:"main"}]})

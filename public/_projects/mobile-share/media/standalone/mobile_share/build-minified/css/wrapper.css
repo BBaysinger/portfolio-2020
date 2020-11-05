@@ -1,0 +1,33 @@
+#msr_app_window_wrapper{
+	position:relative;
+	left:-18px;
+	width:1000px;
+	margin:-23px 0px 0px 0px;
+	padding:0px;
+}
+#msr_app_window {
+	position:relative;
+	width:1000px;
+}
+#msr_terms_p{
+	position:absolute;
+	display:block;
+	top:565px;
+	left:655px;	
+	height:30px;
+	width:295px;
+	line-height:30px;
+	text-align:center;
+	display:none;
+}
+#main-container{
+}
+#stayConnectedID{
+	margin:14px 0px 14px 35px;
+	float:none;
+	width:900px;
+}
+.logos{
+	float:left;
+	min-width:860px;
+}

@@ -1,0 +1,359 @@
+<root scene="0">
+	
+	<inventory selected="" order="" />
+	
+	<rooms>
+		<basement solution="" />
+		<bedroom solution="" />
+		<bathroom solution="" />
+		<kitchen solution="" />
+		<livingroom solution="" />
+	</rooms>
+	
+	<items>
+		
+
+		<!-- -------- -->
+		<!-- BASEMENT -->
+		<!-- -------- -->
+
+		<!-- Tutorial Items -->
+		<item id="Gum" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Gross, dude.  Who left their gum here?]]></tip>
+		</item> 
+		
+		<item id="Broom" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Not much sweeping going on after the apocalypse...]]></tip>
+		</item> 
+		
+<!-- 		<item id="BroomWithGum" location="Basement" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item> 
+ -->
+		<item id="Book" location="Basement" fixed="1" solved="0" combineTo="" placedItems="BroomWithGum">
+			<tip id="default"><![CDATA["Being a Tomato: A Guide To Your New Life." This will be fun to read later, like when I escape.]]></tip>
+		</item> 
+
+		<item id="Washer" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item> 
+
+		<item id="Dryer" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[I think this thing still works...]]></tip>
+		</item> 
+		 
+		<item id="Hatch" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Dang, the latch is stuck.]]></tip>
+		</item> 
+		 
+		<item id="Butter" location="Basement" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Yuck. But useful?]]></tip>
+		</item>
+
+		<item id="MeltedButter" location="Basement" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Hey, it melted. Maybe it's more useable now?]]></tip>
+		</item>
+		
+		<item id="Computer" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+		
+		<item id="Waterheater" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Lightswitch" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[When the apocalypse hits, getting light bulbs just isn't at the top of the list.]]></tip>
+		</item>
+
+		<item id="Window" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Saw" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Crap, too bad I have no idea how to use a saw.]]></tip>
+		</item>
+
+		<item id="Medal" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[First Place Winner: 2011 Air Guitar World Championships.]]></tip>
+		</item>
+
+		<item id="Meat" location="Basement" fixed="0" solved="0" combineTo="SlingshotWithMeat" placedItems="">
+			<tip id="default"><![CDATA[OK, that's gross. But I might be hungry enough at some point so...]]></tip>
+		</item>
+
+		<item id="Ball" location="Basement" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[I used to love playing soccer, when I wasn't a tomato. These are good to have around.]]></tip>
+		</item>
+
+		<item id="Paper02" location="Basement" fixed="0" solved="0" combineTo="PaperCombined" placedItems="">
+			<tip id="default"><![CDATA[Oooh, mysterious! Maybe I can combine this with something else.]]></tip>
+		</item>
+
+		<item id="Table" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Couch" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="BasementCabinet_Locked" location="Basement" fixed="1" solved="0" combineTo="" placedItems="Key">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="PlantFood" location="Basement" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Zombie" location="Basement" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[AHHHhhh!!! Glad I didn't turn into that guy!]]></tip>
+		</item>
+
+		<!-- ------- -->
+		<!-- BEDROOM -->
+		<!-- ------- -->
+
+		<item id="Wallholes" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+		
+		<item id="Mattress" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Redbutton" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Is that a microphone?]]></tip>
+		</item>
+
+		<item id="Creature" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>		
+
+		<item id="Bobblehead" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Whoopsie" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Poster" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Why couldn't I have turned into a renegade koala instead of a stupid tomato?!?!]]></tip>
+		</item>
+
+		<item id="Laundry" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Twister" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip description="default"><![CDATA[Oh, that was fun.  Wait, no it wasn't.]]></tip>
+		</item>
+
+		<item id="Alarmclock" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[I'm a rooster!]]></tip>
+		</item>
+
+		<item id="Key" location="Bedroom" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[This just HAS to be useful.]]></tip>
+		</item>
+
+		<item id="Paper01" location="Bedroom" fixed="0" solved="0" combineTo="PaperCombined" placedItems="">
+			<tip id="default"><![CDATA[Numbers! On Paper! Perhaps I can combine this with another thing.]]></tip>
+		</item>
+
+		<item id="PaperCombined" location="Bedroom" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Now I just have to figure out what it's for...]]></tip>
+		</item>
+
+		<item id="GoToBasement" location="Bedroom" fixed="1" solved="1" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="ClosetDoor" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+ 
+		<item id="Safe" location="Bedroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="HouseKey" location="Bedroom" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[A spare house key! Bingo!!!]]></tip>
+		</item>		
+		
+		<!-- -------- -->
+		<!-- BATHROOM -->
+		<!-- -------- -->
+
+		<item id="Bathroom_Lighting" location="Bathroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+		
+		<item id="Toilet" location="Bathroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Uh, seriously don't remember THAT happening.]]></tip>
+		</item>
+
+		<item id="Chemicals" location="Bathroom" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA["Do not use as a propellant." Hmmm... Is there an object I could propel?]]></tip>
+		</item>
+
+		<item id="Hole" location="Bathroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Shower" location="Bathroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Mirror" location="Bathroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Toothbrush" location="Bathroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[There's the trusty old toothbrush I've had since I was 5!]]></tip>
+		</item>
+
+		<item id="Hairdryer" location="Bathroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Garbage" location="Bathroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Plunger" location="Bathroom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="GoToBedroom" location="Bathroom" fixed="1" solved="1" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<!-- ------- -->
+		<!-- KITCHEN -->
+		<!-- ------- -->
+		 
+		<item id="Kitchen_Lighting" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Rubberband" location="Kitchen" fixed="0" solved="0" combineTo="Slingshot" placedItems="">
+			<tip id="default"><![CDATA[Interesting...]]></tip>
+		</item>
+
+		<item id="Tongs" location="Kitchen" fixed="0" solved="0" combineTo="Slingshot" placedItems="">
+			<tip id="default"><![CDATA[This has possibilities...]]></tip>
+		</item>
+
+		<item id="Slingshot" location="Kitchen" fixed="0" solved="0" combineTo="SlingshotWithMeat" placedItems="">
+			<tip id="default"><![CDATA[It appears I just made a slingshot! What can I put in it?]]></tip>
+		</item>
+
+		<item id="SlingshotWithMeat" location="Kitchen" fixed="0" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Oven" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Cola" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip description="default"><![CDATA[Refreshing taste for the end of days.]]></tip>
+		</item>
+
+		<item id="Faucet" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Light" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Spices" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Yah, 'cause some tarragon and oregano are really going to help me now.  Good thinking.]]></tip>
+		</item> 
+
+		<item id="Toaster" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item> 
+
+		<item id="Roaches_Idle" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Microwave" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Mom" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Kitchen_Island" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="GoToBathroom" location="Kitchen" fixed="1" solved="1" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="GoToLivingRoom" location="Kitchen" fixed="1" solved="0" combineTo="" placedItems="SlingshotWithMeat">
+			<tip id="default"><![CDATA[Uh, going that way will get me devoured. I gotta find a way to distract her first!]]></tip>
+		</item>
+
+		<!-- ----------- -->
+		<!-- LIVING ROOM -->
+		<!-- ----------- -->
+
+		<item id="Living_Room_Lighting" location="LivingRoom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+		
+		<item id="Book" location="LivingRoom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Photo" location="LivingRoom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Recordplayer" location="LivingRoom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="TV" location="LivingRoom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Videogames" location="LivingRoom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[My buddy Joe got turned into an eggplant, so I get to keep his X Pyramid 2000, right?]]></tip>
+		</item>
+
+		<item id="Magazine" location="LivingRoom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[The Softer Side of Zombies]]></tip>
+		</item>
+
+		<item id="Doorlock" location="LivingRoom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[Oh NO! It's locked!! I need another key! But where?]]></tip>
+		</item>
+
+		<item id="GoToKitchen" location="LivingRoom" fixed="1" solved="1" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item>
+
+		<item id="Mom_Enters" location="LivingRoom" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item> 
+		
+		<!-- ----------- -->
+		<!-- FIGHT SCENE -->
+		<!-- ----------- -->
+
+		<item id="FightingMom" location="" fixed="1" solved="0" combineTo="" placedItems="">
+			<tip id="default"><![CDATA[]]></tip>
+		</item> 
+		
+	</items>
+
+</root>

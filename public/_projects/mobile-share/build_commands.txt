@@ -1,0 +1,18 @@
+In terminal:
+
+Change directories to where require.js is in the project.
+
+Bradley's machine:
+cd /Library/WebServer/Documents/mobile_share/build/media/standalone/mobile_share/js
+
+Zach's machine:
+cd /Applications/MAMP/htdocs/att/mobile_share/build/media/standalone/mobile_share/js
+
+Then build with Node:
+node ../../../../r.js -o app.build.js
+
+!!!DO NOT EXPORT FROM VERSIONS TO DEPLOY!!!. The built files are ignored.
+
+Zip files IN root. Do NOT zip the enclosing folder.
+
+Do NOT check-in the resulting build folder.

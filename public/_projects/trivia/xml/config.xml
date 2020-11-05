@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<tracking enabled="false">
+		<gameName>YourTrackingName</gameName>
+		<!-- The localization region to load. Loads string files in strings/strings_<two letter locale>.xml. or, will load string.xml by default. -->
+		<!-- <locale>ru</locale> -->
+	</tracking>
+
+	<options>
+		<!-- Put gameplay options and settings in here. -->
+		<!-- Can easily be accessed in code by: Config.options.get("nodeName"); -->
+		<!-- <option1>true</option1> -->
+		<unlockCode>TEST_UNLOCK</unlockCode>
+		<printableURL>pdf/printable.pdf</printableURL>
+	</options>
+
+</config>

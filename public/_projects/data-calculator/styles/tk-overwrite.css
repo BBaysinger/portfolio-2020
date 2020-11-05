@@ -1,0 +1,49 @@
+/* ----------------------- */
+/** Turnkey Overwrite CSS **/
+
+/* -------- 12/16 -------- */
+/* ----------------------- */
+.tk-none{
+display:none !important;
+}
+#tk-parent{
+margin-top: 75px;
+}
+#tk-parent p{
+padding:0;
+margin:0;
+}
+#tk-parent .tk-top{}
+#tk-parent .tk-top a{
+font-size: 18px;
+}
+#tk-parent .tk-top p{
+padding: 0;
+margin: 0;
+padding-top: 10px;
+}
+#tk-parent .tk-mid{
+width: 290px;
+height: 44px;
+padding-top: 7px;
+margin-top: 20px;
+margin-left: 12px;
+background-repeat: no-repeat;
+background-image: url("../media/standalone/data_calculator/images/recommender/grey_bar.png");
+overflow: hidden;
+}
+#tk-parent .tk-bot{
+margin-top: 20px;
+width: 275px;
+margin-left: auto;
+margin-right: auto;
+font-size: 11px;
+}
+
+.dcalc_header_back_to_mobile_site.tk-block{
+margin-top: 0;
+height: 28px;
+}
+.dcalc_device_selector_note .dcalc_plans_see_modal{
+display:none;
+}

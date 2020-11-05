@@ -1,0 +1,1364 @@
+body {
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	-webkit-text-size-adjust:100%;
+}
+
+#dcalc_data_calc_wrapper a:link {
+	text-decoration:none;
+}
+
+#dcalc_data_calc_wrapper a:hover {
+	text-decoration:underline;
+}
+
+#dcalc_left_side {
+	float:left;
+	width:600px;
+	margin-bottom:40px;
+}
+
+#dcalc_right_side {
+	float:right;
+	width:390px;
+}
+
+#dcalc_data_calc_wrapper {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	background-color:transparent;
+	width:989px;
+	position:relative;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:16px;
+	font-size:13px;
+}
+
+#dcalc_data_calc_wrapper select, #dcalc_data_calc_wrapper option {
+	font-size:12px;
+	color:#000000;
+	background-image:none;
+	background-color:#FFFFFF;
+}
+
+#main-container #dcalc_data_calc_wrapper {
+	font-size:13px;
+	color:#333333;
+}
+
+.dcalc_visit_calc
+{
+	font-weight:bold;
+	font-size:13px !important;
+}
+
+/* Wrapper */
+
+.dcalc_panel_top{
+	width:959px;
+	height:65px;
+	margin:0px;
+	line-height:75px;
+	padding-left:30px;
+	background-image:url("../../../../media/standalone/data_calculator/images/wrapper/panel_top_bg.png");
+}
+.dcalc_panel_body{
+	width:1000px;
+	margin:0px;
+	padding:0px;
+	background-image:url("../../../../media/standalone/data_calculator/images/wrapper/panel_body_bg.png");
+}
+.dcalc_panel_bottom{
+	width:100%;
+	height:20px;
+	background-image:url("../../../../media/standalone/data_calculator/images/wrapper/panel_bottom_bg.png");
+}
+
+.dcalc_promo div{
+	margin-bottom:14px;
+	font-size:13px;
+	width:260px;
+}
+
+/* Header */
+.dcalc_data_calc_header{
+	position:relative;
+	margin:0px;
+	padding:25px 0px 10px 55px;
+}
+	.dcalc_form_header{
+		margin-bottom:12px;
+	}
+#dcalc_data_calc_wrapper .dcalc_select_step{
+		font-size:16px;
+	}
+	div.dcalc_visit_mobile_share{
+		width:470px;
+		margin-bottom:16px;
+		margin-top:10px;
+		line-height:16px;
+	}
+	div.dcalc_visit_mobile_share a{
+		text-decoration:none;
+	}
+
+	p .dcalc_indented{
+		margin-left:47px;
+	}
+	.dcalc_wifi_disclaimer{
+		
+		height:52px;
+		width:500px;
+		margin:0px;
+		padding:0px 0px 0px 46px;
+		background:url("../../../../media/standalone/data_calculator/images/header/wifi_icon.png") no-repeat;
+	}
+
+
+/* Body */
+#dcalc_slider_column {
+	width:551px;
+	margin-left:48px;
+	margin-bottom:0px;
+}
+
+.dcalc_device_container {
+	width:551px;
+	border-left:1px solid #e2e2e2;
+	border-right:1px solid #e2e2e2;
+}
+	
+	/* dcalc Device */
+	.dcalc_device{
+		position:relative;
+		width:100%;
+		height:102px;
+		repeat-x center bottom;
+		}
+	.dcalc_device:first-child{
+		border-top:none;
+	}
+
+		div.dcalc_type_title{
+			position:absolute;
+			top:26px;
+			left:90px;
+			display:block;
+			color:#333;
+			font-weight:bold;
+			font-size:13px;
+			
+		}
+		.dcalc_device.no_type_select .dcalc_type_select{
+			display:none;
+		}
+		.dcalc_type_select{
+			position:absolute;
+			top:15px;
+			left:90px;
+		}
+		.dcalc_device.no_type_select .dcalc_type_p{
+			display:block;
+		}
+		.dcalc_type_p{
+			display:none;
+			margin:0px;
+			position:absolute;
+			top:20px;
+			left:98px;
+			width:100px;
+			font-size:12px;
+		}
+		.dcalc_device_divider{
+			position:absolute;
+			top:80px;
+			left:445px;
+		}
+		.dcalc_usage_type_icon{
+			display:block;
+			position:absolute;
+			width:44px;
+			height:44px;
+			top:19px;
+			left:32px;
+			clip:rect(0px,44px,44px,0px);
+			background-image:url("../../../../media/standalone/data_calculator/images/usage_controls/usage_type_icon_sprite.png");
+		}
+
+.dcalc_usage_type_icon_email {
+	background-position:0px px;
+}
+
+.dcalc_usage_type_icon_streaming_music {
+	background-position:0px -44px;
+}
+
+.dcalc_usage_type_icon_web_browsing {
+	background-position:0px -176px;
+}
+
+.dcalc_usage_type_icon_social_media {
+	background-position:0px -88px;
+}
+
+.dcalc_usage_type_icon_streaming_video {
+	background-position:0px -132px;
+}
+
+.dcalc_usage_type_icon_streaming_video_hd {
+	background-position:0px -264px;
+}
+
+.dcalc_usage_type_icon_app_and_games {
+	background-position:0px -220px;
+}
+.dcalc_usage_type_icon_song_downloads{
+	background-position:0px -308px;	
+}
+.dcalc_usage_type_icon_interactive_gaming
+{
+	background-position:0px -220px;
+	
+}
+.dcalc_usage_type_mode_select {
+	position:absolute;
+	left:300px;
+	top:23px;
+}
+
+/* Footer */
+.dcalc_data_calc_footer{
+	padding-top:5px;
+}
+	.dcalc_data_calc_footer .dcalc_promo.dcalc_two a:link, .dcalc_data_calc_footer .dcalc_promo.dcalc_two a:visited{
+		text-decoration: none;
+	}
+
+	.dcalc_promo{
+		color:#000000;
+		height:150px;
+		padding-top:27px;
+		width:287px;
+		padding-left:140px;
+		position:relative;
+	}
+	.dcalc_promo.dcalc_one{
+		float:left;
+		background:url("../../../../media/standalone/data_calculator/images/footer/promo_one_bg.jpg") no-repeat;
+		margin-left:48px;
+	}
+		.promo.dcalc_one p{
+			width:250px;
+		}
+	.dcalc_promo.dcalc_two{
+		float:right;
+		margin-right:59px;
+		background:url("../../../../media/standalone/data_calculator/images/footer/promo_two_bg.jpg") no-repeat;
+	}
+	.dcalc_promo_header{
+		margin-top:0px;
+		margin-bottom:10px;
+	}
+	
+#dcalc_graph {
+	width:334px;
+	height:480px;
+	position:relative;
+	margin-top:14px;
+	margin-right:auto;
+	margin-left:auto;
+	background-image:url("../../../../media/standalone/data_calculator/images/graph/background.jpg");
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+}
+
+.dcalc_graph_heading {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	line-height:16px;
+}
+
+.dcalc_graph_footnote {
+	margin-bottom:10px;
+	display:none;
+}
+
+#dcalc_graph_footnotes{
+	margin-right:auto;
+	margin-left:auto;
+	font-size:12px;
+	width:280px;
+	margin-top:20px;
+}
+
+#dcalc_data_calc_wrapper .dcalc_graph_orange_text {
+	color:#FF7000;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:12pt;
+	text-align:center;
+	font-weight:bold;
+}
+
+.dcalc_increment_marker_note {
+	font-size:9px;
+	vertical-align:super;
+	display:none;
+}
+
+.dcalc_graph_bar {
+	width:102px;
+	bottom:55px;
+	left:117px;
+	position:absolute;
+	vertical-align:bottom;
+	margin-bottom:0px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.dcalc_graph_bar_reflection {
+	position:absolute;
+	bottom:34px;
+	left:116px;
+	height:21px;
+	width:103px;
+	background-image:url("../../../../media/standalone/data_calculator/images/graph/bar_reflection.png");
+}
+
+.dcalc_graph_marker_container{
+	position:absolute;
+	bottom:55px;
+	left:211px;
+	height:390px;
+	width:120px;
+	overflow:hidden;
+}
+
+.dcalc_increment_marker {
+	position:absolute;
+}
+
+.dcalc_graph_bottom_marker {
+	bottom:0px;
+	height:16px;
+	width:20px;
+	background-image:url("../../../../media/standalone/data_calculator/images/graph/bottom_marker.png");
+}
+
+#dcalc_data_calc_wrapper .dcalc_increment_marker_label {
+	position:absolute;
+	top:0px;
+	left:18px;
+	height:18px;
+	font-weight:bold !important;
+	font-size:19px;
+	color:#333;
+}
+
+#dcalc_data_calc_wrapper .dcalc_increment_marker_clickable .dcalc_increment_marker_label {
+	color:#3381B7;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+#dcalc_data_calc_wrapper .dcalc_increment_marker_clickable .dcalc_increment_marker_label {
+	color:#3381B7;
+	text-decoration: none;
+}
+
+#dcalc_data_calc_wrapper .dcalc_increment_marker_clickable .dcalc_increment_marker_label:hover {
+	border-bottom:1px solid #3381B7; /* Crappy hack cause IE7 wouldn't underline the link for whatever reason */
+}
+
+.dcalc_increment_marker_unit {
+	font-size:14px;
+	font-weight:bold;
+	font-weight: bold;
+}
+
+.dcalc_increment_marker_tick {
+	position:relative;
+	left:0px;
+	top:-1px;
+	width:20px;
+	height:19px;
+	background-image:url("../../../../media/standalone/data_calculator/images/graph/marker.png");
+}
+
+.dcalc_increment_marker_darker .dcalc_increment_marker_tick {
+	background-image:url("../../../../media/standalone/data_calculator/images/graph/darker_marker.png");
+}
+
+.dcalc_add_device_button_hidden {
+	display:none;
+}
+
+.dcalc_add_device_text {
+	font-size:16px !important;
+	margin-top:9px;
+	margin-left:9px;
+	color:#FF7000;
+}
+
+.dcalc_add_device_plus {
+	position:absolute;
+	background-image:url("../../../../media/standalone/data_calculator/images/usage_controls/plus.png");
+	right:7px;
+	top:7px;
+	width:21px;
+	height:21px;
+}
+
+.dcalc_device_graph_label_container {
+	width:102px;
+	bottom:56px;
+	left:117px;
+	position:absolute;
+	vertical-align:bottom;
+	margin-top:auto;
+	margin-bottom:0px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	overflow:hidden;
+	width:100px;
+}
+
+.dcalc_device_graph_label {
+	font-size:11px;
+	width:100px;
+	height:0px;
+	border-top:1px solid #dddddd;
+	text-align:center;
+	vertical-align:middle;
+	margin-bottom:-1px;
+	color:#ffffff;
+	overflow:hidden;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.dcalc_device_graph_label_text {
+	text-shadow: 0.1em 0.1em #ae5913;
+	margin-top:auto;
+	vertical-align:middle;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	top:50%;
+	margin-top:-6px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.dcalc_graph_zero_marker {
+	position:absolute;
+	width:155px;
+	height:29px;
+	bottom:35px;
+	left:111px;
+	background-image:url("../../../../media/standalone/data_calculator/images/graph/zero_gb_line.png");
+	display:none;
+}
+
+.dcalc_usage_flag {
+	position:absolute;
+	width:110px;
+	height:39px;
+	bottom:34px;
+	left:24px;
+	background-image:url("../../../../media/standalone/data_calculator/images/graph/usage_flag.png");
+}
+
+.dcalc_usage_flag_over_10 .dcalc_usage_flag_text {
+	color:#CC0000;
+}
+
+.dcalc_usage_flag_text {
+	margin-top:11px;
+	line-height:16px;
+	height:20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-weight:bold;
+	font-size:16px !important;
+	color:#333333;
+}
+
+.dcalc_starting_from {
+	font-size:10px;
+	font-weight:normal;
+}
+/*.dcalc_graph_device_image {
+		position:absolute;
+		left:-16px;
+		top:380px;
+		width:139px;
+		height:128px;
+		background-image:url("../../../../media/standalone/data_calculator/images/graph/devices.png");
+		display:none;
+	}
+
+.dcalc_graph_device_image_smartphone {
+	background-position:0px 0px;
+}
+
+.dcalc_graph_device_image_tablet {
+	background-position:-139px 0px;
+}
+
+.dcalc_graph_device_image_basic_phone {
+	background-position:-278px 0px;
+}
+
+.dcalc_graph_device_image_laptop {
+	background-position:-417px 0px;
+}
+
+.dcalc_graph_device_image_mobile_hotspot_device {
+	background-position:-556px 0px;
+}
+
+.dcalc_graph_device_image_gaming_device {
+	background-position:-695px 0px;
+}
+*/
+/* Typography */
+p{
+	font-size:13px;
+}
+.dcalc_panel_top{
+	font-size:20px;
+	font-weight:normal;
+}
+.dcalc_promo_header{
+	font-size:16px;
+	font-weight:normal;
+}
+.dcalc_hint{
+	font-size:12px;
+	font-weight:100;
+}
+a{
+	color:#3381B7;
+}
+
+/* Classes */
+.dcalc_clearBoth {
+	clear:both;
+}
+
+#dcalc_data_calc_wrapper div.dcalc_top_links
+{
+	position: relative;
+	margin-left: 9px;
+	margin-bottom:16px;
+	color: #666666;
+	font-size:13px;
+}
+
+#dcalc_data_calc_wrapper div.dcalc_top_links a:link, #dcalc_data_calc_wrapper div.dcalc_top_links a:visited
+{
+	font-size:13px;
+	text-decoration: none;
+}
+
+#dcalc_data_calc_wrapper div.dcalc_top_links a:hover
+{
+	text-decoration: underline;
+}
+
+.dcalc_remove_type_row {
+	position:relative;
+	margin-top:35px;
+	margin-left:20px;
+	margin-bottom:24px;
+}
+
+#dcalc_reset_button {
+	position:absolute;
+	left:372px;
+	top:-5px;
+	cursor:pointer;
+}
+
+#dcalc_data_legend {
+	background-image:url('../../../../media/standalone/data_calculator/images/slider_col/legend-bg.png');
+	width:494px;
+	height:400px;
+	margin-left:14px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-top:20px;
+}
+
+#dcalc_legend_heading {
+	color:#ff7000;
+	font-size:18px;
+}
+
+#dcalc_data_legend .dcalc_bold {
+	font-weight:bold;
+}
+
+#dcalc_data_legend .dclac_orange_highlight {
+	color:#ff7000;
+}
+
+#dcalc_data_legend .dcalc_first_div {
+	margin-top:6px;
+	margin-bottom:10px;
+}
+
+#dcalc_data_legend .dcalc_last_div {
+	margin-top:15px;
+}
+
+#dcalc_data_legend .dcalc_data_legend_table {
+	display:none;
+}
+
+#dclac_slider_col_footer {
+	margin-left:48px;
+	float:left;
+	height:520px;
+	width:551px;
+	border:1px solid #e2e2e2;
+	border-top:0px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-bottom-right-radius: 3px;
+	-moz-border-bottom-right-radius: 3px;
+	background:url("../../../../media/standalone/data_calculator/images/slider_col/bottom.png") repeat-x bottom left;
+}
+
+.dcalc_device_selector {
+	background-image:url("../../../../media/standalone/data_calculator/images/slider_col/top.png");
+	margin-left:0px;
+	height:103px;
+	border-bottom:0px;
+	width:553px;
+	position:relative;
+}
+
+.dcalc_device_selector_heading {
+	position:absolute;
+	left:110px;
+	top:27px;
+	font-size:15px;
+	color:#ff7000;
+}
+
+.dcalc_device_selector_note {
+	position:absolute;
+	left:306px;
+	top:25px;
+	font-size:12px;
+	width:190px;
+	color:#333333;
+}
+.dcalc_device_selector_note p{
+	margin:0px;
+	margin-bottom:7px;
+}
+
+.dcalc_device_type_select {
+	position:absolute;
+	left:110px;
+	top:48px;
+	width:165px;
+}
+
+.dcalc_device_selector_image {
+	position:absolute;
+	left:5px;
+	top:7px;
+	width:102px;
+	height:94px;
+	background-image:url("../../../../media/standalone/data_calculator/images/slider_col/device_images.png");
+}
+
+.dcalc_device_selector_image_smartphone {
+	background-position:0px 0px;
+}
+
+.dcalc_device_selector_image_tablet {
+	background-position:-102px 0px;
+}
+
+.dcalc_device_selector_image_basic_phone {
+	background-position:-204px 0px;
+}
+
+.dcalc_device_selector_image_laptop {
+	background-position:-306px 0px;
+}
+
+.dcalc_device_selector_image_mobile_hotspot_device {
+	background-position:-408px 0px;
+}
+
+.dcalc_device_selector_image_gaming_device {
+	background-position:-510px 0px;
+}
+
+.dcalc_device_selector_image_gophone_smartphone {
+	background-position:-612px 0px;
+}
+
+.dcalc_device_selector_image_gophone_basic_phone {
+	background-position:-714px 0px;
+}
+
+.dcalc_device_selector_image_gophone_mobile_hotspot {
+	background-position:-816px 0px;
+}
+
+.dcalc_device_selector_image_wireless_home_phone__internet_device {
+	background-position:-918px 0px;
+}
+.dcalc_device_selector_image_gophone_tablet {
+	background-position:-102px 0px;
+}
+.dcalc_device_selector_image_connected_car_wi_fi_hotspot {
+	background-position:-1020px 0px;
+}
+
+img.dcalc_back_to_mobile_site_right_arrow
+{
+	position: absolute;
+	top: 2px;
+	right:-14px;
+}
+
+.dcalc_header_back_to_mobile_site
+{
+	position:relative;
+	font-size:12px;
+	margin-top:12px;
+	margin-left:180px;
+}
+
+.dcalc_back_to_mobile_site_left_arrow
+{
+	position: absolute;
+	top: 1px;
+	left:-14px;
+}
+
+div.dcalc_promo_one_learn_more
+{
+	position: absolute;
+	top: 110px;
+	left: 140px;
+}
+
+img.dcalc_learn_more_right_arrow
+{
+	position: relative;
+	top: 3px;
+/*	right: -14px;
+*/}
+
+#dcalc_recommendation_pricing_box
+{
+	position:relative;
+	background-image:url("../../../../media/standalone/data_calculator/images/recommender/bg.png");
+	width:314px;
+	height:291px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:13px;
+	margin-bottom:0px;
+	text-align:center;
+	border:1px solid transparent;
+}
+
+#dcalc_recommendation_gophone_overlay {
+	position:absolute;
+	top:65px;
+	left:10px;
+	width:294px;
+	height:216px;
+/*	background-color:#FFFFFF;
+*/	
+	background-image:url(../../../../media/standalone/data_calculator/images/recommender/gophone_overlay.png);
+	display:none;
+	z-index:10;/*Make sure doesn't overlap modals*/
+}
+
+.dcalc_recommendation_pricing_overlay{
+	position:absolute;
+	top:65px;
+	left:10px;
+	/*	width:100%;
+		height:100%;
+	*/
+	width:294px;
+	height:216px;
+	z-index:10;
+	margin:0px;
+	padding:0px;
+	background-image:url("../../../../media/standalone/data_calculator/images/recommender/overlay.png");
+	display:none;
+}
+
+.dcalc_recommendation_pricing_overlay p{
+	width:250px;
+	margin:70px auto 0px auto;
+	font-weight:bold;
+	font-size:14px;
+}
+
+#dcalc_data_calc_wrapper #dcalc_recommendation_heading
+{
+	text-align:center;
+	margin:68px auto 0px auto;
+	text-align: center;
+/*	font-size: 14px !important;
+*/	font-weight: bold;
+	color: #FF7000;
+	line-height:14px;
+	
+}
+
+#dcalc_data_calc_wrapper #dcalc_recommendation_subhead
+{
+	margin-top:1px;
+	margin-bottom:0px;
+	line-height:12px;
+	text-align:center;
+	font-size:12px;
+	color: #000000;
+}
+
+#dcalc_recommendation_total_gb_wrapper
+{
+	background-image:url("../../../../media/standalone/data_calculator/images/recommender/orange_gb_bg.png");
+	margin-top:1px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:46px;
+	margin-bottom:3px;
+	padding-right:0px;
+}
+
+#dcalc_recommendation_total_gb
+{
+	width:100%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:23px;
+	padding-top:11px;
+	font-weight:bold;
+	line-height:23px;
+	margin-bottom:0px;
+	color:white;
+	text-shadow:2px 2px 5px #BF5509;
+}
+
+.dcalc_recommendation_dots
+{
+	width:276px;
+	height:1px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5px;
+	margin-top:0px;
+	background-image:url("../../../../media/standalone/data_calculator/images/recommender/dots.png");
+}
+
+#dcalc_recommendation_pricing
+{
+	position: relative;
+	margin:0px;
+	padding:0px;
+}
+
+#dcalc_recommendation_pricing p
+{
+	margin:0px;
+}
+
+div.dcalc_recommendation_pricing_copy
+{
+	position: absolute;
+	
+	font-family: Arial;
+	font-size: 12px !important;
+	margin:0px;
+	margin-bottom:4px;
+	
+	color: #333333;
+}
+
+#dcalc_data_calc_wrapper div.dcalc_recommendation_pricing_copy_bold
+{
+	position: absolute;
+	
+	margin-top:6px;
+	width:262px;
+	
+	line-height:12px;
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	
+	color: #333333;
+}
+
+#dcalc_data_calc_wrapper div.dcalc_recommendation_pricing_row
+{
+	text-align:left;
+	width: 280px;
+	margin:0px;
+	padding:0px;
+	margin-top:2px;
+	margin-left: 24px;
+}
+
+
+.dcalc_small{
+	font-weight:normal;
+	font-size:10px;
+}
+
+#dcalc_data_calc_wrapper #dcalc_recommendation_pricing_row_3
+{
+	width:280px;
+	height:44px;
+	padding-top:7px;
+	margin-top:20px;
+	margin-left:10px;
+	padding-left:16px;
+	background-repeat:no-repeat;
+	background-image:url("../../../../media/standalone/data_calculator/images/recommender/grey_bar.png");
+	overflow:hidden;	
+}
+
+#dcalc_recommendation_or{
+	font-size:12px;
+}
+
+#dcalc_recommendation_or a:link, #dcalc_recommendation_or a:visited{
+	text-decoration: none;
+}
+
+#dcalc_recommendation_or a:hover{
+	text-decoration: underline;
+}
+
+#dcalc_data_calc_wrapper #dcalc_recommendation_pricing_row_4
+{
+	position:relative;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:11px;
+	line-height:14px;
+	height:35px;
+	margin-top:14px;
+	color: #333333;
+	width:250px;
+}
+
+#dcalc_data_calc_wrapper #dcalc_recommendation_pricing_row_4 a:link, #dcalc_data_calc_wrapper #dcalc_recommendation_pricing_row_4 a:visited{
+	text-decoration: none;
+}
+#dcalc_data_calc_wrapper #dcalc_recommendation_pricing_row_4 a:hover{
+	text-decoration: underline;
+}
+
+div.dcalc_recommendation_pricing_right_col
+{
+	display:block;
+	text-align: right;
+	float:right;
+	margin-right:0px;	
+	margin-left:auto;
+}
+
+.dcalc_recommendation_total_estimate_label{
+	position:absolute;
+	left:20px;
+}
+
+#dcalc_data_calc_wrapper  #dcalc_recommendation_total_estimate{
+	position:absolute;
+	right:20px;
+	font-weight: bold;
+	top:3px;
+	min-height:30px;
+	line-height:20px;
+}
+
+#dcalc_footer_legal
+{
+	position: relative;
+	
+	margin:0px auto 0px auto;
+	width: 960px;
+
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	
+	background-color: #f7f7f7;
+	
+	border: solid 1px #dedede;
+
+	margin-bottom:10px;
+}
+
+div.dcalc_legal
+{
+	position: relative;
+	
+	font-family: Arial;
+	font-size: 11px;
+	color: #717171;
+	
+	margin-bottom:18px;
+	line-height:12px;
+	
+	width: 940px;
+}
+
+.dcalc_slider{
+	position:absolute;
+	top:50px;
+	left:70px;
+	width:347px;
+	height:39px;
+	background:url("../../../../media/standalone/data_calculator/images/usage_controls/slider/track.png") no-repeat 20px 0px;
+}
+
+.dcalc_progress{
+	position:absolute;
+	top:12px;
+	left:0px;
+	height:13px;
+	background:url("../../../../media/standalone/data_calculator/images/usage_controls/slider/progress.png") no-repeat 20px 0px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+
+.dcalc_slider_handle{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:40px;
+	height:40px;
+	background:url("../../../../media/standalone/data_calculator/images/usage_controls/slider/handle.png") no-repeat left center;
+	cursor:pointer;
+}
+.dcalc_slider_label{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	top:40px;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#dcalc_data_calc_wrapper div.dcalc_usage_input{
+	position:absolute;
+	/*background-image:url("../../../../media/standalone/data_calculator/images/usage_controls/usage_input_bg.png");*/
+	/*width:45px;*/
+	/*height:23px;*/
+	/*left:436px;*/
+	top:59px;
+	right:70px;
+	font-size: 16px !important;
+	text-align:center;
+	font-weight: bold;
+	line-height:23px;
+	color:#444444;
+}
+
+.dcalc_usage_input_unit{
+	position:absolute;
+	top:62px;
+	left:486px;
+	font-size: 13px;
+	width:50px;
+	color:#333;
+}
+
+.dcalc_remove_btn{
+	position:absolute;
+	top:17px;
+	right:8px;
+	height:20px;
+	padding-right:25px;
+	background:url("../../../../media/standalone/data_calculator/images/btn_remove.png") right top no-repeat;
+	padding-top:2px;
+	text-decoration:none;
+	font-size:12px;
+	display:none;
+}
+
+/* Usage Sum */
+.dcalc_usage_sum_modal{
+	position:absolute;
+	top:250px;
+	left:242px;
+	width:505px;
+	height:347px;
+	background-image:url("../../../../media/standalone/data_calculator/images/typical_usage/modal_bg.png");
+	display:none;
+	margin:0px;
+}
+.dcalc_usage_sum{
+	position:absolute;
+	top:123px;
+	left:170px;
+	font-size:13px;
+	margin:0px;
+}
+
+.dcalc_general_usage_note{
+	position:absolute;
+	top:140px;
+	left:170px;
+	font-size:10px;
+	padding:0px;
+}
+
+.dcalc_general_usage_note span{
+	padding-left:7px;
+}
+
+.dcalc_usage_sum_header{
+	height:56px;
+	line-height:55px;
+	font-size:20px;
+	padding-left:30px;
+	margin:9px 0px 0px 0px;
+}
+.dcalc_usage_sum_amount{
+	font-size:22px;
+	line-height:20px;
+}
+
+.dcalc_usage_sum_amount_unit{
+	font-size:14px;
+	text-transform: uppercase;
+}
+.dcalc_usage_sum_note{
+	position:absolute;
+	bottom:10px;
+	left:62px;
+	font-size:12px;
+	width:385px;
+}
+.dcalc_usage_sum_note span{
+	line-height:24px;
+}
+
+.dcalc_usage_sum span{
+	color:#3381B7;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.dcalc_usage_sum_items_wrapper{
+	position:absolute;
+	top:94px;
+	left:30px;
+	width:450px;
+	background:url("../../../../media/standalone/data_calculator/images/typical_usage/items_wrapper_bg.png") no-repeat 140px 10px;
+	overflow:hidden;
+}
+
+.dcalc_usage_item{
+	width:70px;
+	padding-left:45px;
+	height:70px;
+	float:left;
+	font-size:12px;
+	line-height:13px;
+	margin:0px 4px 5px 30px;
+}
+
+.dcalc_usage_item p{
+	font-size:12px;
+}
+
+.dcalc_usage_sum_usage_amount{
+	font-size:22px;
+	line-height:20px;
+}
+.dcalc_email_usage{
+	background:url("../../../../media/standalone/data_calculator/images/typical_usage/email_icon.png") no-repeat;
+}
+.dcalc_music_usage{
+	background:url("../../../../media/standalone/data_calculator/images/typical_usage/music_icon.png") no-repeat;
+}
+.dcalc_photos_usage{
+	width:65px;
+	padding-left:50px;
+	background:url("../../../../media/standalone/data_calculator/images/typical_usage/photos_icon.png") no-repeat;
+}
+.dcalc_videos_usage{
+	background:url("../../../../media/standalone/data_calculator/images/typical_usage/videos_icon.png") no-repeat;
+}
+.dcalc_songs_usage{
+	background:url("../../../../media/standalone/data_calculator/images/typical_usage/songs_icon.png") no-repeat;
+}
+.dcalc_websites_usage{
+	background:url("../../../../media/standalone/data_calculator/images/typical_usage/websites_icon.png") no-repeat;
+}
+
+.dcalc_maximum_data_modal{
+	position:absolute;
+	top:420px;
+	left:300px;
+	width:358px;
+	padding-left:30px;
+	height:140px;
+	background:url("../../../../media/standalone/data_calculator/images/maximum_data_modal/modal_bg.png");
+	display:none; 
+	z-index:1000;
+}
+
+#dcalc_modal_overlay{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:3000px;
+	background:url("../../../../media/standalone/data_calculator/images/maximum_data_modal/overlay.png");
+	display:none;
+	z-index:500;
+}
+
+.dcalc_maximum_data_modal_header{
+	line-height:78px;
+	font-size:20px;
+}
+
+.dcalc_maximum_data_modal_copy{
+	font-size:12px;
+	width:340px;
+	line-height:16px;
+	margin:-5px 0px 0px 0px;
+}
+
+.dcalc_btn_close{
+	line-height:20px;
+	position:absolute;
+	top:30px;
+	height:20px;
+	right:25px;
+	padding-right:25px;
+	background:url("../../../../media/standalone/data_calculator/images/btn_remove.png") right top no-repeat;
+	text-decoration: none;
+	font-size:12px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* ------------------------------------ Plans Modal --------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+.dcalc_plans_modal{
+	position:absolute;
+	top:230px;
+	left:80px;
+	width:800px;
+	height:670px;
+	z-index:100;
+	display:none;
+	z-index:1000;
+}
+
+.dcalc_plans_modal_frame{
+	width:100%;
+	height:100%;
+	border:none;
+	z-index:1000;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* ------------------------------------ WHP&ID Reco --------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+#dcalc_recommendation_whpid_overlay, #dcalc_recommendation_connected_car_overlay
+{
+	position:absolute;
+	top:65px;
+	left:10px;
+	width:294px;
+	height:216px;
+	background-image:url(../../../../media/standalone/data_calculator/images/recommender/gophone_overlay.png);
+	display:none;
+	z-index:10;/*Make sure doesn't overlap modals*/
+}
+#dcalc_recommendation_whpid_overlay h2, #dcalc_recommendation_connected_car_overlay h2
+{
+	font-size 		:18px;
+	font-weight 	:normal;
+	line-height 	:22px;
+	margin 			:45px 0 0 0;
+}
+
+#dcalc_recommendation_connected_car_overlay h2
+{
+	margin-top 	:60px;
+}
+.dcala_plan_coming_soon
+{
+	display 	:block;
+	font-size 	:15px;
+	font-weight :bold;
+	color 		:#FF7000;
+	margin-top 	:10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

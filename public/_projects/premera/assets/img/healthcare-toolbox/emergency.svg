@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193.04 84.187">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e04e39;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #d8d8d8;
+      }
+    </style>
+  </defs>
+  <g id="Group_717" data-name="Group 717" transform="translate(-974.605 -2792.513)">
+    <circle id="Ellipse_24" data-name="Ellipse 24" class="cls-1" cx="10.776" cy="10.776" r="10.776" transform="translate(1125.156 2855.147)"/>
+    <circle id="Ellipse_25" data-name="Ellipse 25" class="cls-1" cx="10.776" cy="10.776" r="10.776" transform="translate(1029.4 2855.147)"/>
+    <path id="Path_252" data-name="Path 252" class="cls-1" d="M0,54.19v6.466H19.705c0-.616-.308-.924-.308-1.539a14.779,14.779,0,1,1,29.558,0,2.307,2.307,0,0,1-.308,1.539h66.814c0-.616-.308-.924-.308-1.539a14.782,14.782,0,0,1,14.779-14.779,14.59,14.59,0,0,1,14.779,14.779,2.307,2.307,0,0,1-.308,1.539h17.242V54.19h-3.079V33.253L133.627,0H3.079V54.19ZM133.627,9.237l15.7,21.245h-15.7Zm-43.721,0h23.4V30.482h-23.4V9.237ZM11.392,15.7h6.466V9.237h6.774V15.7H31.1v6.774H24.94v6.466H17.858V22.784H11.392Z" transform="translate(1006 2806.807)"/>
+    <path id="Path_253" data-name="Path 253" class="cls-1" d="M9.622,2.324c5.314,0,9.622,4.524,9.622,4.524H0S4.308,2.324,9.622,2.324Z" transform="translate(1069.378 2800.151)"/>
+    <path id="Path_254" data-name="Path 254" class="cls-2" d="M2136,2793.825V2787.1" transform="translate(-1057.033 5.409)"/>
+    <path id="Path_255" data-name="Path 255" class="cls-2" d="M2138.66,2791.921l3.26-3.26" transform="translate(-1054.682 7.313)"/>
+    <path id="Path_256" data-name="Path 256" class="cls-2" d="M0,3.26,3.26,0" transform="translate(1073.915 2795.974) rotate(90)"/>
+    <path id="Path_257" data-name="Path 257" class="cls-2" d="M976.527,2841.4h27.914" transform="translate(-1.922)"/>
+    <path id="Path_258" data-name="Path 258" class="cls-2" d="M976.527,2841.3h10.312" transform="translate(11.68 -18)"/>
+    <path id="Path_259" data-name="Path 259" class="cls-2" d="M976.527,2842.249h5.585" transform="translate(23.407 -10)"/>
+  </g>
+</svg>

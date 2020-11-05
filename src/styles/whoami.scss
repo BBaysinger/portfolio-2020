@@ -1,0 +1,21 @@
+@import "_global-vars";
+
+.who_am_i_page {
+    .title {
+        font-weight: bold;
+    }
+
+    .company {
+        margin-bottom: 20px;
+        position: relative;
+        color: $heavierThemeColor;
+    }
+
+    // .right-sub {
+    //     top: 0px;
+    // }
+
+    h4 {
+        margin-bottom: -17px;
+    }
+}

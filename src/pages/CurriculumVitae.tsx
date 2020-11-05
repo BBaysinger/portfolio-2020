@@ -1,0 +1,591 @@
+import React from "react";
+
+import HeaderSub from "../components/layout/HeaderSub";
+
+/**
+ * CV Page. Mostly static HTML, with some helper functions for formatting.
+ *
+ * @author Bradley Baysinger
+ * @since  x.x.x
+ * @version N/A
+ */
+export default class CurriculumVitae extends React.Component {
+  /**
+   *
+   *
+   * @param {Array<string>} phrases
+   * @returns
+   * @memberof CurriculumVitae
+   */
+  wrapPhrases(phrases: Array<string>) {
+    let wrappedPhrases = phrases.map((data, i) => {
+      return (
+        <span className="nobr" key={i}>
+          <span className="phrase">{data} </span>
+          <span key={i * 2 - 1} className="bullet">
+            {" "}
+            •{" "}
+          </span>
+        </span>
+      );
+    });
+
+    return wrappedPhrases;
+  }
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  code = [
+    "TypeScript",
+    "ES6",
+    "ES5 (vanilla JavaScript)",
+    "jQuery",
+    "HTML / HTML5",
+    "CSS / CSS3",
+    "SASS / SCSS",
+    "Node / NPM",
+    "Angular 2+",
+    "React",
+    "Vue",
+    "SVG",
+    "HTML5 Canvas",
+    "Webpack",
+    "Grunt",
+    "Gulp",
+    "Bootstrap",
+    "JSON",
+    "XML",
+    "XSL",
+    "REST",
+    "APIs",
+    "PHP",
+    "RxJS",
+    "Handlebars",
+    "Require / AMD",
+    "Twig",
+    "Git",
+    "Elastic Search",
+    "DHTML",
+    "OOP",
+    "AS3 (like Java)",
+    "Haxe (like Java)",
+    "Greensock",
+    "Tween / Animation Engines",
+    "Game Engines",
+    "Create / EaselJS",
+    "Mapbox",
+  ];
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  codeElems = this.wrapPhrases(this.code);
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  software = [
+    "Illustrator",
+    "Photoshop",
+    "Animate",
+    "Craft CMS",
+    "VSCode",
+    "Atom Editor",
+    "VirtualBox",
+    "SauceLabs",
+  ];
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  softwareElems = this.wrapPhrases(this.software);
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  other = ["Quality Assurance", "Tracking / Analytics"];
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  otherElems = this.wrapPhrases(this.other);
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  clients = [
+    "Nickelodeon",
+    "Disney",
+    "Nintendo",
+    "AT&T",
+    "New Line Cinema",
+    "Netflix",
+    "Mattel",
+    "MTV",
+    "WildBrain",
+    "USDA",
+    "EPA",
+    "and many more...",
+  ];
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  clientElems = this.wrapPhrases(this.clients);
+
+  /**
+   *
+   *
+   * @returns
+   * @memberof CurriculumVitae
+   */
+  render() {
+    const divClassLt = "col-xs-12 col-sm-12 col-md-3 col-lg-3";
+    const divClassRt = "col-xs-12 col-sm-12 col-md-9 col-lg-9 cv_right";
+
+    return (
+      <div>
+        <HeaderSub head={"Curriculum Vitae"} subhead={""} />
+
+        <div id="main_content" className="container cv-page">
+          <div className="section">
+            <div className={divClassLt}>
+              <h4>Experience</h4>
+            </div>
+            <div className={divClassRt}>
+              <div className="cv-listing">
+                <h5>Freelance / Contract</h5>
+
+                <div className="sub-container">
+                  <div className="left-sub">Front-end Web Developer</div>
+                  <div className="break"></div>
+                  <div className="right-sub">[2019 - Present]</div>
+                </div>
+
+                <p className="desc">
+                  Provided technical leadership in consulting and website
+                  production of specialized and focused projects for diverse
+                  clients, including local businesses, nationally-targeted
+                  startups, and an international charity
+                </p>
+
+                <p className="scope">
+                  <span>Technical Scope:</span> Angular 2+, TypeScript, React,
+                  HTML5, CSS3, SVG, SCSS, Craft CMS,&nbsp;Wordpress
+                </p>
+
+                <ul>
+                  <li>
+                    Consulting, scoping, wire-framing, time-lining, and
+                    development on interactive, responsive&nbsp;websites
+                  </li>
+                  <li>
+                    Working closely with clients, stakeholders,
+                    and&nbsp;freelance partners to conceptualize custom
+                    UI/UX&nbsp;presentations
+                  </li>
+                  <li>
+                    Analyzed business requirements, participated in technical
+                    design, development and testing
+                    cross-platform&nbsp;strategies
+                  </li>
+                  <li>
+                    Built and integrated an Angular employment application
+                    tracking system with Elastic Search
+                    (consumed&nbsp;via&nbsp;REST)
+                  </li>
+                </ul>
+              </div>
+
+              {/*-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----*/}
+
+              <div className="cv-listing">
+                <h5>Seven2 Interactive</h5>
+
+                <div className="sub-container">
+                  <div className="left-sub">Front-end Web Developer</div>
+                  <div className="break"></div>
+                  <div className="right-sub">[2018 - 2019]</div>
+                </div>
+
+                <p className="desc">
+                  Interactive and responsive websites for Fortune 500 companies
+                  in technology and&nbsp;entertainment
+                </p>
+
+                <p className="scope">
+                  <span>Technical Scope:</span> Angular 2+, React, Vue, jQuery,
+                  Craft CMS, Grunt, Handlebars,&nbsp;CreateJS
+                </p>
+
+                <ul>
+                  <li>
+                    Logic for central activities, interactivity, and media in
+                    responsive HTML5/CSS3&nbsp;websites
+                  </li>
+                  <li>
+                    Developed APIs to simplify, stabilize, and streamline
+                    integration of DOM and canvas&nbsp;animation
+                  </li>
+                  <li>
+                    Developed a JavaScript timeline animation framework with
+                    compact syntax and potential to eliminate the need for CSS3
+                    keyframe animations that we found riddled with
+                    inconsistencies. (This will likely become an open source
+                    library at some&nbsp;point)
+                  </li>
+                  <li>
+                    Contribution and technical oversight of concepts with teams
+                    of designers, developers, and&nbsp;animators
+                  </li>
+                </ul>
+              </div>
+
+              {/*-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----*/}
+
+              <div className="cv-listing">
+                <h5>ChalkLabs</h5>
+
+                <div className="sub-container">
+                  <div className="left-sub">
+                    Designer / Front-end Web Developer
+                  </div>
+                  <div className="break"></div>
+                  <div className="right-sub">[2017 - 2018]</div>
+                </div>
+
+                <p className="desc">
+                  User interface for web applications engineered to aid
+                  government organizations in processing, analyzing,
+                  visualizing, and understanding&nbsp;data
+                </p>
+
+                <p className="scope">
+                  <span>Technical Scope:</span> (Heavy) Angular 2+, TypeScript,
+                  Bootstrap, Mapbox, Elastic Search, HTML5,&nbsp;Canvas
+                </p>
+
+                <ul>
+                  <li>
+                    Designed and developed UI for ChalkLabs’ latest iteration of
+                    their Pushgraph web&nbsp;application
+                  </li>
+                  <li>
+                    Sole developer of ChalkLabs’ new Pushgraph Dashboard
+                    responsive drag/drop widget&nbsp;framework
+                  </li>
+                  <li>
+                    In June of 2017, worked 350 hours along with my supervisor
+                    to meet a all-or-nothing deadline/contract with EPA worth
+                    five million&nbsp;USD
+                  </li>
+                  <li>
+                    Otherwise dominated on a regular steam of
+                    blistering&nbsp;deadlines
+                  </li>
+                  <li>
+                    Learned Angular and TypeScript largely on the clock, and
+                    thrown into the fire of heavy development from the
+                    very&nbsp;start
+                  </li>
+                </ul>
+              </div>
+
+              {/*-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----*/}
+
+              <div className="cv-listing">
+                <h5>Seven2 Interactive</h5>
+
+                <div className="sub-container">
+                  <div className="left-sub">
+                    Lead Browser Game / Flash Developer
+                  </div>
+                  <div className="break"></div>
+                  <div className="right-sub">[2005 - 2016]</div>
+                </div>
+
+                <p className="desc">
+                  Development of interactive websites, web banner advertising,
+                  and browser games for nationally recognized corporations in
+                  the technology and entertainment&nbsp;industries
+                </p>
+
+                <p className="scope">
+                  <span>Technical Scope:</span> (Heavy) ActionScript,
+                  JavaScript, jQuery, Require,&nbsp;Haxe
+                </p>
+
+                <ul>
+                  <li>
+                    Continuously relied upon as a lead and key architect of
+                    solutions where many developers and animators populated
+                    content/games into to flexible templates and frameworks I
+                    engineered
+                  </li>
+                  <li>
+                    Utilized various existing game mechanics and ones authored
+                    by me, per&nbsp;project
+                  </li>
+                  <li>
+                    Created a performant physics-based tween animation engine
+                    before the advent of systems like Tweener and Greensock
+                  </li>
+                  <li>
+                    Contributed a robust cross-platform mobile accelerometer
+                    solution to a popular (then) open-source HTML5 game
+                    framework now known as&nbsp;2Dkit.
+                  </li>
+                  <li>
+                    Interfacing with backend APIs serving various types of data,
+                    including JSON, XML, and image data
+                  </li>
+                  <li>
+                    Contribution on entire process of project conceptualization
+                    for projects that consistently won annual&nbsp;awards
+                  </li>
+                  <li>
+                    In addition to hundreds of insane deadlines, in June 2014,
+                    worked 350 hours to meet a critical deadline
+                    for&nbsp;WildBrain
+                  </li>
+                </ul>
+              </div>
+
+              {/*-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----*/}
+
+              <div className="cv-listing">
+                <h5>SCW Consulting</h5>
+
+                <div className="sub-container">
+                  <div className="left-sub">
+                    Designer / Front-end Web Developer
+                  </div>
+                  <div className="break"></div>
+                  <div className="right-sub">[2005]</div>
+                </div>
+
+                <p className="desc">
+                  Design and development of websites and apps at the front of
+                  C#/.NET <span className="nobr">back-ends</span>
+                </p>
+
+                <p className="scope">
+                  <span>Technical Scope:</span> HTML, CSS, vanilla JavaScript,
+                  and Dynamic&nbsp;HTML
+                </p>
+
+                <ul>
+                  <li>
+                    As the sole designer, produced overall look and feel on
+                    sites for businesses new to an online&nbsp;presence
+                  </li>
+                  <li>
+                    Front-end development of SCW's e-commerce / shopping cart
+                    solution, that was then ahead of its&nbsp;time
+                  </li>
+                  <li>
+                    Was capable of producing a number of tricks that were new to
+                    others in development, due to the extensive time I had
+                    previously spent with DHTML
+                  </li>
+                </ul>
+              </div>
+
+              {/*-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----*/}
+
+              <div className="cv-listing">
+                <h5>Freelance</h5>
+
+                <div className="sub-container">
+                  <div className="left-sub">Designer / Front-end Developer</div>
+                  <div className="break"></div>
+                  <div className="right-sub">[2003 - 2005]</div>
+                </div>
+
+                <p className="desc">
+                  Design and development of interactive websites for businesses
+                  in the Spokane&nbsp;area
+                </p>
+
+                <p className="scope">
+                  <span>Technical Scope:</span> XML, XSL, vanilla JavaScript,
+                  Dynamic HTML,&nbsp;PHP
+                </p>
+
+                <ul>
+                  <li>
+                    Conceptualizing creative UI and navigation concepts in
+                    websites for a variety of business in the Spokane&nbsp;area
+                  </li>
+                  <li>
+                    Dynamic, multiple level navigation redesign and development
+                    for The Heart Institute&nbsp;of&nbsp;Spokane
+                  </li>
+                  <li>
+                    Utilized XML and XSL in a simple CMS-like approach for
+                    refurbished fitness&nbsp;equipment
+                  </li>
+                  <li>
+                    Produced websites and other projects that met criteria and
+                    received credit for school&nbsp;curriculum
+                  </li>
+                </ul>
+              </div>
+
+              {/*-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ----*/}
+
+              <div className="cv-listing">
+                <h5>Hobbyist</h5>
+
+                <div className="sub-container">
+                  <div className="left-sub">Designer / Front-end Developer</div>
+                  <div className="break"></div>
+                  <div className="right-sub">[2001 - 2003]</div>
+                </div>
+
+                <p className="desc">
+                  Self directed learning of graphics software and cross platform
+                  dynamic and interactive front-end coding&nbsp;practices
+                </p>
+
+                <p className="scope">
+                  <span>Technical Scope:</span> vanilla JavaScript, HTML, CSS,
+                  Dynamic HTML,&nbsp;PHP
+                </p>
+
+                <ul>
+                  <li>
+                    Operating solely on inspiration to experiment, boldly delved
+                    into creative UI concepts beyond my skill and nurtured
+                    technical understanding to accomplish&nbsp;them
+                  </li>
+                  <li>
+                    Took an immediate fascination with the possibilities of
+                    animation in web&nbsp;media
+                  </li>
+                  <li>
+                    In a notoriously fragmented era for browsers, took on
+                    cross-platform challenges, partly to stand out from other
+                    developers, but mostly as an interesting&nbsp;challenge
+                  </li>
+                  <li>
+                    This lead me to creating effects that looked like Flash at
+                    the time, all <span className="nobr">cross-platform</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="section">
+            <div className={divClassLt}>
+              <h4>Education</h4>
+            </div>
+
+            <div className={divClassRt}>
+              <h5 className="sub-container">
+                <div className="left-sub">
+                  Spokane Falls Community&nbsp;College
+                </div>
+                <div className="break"></div>
+                <div className="right-sub">[2003 - 2005]</div>
+              </h5>
+
+              <p>A.A.S. Web Design — Honors — Awards</p>
+            </div>
+          </div>
+          <div className="section">
+            <div className={divClassLt}>
+              <h4>Skills</h4>
+            </div>
+            <div className={divClassRt}>
+              <div className="cv-listing">
+                <h5>Code</h5>
+                <p>{this.codeElems}</p>
+              </div>
+              <div className="cv-listing">
+                <h5>Software</h5>
+                <p>{this.softwareElems}</p>
+              </div>
+              <div className="cv-listing">
+                <h5>Other</h5>
+                <p>{this.otherElems}</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="section">
+            <div className={divClassLt}>
+              <h4>Awards</h4>
+            </div>
+
+            <div className={divClassRt}>
+              <div className="cv-listing">
+                <h5>The Webby Awards</h5>
+                <div className="sub-container">
+                  <div className="left-sub">International</div>
+                  <div className="break"></div>
+                  <div className="right-sub">[2008]</div>
+                </div>
+
+                <div className="row">
+                  <div className="col-xs-12">
+                    People's Choice - Art Website of the&nbsp;Year&nbsp;
+                  </div>
+                </div>
+              </div>
+
+              <div className="cv-listing">
+                <h5>American Advertising Federation</h5>
+                <div className="sub-container">
+                  <div className="left-sub">Spokane</div>
+                  <div className="break"></div>
+                  <div className="right-sub">[2009 - 2019]</div>
+                </div>
+                <div className="row">
+                  <div className="col-md-12">
+                    Contributed to over thirteen projects that received awards
+                    in the annual Spokane Ad Fed (Addy) Awards, including five
+                    Silver, four Gold, two Best of Division, one Best of Show,
+                    and one Golden&nbsp;Pixel
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="section">
+            <div className={divClassLt}>
+              <h4>Clients</h4>
+            </div>
+
+            <div className={divClassRt}>
+              <p>{this.clientElems}</p>
+            </div>
+          </div>
+
+          {/*TempMessage.message()*/}
+
+          {/*///////////////////////////////////////////////////////////////////////////////*/}
+        </div>
+      </div>
+    );
+  }
+}

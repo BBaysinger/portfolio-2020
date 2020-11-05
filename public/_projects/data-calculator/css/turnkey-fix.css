@@ -1,0 +1,153 @@
+/** TURNKEY Overwrites *** 10 - 15 - 2013 **/
+.attOnWeb{
+	margin-left:108px;
+}
+.copyright.constrained{
+	padding-left:121px;
+	width:auto;
+	font-size:11px;
+}
+.copyright.constrained .bottomLinks{
+	font-size: .8em;
+}
+.copyright.constrained a.lead{
+	font-size: 1em;
+}
+.logoBlock{
+	margin-left:122px;
+}
+
+/*share bar*/
+.socialmedia {
+background: #FFF;
+background: -moz-linear-gradient(white,#f0f0f0);
+background: -webkit-linear-gradient(#FFF,#F0F0F0);
+background: linear-gradient(#FFF,#F0F0F0);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff',endColorstr='#F0F0F0');
+/*width: 2em*/
+position: absolute;
+right: -43px;
+z-index: 99;
+padding: 5px 4px;
+-webkit-border-radius: .25em;
+-moz-border-radius: .25em;
+border-radius: .25em;
+border: 1px solid #D3D3D3;
+}
+
+/** fixed ratios "duplicate"- keep width perception **/
+.duplicate{
+height:1px;
+width: 100%;
+}
+.duplicate .inner-div{
+width: 1056px;
+height:1px;
+margin:0 auto;
+position:relative;
+display:none;
+}
+.duplicate .inner-div.on{
+display:block;
+}
+
+#bbro{
+/** annimated styles **/
+width: 100%;
+height: 1px;
+
+}
+#bbro.up{
+/* fixed ratios - "up" */
+position: fixed;
+top: 20px;
+left:0;
+}
+#bbro .inner{
+/** annimated styles **/
+width: 1056px;
+height:1px;
+margin:0 auto;
+position:relative;
+
+}
+#bbro .inner .socialmedia{
+/** annimated styles **/
+right: 0;
+top: -1px;
+width: 16px;
+margin:0 !important;
+
+}
+#bbro .inner .socialmedia .meteor_share_share1{
+width:16px !important;
+}
+
+/* IMG's changed to BUTTONS */
+#bbro .inner .socialmedia button{
+margin:0 !important;
+margin-top:0 !important;
+margin-right:0 !important;
+margin-left:0 !important;
+margin-bottom: 7px !important;
+-webkit-appearance:none;
+}
+#bbro .inner .socialmedia button:last-child {
+margin-bottom: 0 !important;
+}
+
+.logoBlock a.olympics{
+width: 130px;
+height: 37px;
+margin-bottom: 0;
+margin-top: 6px;
+}
+html{
+min-width:1056px;
+}
+body{
+min-width:1056px;
+}
+
+#bbro .inner .socialmedia button[title="Share on Twitter"]{
+background-image:url(../images/twitter.png) !important;
+background-position:0 !important;
+}
+#bbro .inner .socialmedia button[title="Share on Facebook"]{
+background-image:url(../images/facebook.png) !important;
+background-position:0 !important;
+}
+#bbro .inner .socialmedia button[title="Share on LinkedIn"]{
+background-image:url(../images/linkedin.png) !important;
+background-position:0 !important;
+}
+#bbro .inner .socialmedia button[title="Share via Email"]{
+background-image:url(../images/email.png) !important;
+background-position:0 !important;
+}
+#bbro .inner .socialmedia button[title="Share on Pinterest"]{
+background-image:url(../images/pinterest.png) !important;
+background-position:0 !important;
+}
+
+@media only screen and (min-device-width : 0px) {
+
+  	#bbro .inner .socialmedia button[title="Share on Twitter"]
+ 	{
+  		height 	:16px !important;
+	}
+	#bbro .inner .socialmedia button[title="Share on Facebook"]{
+	  		height 	:16px !important;
+	}
+	#bbro .inner .socialmedia button[title="Share on LinkedIn"]{
+	  		height 	:16px !important;
+	}
+	#bbro .inner .socialmedia button[title="Share via Email"]{
+	  		height 	:16px !important;
+	}
+	#bbro .inner .socialmedia button[title="Share on Pinterest"]{
+	  		height 	:16px !important;
+	}
+}
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!--  SERVICES  -->
+	<!-- <region charset="cyrillic"></region> -->
+	<!-- <region charset="latin"></region> -->
+	<!-- <canadaTracking enabled="false"></canadaTracking> -->
+   <!-- <levels enabled="1"></levels> -->
+   
+	<services>
+		<region charset="latin"></region>
+        <canadaTracking enabled="false"></canadaTracking>
+        <levels enabled="4"></levels>
+	</services>
+    
+</config>

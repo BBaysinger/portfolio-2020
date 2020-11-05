@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+========================
+	SAMPLE SECTION
+========================
+
+<title>
+	<gameName font="FONT1" size="68" color="0xff0000" align="left"><![CDATA[GAME NAME HERE]]></gameName>
+</title>
+
+The id for this would be title.gameName.  The text, font, font size, and alignment would all be set for us.
+
+Any tags omitted would use the default text field's values.
+-->
+
+<strings>
+
+	<title>
+		
+		<playBtn font="helveticaNeue_black_68" fontScale="1"><![CDATA[PLAY]]></playBtn>
+		<playBtnWhite font="helveticaNeue_white_68" fontScale="1"><![CDATA[PLAY]]></playBtnWhite>
+		<continueBtn font="helveticaNeue_black_68" fontScale="1"><![CDATA[CONTINUE]]></continueBtn>
+		<continueBtnWhite font="helveticaNeue_white_68" fontScale="1"><![CDATA[CONTINUE]]></continueBtnWhite>
+		<startOverBtn font="helveticaNeue_black_68" fontScale="1"><![CDATA[START OVER]]></startOverBtn>
+		<startOverBtnWhite font="helveticaNeue_white_68" fontScale="1"><![CDATA[START OVER]]></startOverBtnWhite>
+		<walkthroughBtn font="helveticaNeue_black_68" fontScale="1"><![CDATA[WALKTHROUGH]]></walkthroughBtn>
+		<walkthroughBtnWhite font="helveticaNeue_white_68" fontScale="1"><![CDATA[WALKTHROUGH]]></walkthroughBtnWhite>
+		
+	</title>
+
+	<intro>
+		
+		<skipButton font="helveticaNeue_black_68" fontScale="1"><![CDATA[SKIP]]></skipButton>
+		<skipButtonWhite font="helveticaNeue_white_68" fontScale="1"><![CDATA[SKIP]]></skipButtonWhite>
+		
+	</intro>
+
+	<tutorial>
+		
+		<skipButton font="helveticaNeue_black_68" fontScale="1"><![CDATA[SKIP]]></skipButton>
+		<skipButtonWhite font="helveticaNeue_white_68" fontScale="1"><![CDATA[SKIP]]></skipButtonWhite>
+		
+	</tutorial>
+
+	<game>
+		
+		<skipButton font="helveticaNeue_black_68" fontScale="1"><![CDATA[NEXT]]></skipButton>
+		<skipButtonWhite font="helveticaNeue_white_68" fontScale="1"><![CDATA[NEXT]]></skipButtonWhite>
+		<doneButton font="helveticaNeue_black_68" fontScale="1"><![CDATA[NEXT]]></doneButton>
+		<doneButtonWhite font="helveticaNeue_white_68" fontScale="1"><![CDATA[NEXT]]></doneButtonWhite>
+		
+	</game>
+
+</strings>

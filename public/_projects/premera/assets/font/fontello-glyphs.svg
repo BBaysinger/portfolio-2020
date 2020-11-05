@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello-glyphs" horiz-adv-x="1000" >
+<font-face font-family="fontello-glyphs" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cross" unicode="&#xe800;" d="M0 150v400h300v300h400v-300h300v-400h-300v-300h-400v300z" horiz-adv-x="1000" />
+
+<glyph glyph-name="cog" unicode="&#xe801;" d="M600-150h-200v106a404 404 0 0 0-107 45l-76-75-141 141 75 76a402 402 0 0 0-44 107h-107v200h107a404 404 0 0 0 44 108l-75 75 141 141 76-75a404 404 0 0 0 107 45v106h200v-106a402 402 0 0 0 108-45l75 75 141-141-75-75a404 404 0 0 0 45-108h106v-200h-106a402 402 0 0 0-45-107l75-76-141-141-75 75a403 403 0 0 0-108-44v-107z m-100 700a200 200 0 1 1 200-200 200 200 0 0 1-200 200z" horiz-adv-x="1000" />
+
+<glyph glyph-name="down" unicode="&#xe802;" d="M1000 602l-503-504-497 504h1000z" horiz-adv-x="1000" />
+
+<glyph glyph-name="x" unicode="&#xe803;" d="M1000 797l-53 53-447-447-447 447-53-53 447-447-447-447 53-53 447 447 447-447 53 53-447 447 447 447z" horiz-adv-x="1000" />
+
+<glyph glyph-name="lt" unicode="&#xe804;" d="M500-150l-500 500 500 500 83-83-416-417 416-417-83-83z" horiz-adv-x="583" />
+
+<glyph glyph-name="gt" unicode="&#xe805;" d="M83-150l-83 83 417 417-417 417 83 83 500-500-500-500z" horiz-adv-x="583" />
+
+<glyph glyph-name="pin" unicode="&#xe806;" d="M784 550c0 156-128 284-284 284s-284-128-284-284c0-112 68-212 164-256l120-428 120 428c96 44 164 140 164 256z m-284 116c64 0 116-52 116-116s-52-116-116-116-116 52-116 116 52 116 116 116z" horiz-adv-x="1000" />
+
+<glyph glyph-name="clock" unicode="&#xe807;" d="M500 850c-278 0-500-222-500-500s222-500 500-500 500 222 500 500-222 500-500 500z m170-522h-192v283h44v-239h148v-44z" horiz-adv-x="1000" />
+
+<glyph glyph-name="lt-light" unicode="&#xe808;" d="M500-150l-500 500 500 500 40-40-460-460 460-460-40-40z" horiz-adv-x="540" />
+
+<glyph glyph-name="plus" unicode="&#xe809;" d="M1000 306h-456v-456h-87v456h-457v87h457v457h87v-457h456z" horiz-adv-x="1000" />
+
+<glyph glyph-name="icon-healthcare101" unicode="&#xe80a;" d="M350-150v350h-350v300h350v350h300v-350h350v-300h-350v-350z" horiz-adv-x="1000" />
+
+<glyph glyph-name="icon-howplan" unicode="&#xe80b;" d="M600-150h-200v66a442 442 0 0 0-136 57l-47-47-141 141 47 47a444 444 0 0 0-57 136h-66v200h66a442 442 0 0 0 57 136l-47 47 141 142 47-47a442 442 0 0 0 136 56v66h200v-66a444 444 0 0 0 136-57l47 47 142-141-47-47a441 441 0 0 0 56-136h66v-200h-66a441 441 0 0 0-56-137l47-47-142-141-47 47a444 444 0 0 0-136-57v-66z m-100 737a237 237 0 1 1 238-237 238 238 0 0 1-238 237z" horiz-adv-x="1000" />
+
+<glyph glyph-name="gl-light" unicode="&#xe80c;" d="M40-150l-40 40 460 460-460 460 40 40 500-500-500-500z" horiz-adv-x="540" />
+
+<glyph glyph-name="minus" unicode="&#xe80d;" d="M1000 394h-1000v-88h1000z m-500 456z m0-1000z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,1340 @@
+body {
+	background:transparent;
+	-webkit-text-size-adjust:100%;
+}
+
+a img{
+	border:0px;
+}
+
+#msr_data_calc_wrapper {
+	font-family:Helvetica, Arial, sans-serif;
+	color:#333;
+	background-color:transparent;
+	line-height:16px;
+	width:989px;
+	position:relative;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#msr_data_calc_wrapper form {
+	margin:0px;
+	margin-top:-20px;
+	color:#333;
+}
+
+#msr_data_calc_wrapper select, #msr_data_calc_wrapper, #msr_data_calc_wrapper option {
+	font-size:12px;
+	color:#000000;
+	background-image:none;
+	background-color:#FFFFFF;
+}
+
+#main-container #msr_data_calc_wrapper {
+	font-size:13px;
+	color:#333333;
+}
+
+#msr_data_calc_wrapper div {
+	line-height:16px;
+	font-size:13px;
+}
+
+#msr_data_calc_wrapper a.msr {
+	font-size:12px !important;
+}
+
+.msr_visit_calc
+{
+	font-weight:bold;
+	font-size:13px !important;
+}
+
+/* Wrapper */
+.msr_data_calc_wrapper{
+	width:989px;
+	margin:0px auto 0px auto;
+	padding-top:15px;
+	position:relative;
+	overflow:hidden;
+}
+	.msr_panel_top{
+		width:959px;
+		height:65px;
+		margin:0px;
+		line-height:75px;
+		padding-left:30px;
+		background-image:url(../../../../media/standalone/mobile_share/images/wrapper/panel_top_bg.png);
+	}
+	.msr_panel_body{
+		margin:0px;
+		padding:0px;
+		background-image:url(../../../../media/standalone/mobile_share/images/wrapper/panel_body_bg.png);
+	}
+	.msr_panel_bottom{
+		width:100%;
+		height:20px;
+		background-image:url(../../../../media/standalone/mobile_share/images/wrapper/panel_bottom_bg.png);
+	}
+	
+	.msr_promo div{
+		margin-bottom:14px;
+		font-size:11px;
+		width:260px;
+	}
+
+/* Header */
+.msr_data_calc_header{
+	position:relative;
+	margin:0px;
+	padding:25px 0px 10px 35px;
+}
+	.msr_form_header{
+		margin-bottom:12px;
+	}
+#msr_data_calc_wrapper .msr_select_step{
+		font-size:16px;
+	}
+	div.msr_step{
+		width:535px;
+		margin-bottom:16px;
+		line-height:16px;
+	}
+	p .msr_indented{
+		margin-left:47px;
+	}
+	#msr_device_qty_select {
+		border:1px solid #CCC;
+		height:22px;
+		margin-left: 8px;
+	}
+	.msr_wifi_disclaimer{
+		position:absolute;
+		top:75px;
+		right:57px;
+		color:#333;
+		width:283px;
+		margin:0px;
+		padding:7px 0px 0px 0px;
+/*		background:url(../../../../media/standalone/mobile_share/images/header/wifi_icon.png) no-repeat;
+*/	}
+
+
+
+/* Body */
+#msr_device_column {
+	width:575px;
+	float:left;
+	margin-left:35px;
+	margin-bottom:40px;
+	min-height:500px;
+}
+
+.msr_device_container {
+	width:575px;
+	border:1px solid #D8D8D8;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+	
+	/* MSR Device */
+	.msr_device{
+		position:relative;
+		width:100%;
+		height:170px;
+		background:url(../../../../media/standalone/mobile_share/images/device/bg_gradient.png) repeat-x center bottom;
+		border-top:1px solid #D8D8D8;
+	}
+	.msr_device:first-child{
+		border-top:none;
+	}
+
+		div.msr_title{
+			position:absolute;
+			top:18px;
+			left:12px;
+			display:block;
+			color:#FF7000;
+			font-size:16px !important;
+			z-index:3;
+		}
+		.msr_device.no_type_select .msr_type_select{
+			display:none;
+		}
+		.msr_type_select{
+			position:absolute;
+			top:15px;
+			left:90px;
+			z-index:3;
+		}
+		.msr_device.no_type_select .msr_type_p{
+			display:block;
+		}
+		.msr_type_p{
+			display:none;
+			margin:0px;
+			position:absolute;
+			top:20px;
+			left:98px;
+			width:100px;
+			font-size:12px;
+		}
+		.msr_device_divider{
+			position:absolute;
+			top:80px;
+			left:445px;
+		}
+		.msr_device_image{
+			display:block;
+			position:absolute;
+			width:156px;
+			height:130px;
+			top:60px;
+			background-repeat:no-repeat;
+			background-position:center top;
+			background-image:url(../../../../media/standalone/mobile_share/images/device_images/devices.png);
+		}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* -------------------------------------- Footer ------------------------------------------ */
+/* ---------------------------------------------------------------------------------------- */
+
+.msr_data_calc_footer{
+	/*background: url(../../../../media/standalone/mobile_share/images/footer/divider_bg.png) no-repeat center top;*/
+	padding-top:5px;
+}
+
+	.msr_promo{
+		height:130px;
+		padding-top:30px;
+		width:287px;
+		padding-left:140px;
+		position:relative;
+	}
+	.msr_promo.msr_one{
+		float:left;
+		background:url(../../../../media/standalone/mobile_share/images/footer/promo_one_bg.jpg) no-repeat;
+		margin-left:48px;
+	}
+		.promo.msr_one p{
+			width:250px;
+		}
+	.msr_promo.msr_two{
+		float:right;
+		margin-right:48px;
+		background:url(../../../../media/standalone/mobile_share/images/footer/promo_two_bg.jpg) no-repeat;
+	}
+	.msr_promo_header{
+		margin-bottom:10px;
+	}
+
+.msr_data_calc_cta{
+	padding:0px 0px 0px 50px;
+	margin:10px 0px -10px 0px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* ------------------------------------ Plans Modal --------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+.msr_plans_modal{
+	position:absolute;
+	top:230px;
+/*	left:91px;
+*/	width:100%;
+/*	width:806px;
+*/	height:503px;
+	display:none;
+	z-index:1000;
+}
+
+.msr_plans_modal_frame{
+	width:100%;
+	height:550px;
+	border:none;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* ----------------------------------- Usage Calculator ----------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+.msr_usage_calculator{
+	position:absolute;
+	top:100px; 
+	left:100px;
+	width:795px;
+	display:none;
+	z-index:1000;
+}
+.msr_usage_calculator_header{
+	height:106px;
+	width:100%;
+	float:left;
+	background: url(../../../../media/standalone/mobile_share/images/usage_calculator/header_bg.png) no-repeat;
+}
+#msr_data_calc_wrapper .msr_usage_calculator_title{
+	position:absolute;
+	top:34px;
+	left:38px;
+	font-size:20px;
+}
+.msr_usage_calculator_description{
+	position:absolute;
+	top:65px;
+	left:38px;
+}
+
+.msr_usage_calculator_tally_wrapper{
+	position:absolute;
+	top:40px;
+	left:547px;
+	width:128px;
+	height:46px;
+	background: url(../../../../media/standalone/mobile_share/images/usage_calculator/tally_bg.png) no-repeat;
+	color:#FFF;
+	text-shadow: 0px -2px 4px #B87021;
+}
+
+#msr_data_calc_wrapper .msr_usage_calculator_tally{
+	position:relative;
+	width:125px;
+	height:40px;
+	margin-top:3px;
+	line-height:40px;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+#msr_data_calc_wrapper .msr_usage_calculator_tally span{
+	font-size:23px;
+}
+.msr_usage_calculator_tally_asterisk{
+	color:#666;
+	font-size:11px;
+	text-shadow:none;
+	line-height:60px;
+	position:absolute;
+	top:-37px;
+	left:0px;
+	margin:0px;
+	padding:0px;
+}
+
+.msr_usage_calculator_body{
+	width:100%;
+	float:left;
+	clear:both;
+	background: url(../../../../media/standalone/mobile_share/images/usage_calculator/body_bg.png) repeat-y;
+}
+
+.msr_usage_type_wrapper{
+	position:relative;
+	margin:20px 0px 0px 0px;
+	padding-left:30px;
+	float:left;
+}
+.msr_usage_type{
+	position:relative;
+	width:375px;
+	height:110px;
+	float:left;
+}
+.msr_usage_type_label{
+	position:absolute;
+	top:57px;
+	left:283px;
+	height:40px;
+	width:100px;
+	color:#333;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+.msr_usage_type.msr_usage_calculator_separater{
+	background: url(../../../../media/standalone/mobile_share/images/usage_calculator/plus_sign.png) no-repeat 17px 71px;
+}
+.msr_usage_type_icon{
+	width:44px;
+	height:44px;
+	position:absolute;
+	top:0px;
+	left:5px;
+	background: url(../../../../media/standalone/mobile_share/images/usage_calculator/usage_type_icon_sprite.png) no-repeat;
+}
+.msr_usage_type_title{
+	position:absolute;
+	top:0px;
+	color:#333; 
+	left:60px;
+	font-weight:bold;
+}
+#msr_data_calc_wrapper .msr_usage_type_wrapper .msr_usage_input{
+	width:44px;
+	height:22px;
+	line-height:24px;
+	font-size:13px;
+	font-weight:bold;
+	top:30px;
+	left:310px;
+}
+.msr_usage_type_wrapper .msr_slider{
+	width:253px;
+	top:20px;
+	left:42px;
+	background:url(../../../../media/standalone/mobile_share/images/usage_calculator/slider_track.png) no-repeat 20px 0px;
+}
+.msr_usage_type_wrapper .msr_slider_progress{
+	position:absolute;
+	top:12px;
+	left:0px;
+	height:13px;
+	background:url(../../../../media/standalone/mobile_share/images/usage_calculator/slider_progress.png) no-repeat 20px 0px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+.msr_usage_type_wrapper .msr_slider_ticks{
+	visibility:hidden;
+}
+.msr_usage_type_wrapper .msr_slider_label{
+	display:none;
+}
+.msr_usage_type_mode_select{
+	position:absolute;
+	top:-2px;
+	left:253px;
+}
+.msr_usage_calculator_asterisk{
+	color:#333;
+	margin:-25px 0px 15px 50px;
+	white-space: nowrap;
+	float:left;
+	clear:left;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* ----------------------------- Usage Calculator Midsection ------------------------------ */
+/* ---------------------------------------------------------------------------------------- */
+.msr_usage_calculator_midsection
+{
+	width:721px;
+	margin:-25px 0px 15px 50px;
+	
+	position:relative;
+	float:left;
+}
+
+.msr_usage_calculator_asterisk{
+	color:#333;
+	margin:0px 0px 0px 0px;
+	white-space: nowrap;
+	float:left;
+	clear:left;
+}
+.msr_usage_calculator_reset_btn{
+	position:absolute;
+	top:21px;
+	right:118px;
+}
+.msr_usage_calculator_done_btn{
+	position:absolute;
+	top:21px;
+	right:14px;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* -------------------------------- Usage Calculator Frame -------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+.msr_data_legend_frame{
+	position:relative;
+	width:721px;
+	height:300px;
+	margin:0px 0px 20px 37px;
+	border:none;
+	overflow:hidden;
+}
+
+.msr_usage_calculator_footer{
+	height:15px;
+	width:100%;
+	float:left;
+	clear:both;
+	background: url(../../../../media/standalone/mobile_share/images/usage_calculator/footer_bg.png) no-repeat;
+}
+
+.msr_usage_calculator .msr_maximum_data_modal{
+	position:absolute;
+	top:200px;
+	left:205px;
+	display:none;
+}
+
+.msr_usage_calculator_overlay{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background:url(../../../../media/standalone/mobile_share/images/maximum_data_modal/overlay.png);
+	display:none;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+/* Graph */
+	
+#msr_graph {
+	width:334px;
+	height:490px;
+	float:right;
+	position:relative;
+	margin-top:4px;
+	margin-right:29px;
+	background-image:url(../../../../media/standalone/mobile_share/images/graph/background.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 15px;
+}
+
+.msr_graph_heading {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:10pt;
+	line-height:16px;
+}
+
+#msr_data_calc_wrapper .msr_graph_orange_text {
+	color:#FF7000;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1px;
+	font-size:12pt;
+	text-align:center;
+	font-weight:bold;
+}
+
+.msr_graph_bar {
+	width:102px;
+	bottom:55px;
+	left:117px;
+	position:absolute;
+	vertical-align:bottom;
+	margin-top:auto;
+	margin-bottom:0px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.msr_graph_bar_reflection {
+	position:absolute;
+	bottom:34px;
+	left:116px;
+	height:21px;
+	width:103px;
+	background-image:url(../../../../media/standalone/mobile_share/images/graph/bar_reflection.png);
+}
+
+.msr_graph_marker_container{
+	position:absolute;
+	bottom:55px;
+	left:211px;
+	height:390px;
+	width:75px;
+	overflow:hidden;
+}
+
+.msr_increment_marker {
+	position:absolute;
+}
+
+.msr_graph_bottom_marker {
+	bottom:0px;
+	height:16px;
+	width:20px;
+	background-image:url(../../../../media/standalone/mobile_share/images/graph/bottom_marker.png);
+}
+
+#msr_data_calc_wrapper .msr_increment_marker_label {
+	position:absolute;
+	top:-2px;
+	left:18px;
+	height:30px;
+	vertical-align:middle;
+	font-weight:bold;
+	font-size:19px;
+	line-height:19px;
+	color:#333333;
+	width:55px;
+}
+
+.msr_increment_marker_unit {
+	font-size:14px;
+	font-weight:bold;
+}
+
+.msr_increment_marker_tick {
+	position:relative;
+	left:0px;
+	top:-1px;
+	width:20px;
+	height:19px;
+	background-image:url(../../../../media/standalone/mobile_share/images/graph/marker.png);
+}
+
+.msr_increment_marker_darker .msr_increment_marker_tick {
+	background-image:url(../../../../media/standalone/mobile_share/images/graph/darker_marker.png);
+}
+
+.msr_add_device_button {
+	background-image:url(../../../../media/standalone/mobile_share/images/add_button_bg.gif);
+	position:relative;
+	margin-top:10px;
+	cursor:pointer;
+	height:34px;
+	width:575px;
+	border:1px solid #D8D8D8;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.msr_add_device_button_hidden {
+	display:none;
+}
+
+#msr_data_calc_wrapper .msr_add_device_text {
+	font-size:16px;
+	margin-top:9px;
+	margin-left:9px;
+	color:#FF7000;
+}
+
+.msr_add_device_plus {
+	position:absolute;
+	background-image:url(../../../../media/standalone/mobile_share/images/device/plus.png);
+	right:7px;
+	top:7px;
+	width:21px;
+	height:21px;
+}
+
+.msr_device_graph_label_container {
+	width:102px;
+	bottom:56px;
+	left:117px;
+	position:absolute;
+	vertical-align:bottom;
+	margin-top:auto;
+	margin-bottom:0px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	overflow:hidden;
+	width:100px;
+}
+
+.msr_device_graph_label {
+	font-size:11px;
+	width:100px;
+	height:0px;
+	border-top:1px solid #dddddd;
+	text-align:center;
+	vertical-align:middle;
+	margin-bottom:-1px;
+	color:#ffffff;
+	overflow:hidden;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.msr_device_graph_label_text {
+	text-shadow: 0.1em 0.1em #ae5913;
+	margin-top:auto;
+	vertical-align:middle;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	top:50%;
+	margin-top:-6px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.msr_graph_zero_marker {
+	position:absolute;
+	width:155px;
+	height:29px;
+	bottom:35px;
+	left:111px;
+	background-image:url(../../../../media/standalone/mobile_share/images/graph/zero_gb_line.png);
+	display:none;
+}
+
+.msr_usage_flag {
+	position:absolute;
+	width:110px;
+	height:39px;
+	bottom:34px;
+	left:24px;
+	background-image:url(../../../../media/standalone/mobile_share/images/graph/usage_flag.png);
+}
+
+.msr_usage_flag_over_limit .msr_usage_flag_text {
+	color:#cc0000;
+}
+
+.msr_usage_flag_text {
+	margin-top:11px;
+	line-height:16px;
+	height:20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-weight:bold;
+	font-size:16px !important;
+	color:#333333;
+}
+
+/* Typography */
+p{
+	font-size:13px;
+}
+.msr_panel_top{
+	font-size:20px;
+	font-weight:normal;
+}
+.msr_promo_header{
+	font-size:16px;
+	font-weight:normal;
+	margin-top:0px;
+}
+.msr_hint{
+	font-size:12px;
+	font-weight:100;
+}
+a{
+	text-decoration:none;
+	color:#3381B7;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+/* Classes */
+.msr_clearBoth {
+	clear:both;
+}
+
+a.msr_text_decoration_none
+{
+	text-decoration: none;
+}
+
+a.msr_text_decoration_none:hover
+{
+	text-decoration: underline !important;
+}
+a.msr_text_decoration_none:visited
+{
+	font-size:12px;
+	text-decoration: none;
+}
+
+#msr_data_calc_wrapper div.msr_top_links
+{
+	position: relative;
+	margin-left: 9px;
+	margin-bottom:16px;
+	color: #666666;
+	font-size:13px;
+}
+
+#msr_data_calc_wrapper div.msr_top_links a:link
+{
+	font-size:13px;
+}
+
+#msr_data_calc_wrapper div.msr_header_back_to_mobile_site
+{
+	position: absolute;
+	top: 20px;
+	left: 814px;
+}
+
+#msr_data_calc_wrapper div.msr_header_back_to_mobile_site a:link
+{
+	font-size:13px !important;
+}
+
+img.msr_back_to_mobile_site_right_arrow
+{
+	position: absolute;
+	top: 2px;
+	right:-14px;
+}
+
+img.msr_back_to_mobile_site_left_arrow
+{
+	position: absolute;
+	top: 1px;
+	left:-14px;
+}
+
+div.msr_promo_one_learn_more
+{
+	position: absolute;
+	top: 110px;
+	left: 140px;
+}
+
+img.msr_learn_more_right_arrow
+{
+	position: relative;
+	top: 3px;
+/*	right: -14px;
+*/}
+
+#msr_recommendation_pricing_wrapper
+{
+	background-image:url(../../../../media/standalone/mobile_share/images/recommender/bg.png);
+	width:314px;
+	height:266px;
+	float:right;
+	margin-right:36px;
+	margin-top:-5px;
+	margin-bottom:0px;
+}
+
+#msr_data_calc_wrapper #msr_recommendation_heading
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-top: 56px;
+	text-align: center;
+	font-size: 14px !important;
+	font-weight: bold;
+	color: #FF7000;
+	line-height:14px;
+	
+}
+
+#msr_data_calc_wrapper #msr_recommendation_subhead
+{
+	margin-top:1px;
+	margin-bottom:0px;
+	line-height:12px;
+	text-align:center;
+	font-size:12px;
+	color: #000000;
+}
+
+#msr_recommendation_total_gb_wrapper
+{
+	background-image:url(../../../../media/standalone/mobile_share/images/recommender/orange_gb_bg.png);
+	margin-top:1px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:56px;
+	margin-bottom:2px;
+	padding-top:0px;
+}
+
+#msr_data_calc_wrapper #msr_recommendation_total_gb
+{
+	
+	padding-left:2px;
+	height:56px;
+	width:100%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:23px;
+	padding-top:15px;
+	font-weight:bold;
+	line-height:23px;
+	color:white;
+	text-shadow:2px 2px 5px #BF5509;
+}
+
+.msr_recommendation_dots
+{
+	width:276px;
+	height:1px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5px;
+	margin-top:0px;
+	background-image:url(../../../../media/standalone/mobile_share/images/recommender/dots.png);
+}
+
+#msr_recommendation_pricing
+{
+	position: relative;
+	margin:0px;
+	padding:0px;
+}
+
+#msr_recommendation_pricing p
+{
+	margin:0px;
+}
+
+div.msr_recommendation_pricing_copy
+{
+	position: absolute;
+	
+	font-family: Arial;
+	font-size: 12px !important;
+	margin:0px;
+	margin-bottom:4px;
+	
+	color: #333333;
+}
+
+.msr_terms_modal_btn{
+	position:absolute;
+	top:85px;
+	left:10px;
+	width:293px;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	line-height:15px;
+}
+
+#msr_data_calc_wrapper div.msr_recommendation_pricing_copy_bold
+{
+	position: absolute;
+	
+	line-height:12px;
+
+	font-family: Arial;
+	font-size: 12px !important;
+	font-weight: bold;
+	
+	color: #333333;
+}
+
+#msr_data_calc_wrapper div.msr_recommendation_pricing_row
+{
+	width: 280px;
+	margin:0px;
+	padding:0px;
+	margin-top:2px;
+	margin-left: 24px;
+	line-height:1px;
+	
+}
+
+#msr_recommendation_estimate_row
+{
+}
+
+.msr_small{
+	font-weight:normal;
+	font-size:10px;
+}
+
+#msr_data_calc_wrapper #msr_recommendation_pricing_row_3
+{
+	width:294px;
+	height:38px;
+	margin-left:10px;
+	padding-left:16px;
+	background-repeat:no-repeat;
+	background-image:url(../../../../media/standalone/mobile_share/images/recommender/grey_bar.png);
+	overflow:hidden;
+	line-height:1px !important;
+	
+}
+
+#msr_data_calc_wrapper #msr_recommendation_pricing_row_4
+{
+	position:relative;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:11px;
+	height:10px;
+	margin-top:4px;
+	color: #333333;
+}
+#msr_recommendation_pricing_row_4 a:link
+{
+	font-size:11px !important;
+	text-decoration: underline;
+}
+
+div.msr_recommendation_pricing_right_col
+{
+	position: relative;
+	text-align: right;	
+	width:260px;
+}
+
+#msr_footer_legal
+{
+	position: relative;
+	
+	margin:0px auto 0px auto;
+	width: 960px;
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	
+	background-color: #f7f7f7;
+	
+	border: solid 1px #dedede;
+}
+
+div.msr_legal
+{
+	position: relative;
+	
+	font-family: Arial;
+	font-size: 11px;
+	color: #717171;
+	line-height:12px;
+	
+	margin-bottom:18px;
+	
+	width: 940px;
+}
+
+.msr_slider{
+	position:absolute;
+	top:47px;
+	left:153px;
+	width:387px;
+	height:39px;
+	background:url(../../../../media/standalone/mobile_share/images/device/slider/track.png) no-repeat 20px 0px;
+}
+
+.msr_slider_progress{
+	position:absolute;
+	top:12px;
+	left:0px;
+	height:13px;
+	background:url(../../../../media/standalone/mobile_share/images/device/slider/progress.png) no-repeat 20px 0px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+
+.msr_slider_ticks{
+	position:absolute;
+	width:387px;
+	height:39px;
+	background:url(../../../../media/standalone/mobile_share/images/device/slider/ticks.png) no-repeat 20px 0px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+
+.msr_slider_4tick .msr_slider_ticks{
+	background-position:20px -39px;
+}
+
+.msr_slider_5tick .msr_slider_ticks{
+	background-position:20px -78px;
+}
+
+.msr_slider_handle{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:40px;
+	height:40px;
+	background:url(../../../../media/standalone/mobile_share/images/device/slider/handle.png) no-repeat left center;
+	cursor:pointer;
+}
+.msr_slider_label{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	top:40px;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration: none;
+	color:#3381B7;
+	padding-left:7px;
+}
+
+.msr_slider_4tick .msr_slider_label
+{
+	padding-left:3px;
+}
+
+/*.msr_label_1{
+	left:77px;
+}
+.msr_label_2{
+	left:152px;
+}
+.msr_label_3{
+	left:226px;
+}
+.msr_label_4{
+	left:298px;
+}
+.msr_label_5{
+	left:370px;
+}
+
+.msr_slider_4tick .msr_label_1{
+	left:125px;
+}
+.msr_slider_4tick .msr_label_2{
+	left:249px;
+}
+.msr_slider_4tick .msr_label_3{
+	left:370px;
+}
+.msr_slider_4tick .msr_label_4{
+	display:none;
+}
+.msr_slider_4tick .msr_label_5{
+	display:none;
+}
+*/
+#msr_data_calc_wrapper div.msr_usage_input{
+	position:absolute;
+	top:121px;
+	right:50px;
+	padding:0px;
+	margin:0px;
+	font-size: 16px;
+	text-align:center;
+	color:#444444;
+	font-weight:bold;
+}
+
+.msr_usage_input_unit{
+	position:absolute;
+	top:121px;
+	right:25px;
+	font-size: 15px;
+	color:#333;
+	margin:0px;
+	padding:0px;
+}
+
+.msr_inactive_overlay{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background:url(../../../../media/standalone/mobile_share/images/device/inactive_overlay.png);
+	z-index:2;
+}
+
+.msr_remove_btn{
+	position:absolute;
+	top:17px;
+	right:8px;
+	height:20px;
+	padding-right:25px;
+	background:url(../../../../media/standalone/mobile_share/images/btn_remove.png) right top no-repeat;
+	padding-top:2px;
+	text-decoration:none;
+	font-size:12px;
+	display:none;
+	z-index:10;
+}
+
+.msr_device_removable .msr_remove_btn {
+	display:block;
+}
+
+
+.msr_usage_calculator_link{
+	position:absolute;
+	top:120px;
+	left:170px;
+	font-size:13px;
+	margin:0px;
+	text-decoration: none;
+}
+
+.msr_general_usage_note{
+	position:absolute;
+	top:137px;
+	left:170px;
+	font-size:10px;
+	padding:0px;
+	margin:0px;
+	color:#333;
+	line-height:14px;
+}
+/*/* Usage Sum */
+/*.msr_usage_sum_modal{
+	position:absolute;
+	top:250px;
+	left:242px;
+	width:505px;
+	height:347px;
+	background-image:url(../../../../media/standalone/mobile_share/images/typical_usage/modal_bg.png);
+	display:none;
+	margin:0px;
+}*/
+/*
+.msr_general_usage_note span{
+	padding-left:8px;
+}*/
+
+/*.msr_usage_sum_header{
+	height:56px;
+	line-height:55px;
+	font-size:20px;
+	padding-left:30px;
+	margin:9px 0px 0px 0px;
+}
+.msr_usage_sum_amount{
+	font-size:22px;
+	line-height:20px;
+}
+
+.msr_usage_sum_amount_unit{
+	font-size:14px;
+	text-transform: uppercase;
+}
+.msr_usage_sum_note{
+	position:absolute;
+	bottom:10px;
+	left:62px;
+	font-size:12px;
+	width:385px;
+}
+.msr_usage_sum_note span{
+	line-height:24px;
+}
+
+.msr_usage_sum span{
+	color:#3381B7;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.msr_usage_sum_items_wrapper{
+	position:absolute;
+	top:94px;
+	left:30px;
+	width:450px;
+	background:url(../../../../media/standalone/mobile_share/images/typical_usage/items_wrapper_bg.png) no-repeat 140px 10px;
+	overflow:hidden;
+}
+*/
+/*.msr_usage_item{
+	width:70px;
+	padding-left:45px;
+	height:70px;
+	float:left;
+	font-size:12px;
+	line-height:13px;
+	margin:0px 4px 5px 30px;
+}
+
+.msr_usage_item p{
+	font-size:12px;
+}*/
+
+/*.msr_usage_sum_usage_amount{
+	font-size:22px;
+	line-height:20px;
+}*/
+/*.msr_email_usage{
+	background:url(../../../../media/standalone/mobile_share/images/typical_usage/email_icon.png) no-repeat;
+}
+.msr_music_usage{
+	background:url(../../../../media/standalone/mobile_share/images/typical_usage/music_icon.png) no-repeat;
+}
+.msr_photos_usage{
+	width:65px;
+	padding-left:50px;
+	background:url(../../../../media/standalone/mobile_share/images/typical_usage/photos_icon.png) no-repeat;
+}
+.msr_videos_usage{
+	background:url(../../../../media/standalone/mobile_share/images/typical_usage/videos_icon.png) no-repeat;
+}
+.msr_songs_usage{
+	background:url(../../../../media/standalone/mobile_share/images/typical_usage/songs_icon.png) no-repeat;
+}
+.msr_websites_usage{
+	background:url(../../../../media/standalone/mobile_share/images/typical_usage/websites_icon.png) no-repeat;
+}*/
+
+.msr_maximum_data_modal{
+	position:absolute;
+	top:420px;
+	left:300px;
+	width:358px;
+	padding-left:30px;
+	height:140px;
+	background:url(../../../../media/standalone/mobile_share/images/maximum_data_modal/modal_bg.png);
+	display:none;
+	z-index:1000;
+}
+
+#msr_modal_overlay{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:3000px;
+	background:url(../../../../media/standalone/mobile_share/images/maximum_data_modal/overlay.png);
+	display:none;
+	z-index:500;
+}
+
+.msr_maximum_data_modal_header{
+	line-height:78px;
+	font-size:20px;
+	color:#333;
+}
+
+.msr_maximum_data_modal_copy{
+	font-size:12px;
+	width:340px;
+	line-height:16px;
+	margin:0px;
+	color:#333;
+}
+
+.msr_btn_close{
+	line-height:20px;
+	position:absolute;
+	top:30px;
+	height:20px;
+	right:25px;
+	padding-right:25px;
+	background:url(../../../../media/standalone/mobile_share/images/btn_remove.png) right top no-repeat;
+	text-decoration: none;
+	font-size:12px;
+}
+
+
+
+

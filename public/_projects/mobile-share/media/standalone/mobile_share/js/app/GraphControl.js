@@ -1,0 +1,318 @@
+define([
+
+"../lib/utils/trace"
+,
+"app/GraphView"
+
+],
+
+function(
+
+trace
+,
+GraphView
+
+)
+{
+	var GraphControl = function()
+	{
+		var _this = this;
+		
+		var _aIncrements = [.3, 1, 2, 4, 6, 10, 15, 20, 30, 40, 50];
+		
+		var _nMinScale = 10;
+		
+		var _nMax;
+		
+		var _scale;
+		
+		var _barTotalHeight = 387;
+		
+		var _nBlockSize;
+		
+		var _aDevices = [];
+		
+		this.view = new GraphView(_aIncrements);
+		
+		this.fixTo = 2;
+				
+		this.updateLabels = function($aDevices)
+		{
+			var label;
+			
+			for (var i = 0; i < _aDevices.length; i++)
+			{
+				label = _aDevices[i].graphLabel.element;
+				
+				if (label.parent)
+				{
+					label.parent.removeChild(label);
+				}
+				
+			}
+			
+			_aDevices = $aDevices;
+			
+			for (var i = 0; i < _aDevices.length; i++)
+			{
+				label = _aDevices[i].graphLabel.element;
+				
+				if (i)
+				{
+					var prevLabel = _aDevices[i-1].graphLabel.element;
+					_this.view.deviceLabelContainer.insertBefore(label, prevLabel);
+				}
+				else
+				{
+					_this.view.deviceLabelContainer.appendChild(label);
+				}
+				
+			}
+			
+		}
+		
+		this.updateLabelScaling = function($nTotalUsage)
+		{
+			//var barLength = getPos($nTotalUsage) + 10;
+			var labelLength;
+			var label;
+			
+			for (var i = 0; i < _aDevices.length; i++)
+			{
+				label = _aDevices[i].graphLabel;
+				
+				var nPercent = _aDevices[i].getUsage() / _nMax;
+				
+				labelLength = Math.round(nPercent * _barTotalHeight);
+				
+				jQuery(label.element).stop();
+				jQuery(label.element).animate({
+					"height": Math.round(labelLength) + "px"
+				}, "slow");
+				
+			}
+			
+		}
+		
+		this.update = function($nTotalUsage, $nFixTo)
+		{
+			var agentStr = navigator.userAgent;
+			var mode = "";
+			if (navigator.appName == 'Microsoft Internet Explorer')
+			{
+				if (agentStr.indexOf("Trident/5.0") > -1)
+				{
+					if (agentStr.indexOf("MSIE 7.0") > -1)
+					{
+						mode = "IE9 Compatibility View";
+					}
+					else
+					{
+						mode = "IE9";
+					}
+				}
+				else if (agentStr.indexOf("Trident/4.0") > -1)
+				{
+					if (agentStr.indexOf("MSIE 7.0") > -1)
+					{
+						mode = "IE8 Compatibility View";
+					}
+					else
+					{
+						mode = "IE8";
+					}
+				}
+				else
+				{
+					mode = "IE7";
+				}
+			}
+			
+			var IELTET8 = (mode.indexOf("IE7") != -1 || mode.indexOf("IE8") != -1);
+			
+			for (var i = 0; i < _aIncrements.length ;i++)
+			{
+				if (_aIncrements[i] >= $nTotalUsage)
+				{
+					_nMax = Math.max(_nMinScale, _aIncrements[Math.min(i, _aIncrements.length-1)]);
+					break;
+				}
+			}
+			
+			jQuery(this.view.barReflection).stop();
+			
+			if ($nTotalUsage <= 0)
+			{
+				if (IELTET8) {
+					this.view.barReflection.style.visibility = "hidden";
+				} else {
+					jQuery(this.view.barReflection).animate({"opacity": 0}, "slow");
+				}
+			}
+			else
+			{
+				if (IELTET8) {
+					this.view.barReflection.style.visibility = "visible";
+				} else {
+					jQuery(this.view.barReflection).animate({"opacity": 1}, "slow");
+				}
+			}
+			
+			var nPercent = $nTotalUsage / _nMax;
+			
+			_nBarHeight = Math.min(Math.round(nPercent * _barTotalHeight), _barTotalHeight);
+			
+			$nFixTo = Math.min(($nTotalUsage % 1).toString().length - 1, $nFixTo);
+			
+			this.view.usageText.innerHTML = $nTotalUsage.toFixed($nFixTo) + "GB";
+			
+			if ($nTotalUsage > 50)
+			{
+				jQuery(this.view.element).toggleClass("msr_usage_flag_over_limit", true);
+			}
+			else
+			{
+				jQuery(this.view.element).toggleClass("msr_usage_flag_over_limit", false);
+			}
+			
+			for (var j = 0; j < _aIncrements.length; j++)
+			{
+				if (!_this.view.incrementMarkers[j])
+				{
+					continue;
+				}
+				
+				var pos = _aIncrements[j] / _nMax * _barTotalHeight;
+				var opacity;
+				
+				opacity = (_aIncrements[j] > _nMax) ? 0 : 1;
+				opacity = Math.min(opacity, ($nTotalUsage > 20 && pos < 30) ? 0 : 1);
+				
+				var bVisibility = (opacity) ? "visible" : "hidden";
+				
+				if (_aIncrements[j] == _nMax)
+				{
+					pos -= 7;
+				}
+				
+				if (j == 0)
+				{
+					pos = Math.max(6, pos);
+				}
+				
+				if (j == 1)
+				{
+					pos = Math.max(21, pos);
+				}
+				
+				//jQuery(_this.view.incrementMarkers[j].element).stop();
+				jQuery(_this.view.incrementMarkers[j].tick).stop();
+				
+				// if ($nTotalUsage > 20 && pos < 30)
+				// {
+				// 	if (IELTET8)
+				// 	{
+				// 		_this.view.incrementMarkers[j].element.style.visibility = "hidden";
+				// 	}
+				// 	else
+				// 	{
+				// 		jQuery(_this.view.incrementMarkers[j].element).animate({"opacity": 0}, "fast");
+				// 	}
+				// }
+				// else
+				// {
+				// 	if (IELTET8)
+				// 	{
+				// 		_this.view.incrementMarkers[j].element.style.visibility = "visible";
+				// 	}
+				// 	else
+				// 	{
+				// 		jQuery(_this.view.incrementMarkers[j].element).animate({"opacity": 1}, "slow");
+				// 	}
+				// } 
+				
+				if (pos > 350 || pos < 15)
+				{
+					if (IELTET8) {
+						_this.view.incrementMarkers[j].tick.style.visibility = "hidden";
+					} else {
+						jQuery(_this.view.incrementMarkers[j].tick).animate({"opacity": 0}, "fast");
+					}
+				}
+				else
+				{
+					if (IELTET8) {
+						_this.view.incrementMarkers[j].tick.style.visibility = "visible";
+					} else {
+						jQuery(_this.view.incrementMarkers[j].tick).animate({"opacity": 1}, "slow");
+					}
+				}
+				
+				jQuery(_this.view.incrementMarkers[j].element).stop();
+				
+				if (IELTET8)
+				{   
+					_this.view.incrementMarkers[j].tick.style.visibility = bVisibility; 
+					_this.view.incrementMarkers[j].element.style.visibility = bVisibility;
+					
+					jQuery(_this.view.incrementMarkers[j].element).animate({
+						"bottom": pos - 10 + "px"
+					}, "slow");
+				}
+				else
+				{
+					jQuery(_this.view.incrementMarkers[j].element).stop();
+					
+					jQuery(_this.view.incrementMarkers[j].element).animate({
+						"bottom": pos - 10 + "px"
+						,
+						"opacity": opacity
+					}, "slow");
+					
+				}
+				
+			}
+			
+			jQuery(this.view.bar).stop();
+			jQuery(this.view.usageFlag).stop();
+			
+			jQuery(this.view.bar).animate({"height": _nBarHeight + "px"}, "slow");
+			jQuery(this.view.usageFlag).animate({"bottom": _nBarHeight + 34 + "px"}, "slow");
+			
+			this.updateLabelScaling($nTotalUsage);
+			
+		}
+		
+		this.view.deviceLabelContainer.style.maxHeight = _barTotalHeight + "px";
+		
+	}
+	
+	
+	
+	return GraphControl;
+	
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

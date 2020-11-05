@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+========================
+	SAMPLE SECTION
+========================
+
+<title>
+	<gameName font="FONT1" size="68" color="0xff0000" align="left"><![CDATA[GAME NAME HERE]]></gameName>
+</title>
+
+The id for this would be title.gameName.  The text, font, font size, and alignment would all be set for us.
+
+Any tags omitted would use the default text field's values.
+-->
+
+<strings>
+
+	<title>
+		<cta font="housearama_28_yellow_on_blue" fontScale="0.86"><![CDATA[CLICK ANYWHERE<br>TO PLAY]]></cta>
+		<ctaMob font="housearama_28_yellow_on_blue" fontScale="0.86"><![CDATA[TAP ANYWHERE<br>TO PLAY]]></ctaMob>
+	</title>
+	
+	<levelSelect>
+		<heading font="housearama_50_red_on_white" fontScale="1.0"><![CDATA[SELECT A SEARCH]]></heading>
+		<play font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[PLAY]]></play>
+		
+		<complete font="mathlete_66_black" fontScale="0.57"><![CDATA[Complete]]></complete>
+		<level font="housearama_39_black" fontScale="0.56"><![CDATA[Level]]></level>
+		<unlocksIn font="mathlete_66_black" fontScale="0.57"><![CDATA[Unlocks in]]></unlocksIn>
+		<hours font="housearama_39_black" fontScale="0.56"><![CDATA[hours]]></hours>
+		<days font="housearama_39_black" fontScale="0.56"><![CDATA[days]]></days>
+		
+	</levelSelect>
+
+	<global>
+		
+	</global>
+
+	<collection>
+		<play font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[PLAY]]></play>
+		<locked font="mathlete_66_grey_on_white" fontScale="1.0"><![CDATA[LOCKED]]></locked>
+		<normalMode font="housearama_28_yellow_on_blue" fontScale="1.0"><![CDATA[NORMAL MODE]]></normalMode>
+		<challengeMode font="housearama_28_yellow_on_blue" fontScale="1.0"><![CDATA[CHALLENGE MODE]]></challengeMode>
+		
+		<achievementValue font="housearama_48_white" fontScale="1.0"><![CDATA[00:00]]></achievementValue>
+		
+		<achievementLabelSubmarine font="housearama_48_white" fontScale="0.38"><![CDATA[Sonar Used:]]></achievementLabelSubmarine>
+		<achievementLabelMovement font="housearama_48_white" fontScale="0.38"><![CDATA[Fewest Misses:]]></achievementLabelMovement>
+		<achievementLabelBubbles font="housearama_48_white" fontScale="0.38"><![CDATA[Best Time:]]></achievementLabelBubbles>
+		<achievementLabelXRay font="housearama_48_white" fontScale="0.38"><![CDATA[X-Ray Used:]]></achievementLabelXRay>
+		<achievementLabelFish font="housearama_48_white" fontScale="0.38"><![CDATA[Chow Used:]]></achievementLabelFish>
+		
+		<levelSubmarineDesc font="housearama_48_white" fontScale="0.38"><![CDATA[Where did everyone go?!<br>Call in the search-sub to help reveal the hidden buddies!]]></levelSubmarineDesc>
+		<levelSubmarineChallengeDesc font="housearama_48_white" fontScale="0.38"><![CDATA[finish the search with limited sonar!]]></levelSubmarineChallengeDesc>
+		<levelMovementDesc font="housearama_48_white" fontScale="0.38"><![CDATA[Watch closely and find all of the fidgeting friends!]]></levelMovementDesc>
+		<levelMovementChallengeDesc font="housearama_48_white" fontScale="0.38"><![CDATA[Finish the search with less than 5 misses!]]></levelMovementChallengeDesc>
+		<levelBubblesDesc font="housearama_48_white" fontScale="0.38"><![CDATA[Spot the buddies in the level to fill your shelves with friends!]]></levelBubblesDesc>
+		<levelBubblesChallengeDesc font="housearama_48_white" fontScale="0.38"><![CDATA[Finish the search within the time limit!]]></levelBubblesChallengeDesc>
+		<levelXRayDesc font="housearama_48_white" fontScale="0.38"><![CDATA[Hunt for the krabby patties and the buddies who ate them! Don’t forget your x-ray glasses!]]></levelXRayDesc>
+		<levelXRayChallengeDesc font="housearama_48_white" fontScale="0.38"><![CDATA[Finish the search<br>with limited x-rays!]]></levelXRayChallengeDesc>
+		<levelFishDesc font="housearama_48_white" fontScale="0.38"><![CDATA[Lights out! Get help from a hungry anglerfish to find buddies in the darkness!]]></levelFishDesc>
+		<levelFishChallengeDesc font="housearama_48_white" fontScale="0.38"><![CDATA[Finish the search with limited angler-chow!]]></levelFishChallengeDesc>
+		
+		<playToEarnMedal font="housearama_48_white" fontScale="0.38"><![CDATA[Play to earn<br>a medal.]]></playToEarnMedal>
+		<keepPlayingToEarnMedal font="housearama_48_white" fontScale="0.38"><![CDATA[Keep playing to<br>earn a medal.]]></keepPlayingToEarnMedal>
+		
+		<unlocksIn font="mathlete_66_black" fontScale="1.0"><![CDATA[Unlocks in]]></unlocksIn>
+		<hours font="housearama_39_black" fontScale="1.0"><![CDATA[hours]]></hours>
+		<days font="housearama_39_black" fontScale="1.0"><![CDATA[days]]></days>
+		
+		<completeNormalModeToPlayChallenge font="housearama_48_white" fontScale="0.38"><![CDATA[Finish normal mode search to unlock.]]></completeNormalModeToPlayChallenge>
+		<completePreviousChallengeToUnlock font="housearama_48_white" fontScale="0.38"><![CDATA[Finish previous challenge mode to unlock.]]></completePreviousChallengeToUnlock>
+		<completePreviousSearches font="housearama_48_white" fontScale="0.38"><![CDATA[Complete all previous searches to unlock!]]></completePreviousSearches>
+		
+		<challengeUnlocksIn font="mathlete_66_black" fontScale="0.7"><![CDATA[Unlocks in]]></challengeUnlocksIn>
+		<challengeHours font="housearama_39_black" fontScale="0.7"><![CDATA[hours]]></challengeHours>
+		<challengeDays font="housearama_39_black" fontScale="0.7"><![CDATA[days]]></challengeDays>
+		
+	</collection>
+
+	<rewards>
+		
+		<heading font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[rewards]]></heading>
+		<body font="housearama_48_white" fontScale="0.38"><![CDATA[you completed the ultimate bikini bottom buddy search!<br><br>You’ve earned a special download and a chance to enter an exclusive contest!]]></body>
+		<download font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[DOWNLOAD]]></download>
+		<contest font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[CONTEST]]></contest>
+		
+	</rewards>
+
+	<instructions>
+		
+		<play font="housearama_28_yellow_on_blue" fontScale="1.0"><![CDATA[PLAY]]></play>
+		<skip font="housearama_28_yellow_on_blue" fontScale="1.0"><![CDATA[SKIP]]></skip>
+		<heading font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[HOW TO PLAY]]></heading>
+		
+		<levelBubblesSlide1 font="housearama_48_white" fontScale="0.38"><![CDATA[Move around the map and spot the buddies, collect all buddies from the display case to complete the search!<br><br>Look for bubbles to help you find the right buddy. Click on them to collect them.]]></levelBubblesSlide1>
+		<levelBubblesSlide2 font="housearama_48_white" fontScale="0.38"><![CDATA[In challenge mode, You have a limited amount of time to search.<br><br>Keep your eyes peeled and find all the buddies before the timer runs out!]]></levelBubblesSlide2>
+		
+		<levelBubblesSlide1Mob font="housearama_48_white" fontScale="0.38"><![CDATA[Move around the map and spot the buddies, collect all buddies from the display case to complete the search!<br><br>Look for bubbles to help you find the right buddy. TAP on them to collect them.]]></levelBubblesSlide1Mob>
+		<levelBubblesSlide2Mob font="housearama_48_white" fontScale="0.38"><![CDATA[In challenge mode, You have a limited amount of time to search.<br><br>Keep your eyes peeled and find all the buddies before the timer runs out!]]></levelBubblesSlide2Mob>
+		
+		<levelMovementSlide1 font="housearama_48_white" fontScale="0.38"><![CDATA[THe buddies you’re LOOKING for want their FACES kept secret.<br><br>Luckily for you, they can’T keep still, so try to spot the buds with moving parts!<br><br>Click on them to collect them.]]></levelMovementSlide1>
+		<levelMovementSlide2 font="housearama_48_white" fontScale="0.38"><![CDATA[In challenge mode, you can only guess wrong a certain amount of times.<br><br>Make sure you’ve got the right buddy in your sights before you click!]]></levelMovementSlide2>
+
+		<levelMovementSlide1Mob font="housearama_48_white" fontScale="0.38"><![CDATA[THe buddies you’re LOOKING for want their FACES kept secret.<br><br>Luckily for you, they can’T keep still, so try to spot the buds with moving parts!<br><br>TAP on them to collect them.]]></levelMovementSlide1Mob>
+		<levelMovementSlide2Mob font="housearama_48_white" fontScale="0.38"><![CDATA[In challenge mode, you can only guess wrong a certain amount of times.<br><br>Make sure you’ve got the right buddy in your sights before you tap!]]></levelMovementSlide2Mob>
+		
+		<levelFishSlide1 font="housearama_48_white" fontScale="0.38"><![CDATA[Click the angler-chow button to feed anglerfish.<br><br>Once it chows down, anglerfish will light up the whole map for you to spot and collect buddies!]]></levelFishSlide1>
+		<levelFishSlide2 font="housearama_48_white" fontScale="0.38"><![CDATA[In challenge mode, you have a limited amount of angler-chow.<br><br>Use it wisely to make sure you have enough to light up all the buddies!]]></levelFishSlide2>
+		
+		<levelFishSlide1Mob font="housearama_48_white" fontScale="0.38"><![CDATA[Tap the angler-chow button to feed anglerfish.<br><br>Once it chows down, anglerfish will light up the whole map for you to spot and collect buddies!]]></levelFishSlide1Mob>
+		<levelFishSlide2Mob font="housearama_48_white" fontScale="0.38"><![CDATA[In challenge mode, you have a limited amount of angler-chow.<br><br>Use it wisely to make sure you have enough to light up all the buddies!]]></levelFishSlide2Mob>
+		
+		<levelXRaySlide1 font="housearama_48_white" fontScale="0.38"><![CDATA[Click the x-ray glasses button to get x-ray vision for a limited time.<br><br>Find the buddies who have eaten krabby patties to collect them!]]></levelXRaySlide1>
+		<levelXRaySlide2 font="housearama_48_white" fontScale="0.38"><![CDATA[In challenge mode, the number of times you can put on your x-ray glasses is limited.<br><br>Make every x-ray count and find all the patty-eating pals!]]></levelXRaySlide2>
+		
+		<levelXRaySlide1Mob font="housearama_48_white" fontScale="0.38"><![CDATA[TAP the x-ray glasses button to get x-ray vision for a limited time.<br><br>Find the buddies who have eaten krabby patties to collect them!]]></levelXRaySlide1Mob>
+		<levelXRaySlide2Mob font="housearama_48_white" fontScale="0.38"><![CDATA[In challenge mode, the number of times you can put on your x-ray glasses is limited.<br><br>Make every x-ray count and find all the patty-eating pals!]]></levelXRaySlide2Mob>
+		
+		<levelSubmarineSlide1 font="housearama_48_white" fontScale="0.38"><![CDATA[Steer the sub around using the arrow keys on your keyboard.<br><br>Click the radar button to use your sonar, look for sonar waves that bounce off the friends you need to find. Also look for hints on the radar!]]></levelSubmarineSlide1>
+		<levelSubmarineSlide2 font="housearama_48_white" fontScale="0.38"><![CDATA[in challenge mode, the sub’s sonar has limited uses!<br><br>Try to use strategy with your sonar to make sure no buddy goes unfound!]]></levelSubmarineSlide2>
+		
+		<levelSubmarineSlide1Mob font="housearama_48_white" fontScale="0.38"><![CDATA[Steer the sub around by touching and dragging in any direction.<br><br>TAP the radar button to use your sonar, look for sonar waves that bounce off the friends you need to find. Also look for hints on the radar!]]></levelSubmarineSlide1Mob>
+		<levelSubmarineSlide2Mob font="housearama_48_white" fontScale="0.38"><![CDATA[in challenge mode, the sub’s sonar has limited uses!<br><br>Try to use strategy with your sonar to make sure no buddy goes unfound!]]></levelSubmarineSlide2Mob>
+
+	</instructions>
+
+	<game>
+		<count font="mathlete_66_blue_on_white" fontScale="0.83"><![CDATA[0]]></count>
+		<time font="housearama_48_white" fontScale="0.5"><![CDATA[00:00]]></time>
+	</game>
+	
+	<results>
+		<levelBubblesComplete font="housearama_48_white" fontScale="0.5"><![CDATA[buddy search success!<br>No one can hide from friendship!]]></levelBubblesComplete>
+		<levelMovementComplete font="housearama_48_white" fontScale="0.5"><![CDATA[You found every moving buddy!<br>No moves get past you!]]></levelMovementComplete>
+		<levelSubmarineComplete font="housearama_48_white" fontScale="0.5"><![CDATA[You found every buddy!<br>Your eyeballs have skills!]]></levelSubmarineComplete>
+		<levelXRayComplete font="housearama_48_white" fontScale="0.5"><![CDATA[You spotted every hungry buddy!<br>Friendship is more than skin deep.]]></levelXRayComplete>
+		<levelFishComplete font="housearama_48_white" fontScale="0.5"><![CDATA[You shed light on every buddy!<br>Fine fish-food flinging!]]></levelFishComplete>
+		
+		<challengeModeGold font="housearama_48_white" fontScale="0.5"><![CDATA[CHALLENGE MODE COMPLETE!<br>YOU EARNED THE GOLD MEDAL.]]></challengeModeGold>
+		<challengeModeSilver font="housearama_48_white" fontScale="0.5"><![CDATA[CHALLENGE MODE COMPLETE!<br>YOU EARNED THE SILVER MEDAL.]]></challengeModeSilver>
+		<challengeModeBronze font="housearama_48_white" fontScale="0.5"><![CDATA[CHALLENGE MODE COMPLETE!<br>YOU EARNED THE BRONZE MEDAL.]]></challengeModeBronze>
+		<challengeModeNoMedal font="housearama_48_white" fontScale="0.5"><![CDATA[CHALLENGE MODE FAILED!<br>TRY AGAIN TO EARN A MEDAL.]]></challengeModeNoMedal>
+		
+		<achievementLabelBubbles font="housearama_48_white" fontScale="0.38"><![CDATA[Your Time:]]></achievementLabelBubbles>
+		<achievementLabelMovement font="housearama_48_white" fontScale="0.38"><![CDATA[Fewest Misses:]]></achievementLabelMovement>
+		<achievementLabelSubmarine font="housearama_48_white" fontScale="0.38"><![CDATA[Sonar Used:]]></achievementLabelSubmarine>
+		<achievementLabelFish font="housearama_48_white" fontScale="0.38"><![CDATA[Chow Used:]]></achievementLabelFish>
+		<achievementLabelXRay font="housearama_48_white" fontScale="0.38"><![CDATA[X-ray Used:]]></achievementLabelXRay>
+		
+		<achievementValue font="housearama_48_white" fontScale="1"><![CDATA[00:00]]></achievementValue>
+		
+		<recordLabel font="housearama_48_white" fontScale="0.38"><![CDATA[YOUR RECORD:]]></recordLabel>
+		<recordValue font="housearama_48_white" fontScale="0.38"><![CDATA[0:00]]></recordValue>
+		
+		<headingWin font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[CONGRATS!]]></headingWin>
+		<headingLose font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[TRY AGAIN!]]></headingLose>
+		<next font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[NEXT]]></next>
+		<next font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[NEXT]]></next>
+		
+		<!--<gold font="housearama_48_white" fontScale="0.5"><![CDATA[GOLD]]></gold>
+		<silver font="housearama_48_white" fontScale="0.5"><![CDATA[SILVER]]></silver>
+		<bronze font="housearama_48_white" fontScale="0.5"><![CDATA[BRONZE]]></bronze>-->
+	</results>
+	
+	<pause>
+		<help font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[HOW TO PLAY]]></help>
+		<soundOn font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[SOUND ON]]></soundOn>
+		<soundOff font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[SOUND OFF]]></soundOff>
+		<quit font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[QUIT]]></quit>
+	</pause>
+
+	<confirm>
+		<heading font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[Are You Sure?]]></heading>
+		<confirm font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[Yes]]></confirm>
+		<cancel font="mathlete_66_blue_on_white" fontScale="1.0"><![CDATA[No]]></cancel>
+	</confirm>
+
+</strings>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

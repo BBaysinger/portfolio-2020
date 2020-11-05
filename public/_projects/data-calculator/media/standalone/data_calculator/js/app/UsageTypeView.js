@@ -1,0 +1,130 @@
+ define([
+
+"../lib/utils/trace"
+,
+"../lib/utils/signals"
+,
+"app/UsageTypes"
+,
+"app/Slider"
+],
+
+function(
+
+trace
+,
+signals
+,
+UsageTypes
+,
+Slider
+
+)
+{
+	var UsageTypeView = function(_nIndex, _sType, _aTypeData)
+	{
+		var _this = this;
+		
+		_oTypeData = _aTypeData[0];
+		
+		this.element = document.createElement("div");
+		this.element.className = "dcalc_device";
+		
+		if (_aTypeData.length > 1)
+		{
+			this.select = document.createElement("select");
+			this.select.className = "dcalc_usage_type_mode_select";
+			
+			for (var i = 0; i < _aTypeData.length; i++)
+			{
+				var option = document.createElement("option");
+				option.innerHTML = _aTypeData[i]["option_val"];
+				option.value = i;
+				
+				this.select.appendChild(option);
+			}
+		}
+		
+		this.usageTypeIcon = document.createElement("img");
+		this.usageTypeIcon.className = "dcalc_usage_type_icon";
+		this.usageTypeIcon.src = "media/standalone/data_calculator/images/blank.png";
+		
+		this.updateType = function($sType, _nNum)
+		{
+			_sType = $sType;
+			
+			_oTypeData = _aTypeData[_nNum];
+			
+			_this.update();
+		}
+		
+		this.update = function()
+		{
+			_this.usageTypeIcon.className = "dcalc_usage_type_icon dcalc_usage_type_icon_" + _sType;
+			
+			_this.usageInputUnit.innerHTML = UsageTypes.units[_sType];
+			
+			_this.title.innerHTML = _oTypeData["title"];
+			
+		}
+		
+		this.slider = new Slider(1, 1, false);
+		
+		this.usageInput = document.createElement("div");
+		this.usageInput.className = "dcalc_usage_input";
+		
+		this.usageInputUnit = document.createElement("div");
+		this.usageInputUnit.className = "dcalc_usage_input_unit";
+		
+		this.title = document.createElement("div");
+		this.title.className = "dcalc_type_title";
+		
+		//Add Elements
+		this.element.appendChild(this.usageTypeIcon);
+		this.element.appendChild(this.slider.view.element);
+		this.element.appendChild(this.usageInput);
+		this.element.appendChild(this.usageInputUnit);
+		this.element.appendChild(this.title);
+		
+		if (this.select)
+		{
+			this.element.appendChild(this.select);
+		}
+		
+		this.update();
+		
+	}
+	
+	var p = UsageTypeView.prototype;
+
+	/* ---------------------------------------------------------------------------------------- */
+	
+	p.sImagePath = "images/";
+	
+	/* ---------------------------------------------------------------------------------------- */
+	
+	return UsageTypeView;
+	
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

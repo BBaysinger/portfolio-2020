@@ -1,0 +1,87 @@
+@import "_global-vars";
+
+.cv-page {
+  h5 {
+    position: relative;
+    // line-height: 2;
+    font-weight: bold;
+  }
+
+  .left-sub {
+    font-weight: bold;
+  }
+
+  @media (min-width: $-mdpx) {
+    .cv_right {
+      border-left: 1px dashed $heavierThemeColor;
+      padding-left: 30px;
+      p, ul {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  h4:first-child {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .cv-listing {
+    margin-bottom: 40px;
+    // margin-top: 30px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+    &:first-of-type {
+      // margin-top: 0;
+    }
+  }
+
+  .phrase {
+    white-space: nowrap;
+  }
+
+  .bullet {
+    color: $heavierThemeColor;
+    line-height: 18px;
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    content: "•";
+    margin-left: 6px;
+    margin-right: 11px;
+    @media (max-width: $smpx) {
+      margin-left: 2px;
+      margin-right: 7px;
+    }
+    @media (max-width: $xspx) {
+      margin-left: 0px;
+      margin-right: 5px;
+    }
+  }
+
+  .nobr {
+    // TODO: Nesting here doesn't look correct.
+    &:last-of-type .bullet {
+      display: none;
+    }
+  }
+
+  .scope {
+    font-size: 16px;
+    span:nth-child(1) {
+      color: $heavierThemeColor;
+    }
+  }
+
+  .desc {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 17px;
+  }
+
+  p, ul {
+    max-width: 700px;
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<tracking enabled="false">
+		<gameName>YourTrackingName</gameName>
+		<!-- The localization region to load. Loads string files in strings/strings_<two letter locale>.xml. or, will load string.xml by default. -->
+		<!-- <locale>ru</locale> -->
+	</tracking>
+
+	<options>
+		
+		<!-- All dates LOCAL time (24 hour clock) in format "YYYY-MM-DD hh:mm:ss" -->
+		
+		<!-- Level 1 (Should always be available) -->
+		<unlockDate1><![CDATA[LOCAL:1970-01-01 00:00:00]]></unlockDate1>
+		<!-- Level 2 -->
+		<unlockDate2><![CDATA[LOCAL:2016-05-12 06:00:00]]></unlockDate2>
+		<!-- Level 3 -->
+		<unlockDate3><![CDATA[LOCAL:2016-05-13 06:00:00]]></unlockDate3>
+		<!-- Level 4 -->
+		<unlockDate4><![CDATA[LOCAL:2016-05-14 06:00:00]]></unlockDate4>
+		<!-- Level 5 -->
+		<unlockDate5><![CDATA[LOCAL:2016-05-15 06:00:00]]></unlockDate5>
+		<!-- Challenge Modes Unlock -->
+		<unlockDate6><![CDATA[LOCAL:2016-05-16 06:00:00]]></unlockDate6>
+		
+		<downloadPDF><![CDATA[pdf/Nickelodeon_BikiniBottomBuddySearch.pdf]]></downloadPDF>
+		<!-- Fully qualified URL to contest. LEAVE BLANK IF NO CONTEST EXISTS FOR THIS REGION. -->
+		<contestURL><![CDATA[]]></contestURL>
+
+	</options>
+
+</config>

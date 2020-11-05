@@ -1,0 +1,113 @@
+body, html{
+	padding:0px;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	width:806px;
+}
+.header{
+	position:relative;
+	height:76px;
+	background:url("../../../../media/standalone/mobile_share/images/plans_modal/header_bg.png") no-repeat;
+}
+h1{
+	font-weight:100;
+	font-size:20px;
+	line-height:75px;
+	margin:0px 0px 0px 30px;
+}
+h2{
+	font-weight:100;
+	font-size:20px;
+	margin:0px;
+	padding:0px;
+}
+.subhead{
+	background:url("../../../../media/standalone/mobile_share/images/plans_modal/subhead_bg.png") no-repeat;
+	height:40px;
+	margin:0px;
+	padding:17px 0px 0px 30px;
+}
+.time_window{
+	position:absolute;
+	display:block;
+	font-size:16px;
+	padding:0px;
+	margin:0px;
+	top:56px;
+	left:366px;
+}
+.table_wrap{
+	background:url("../../../../media/standalone/mobile_share/images/plans_modal/body_bg.png") repeat-y;	
+}
+table{
+	width:787px;
+	margin-left:9px;
+}
+td{
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	vertical-align:center;
+	border-right:1px solid #E5E5E5;
+	border-bottom:1px solid #E5E5E5;
+}
+.tr_bottom td{
+	border-bottom:0px;
+}
+.td_right{
+	border-right:0px;
+}
+.td_bottom_left{
+	width:33%;
+}
+.td_bottom_center{
+	width:33%;
+}
+.plans{
+	padding-left:0px;
+}
+.prices{
+	color:#FF7000;
+	font-size:20px;
+}
+.footer table{
+	height:6px;
+}
+.footer table td{
+	border-bottom:none;
+}
+.plus_signs td{
+	background:url("../../../../media/standalone/mobile_share/images/plans_modal/plus.png") no-repeat center;
+}
+.add_more_devices{
+	font-size:13px;
+}
+.add_more_devices td{
+	padding:10px 0px;
+	font-size:12px;
+}
+.add_more_devices td span{
+	color:#FF7000;
+	font-size:16px;
+	font-weight: 100;
+}
+td.row_title{
+	background-image:none;
+	text-align:left;
+	width:173px;
+	padding-left:24px;
+	font-size:16px;
+	color:#333;
+}
+.row_title span{
+	font-size:12px;
+}
+.footer{
+	position:relative;
+	z-index:2;
+	height:15px;
+	background:url("../../../../media/standalone/mobile_share/images/plans_modal/footer_bg.png") no-repeat center;
+	padding:0px;
+	margin:0px;
+}

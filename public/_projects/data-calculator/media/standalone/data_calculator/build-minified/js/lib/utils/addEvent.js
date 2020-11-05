@@ -1,0 +1,1 @@
+define([],function(){var func=function(obj,evType,fn){if(obj.addEventListener)return obj.addEventListener(evType,fn,!1),!0;if(obj.attachEvent){var r=obj.attachEvent("on"+evType,fn);return r}return!1};return func})

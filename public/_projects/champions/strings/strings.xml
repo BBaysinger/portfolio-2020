@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+========================
+	SAMPLE SECTION
+========================
+
+<title>
+	<gameName font="FONT1" size="68" color="0xff0000" align="left"><![CDATA[GAME NAME HERE]]></gameName>
+</title>
+
+The id for this would be title.gameName.  The text, font, font size, and alignment would all be set for us.
+
+Any tags omitted would use the default text field's values.
+-->
+
+<strings>
+
+	<global>
+		<scoreReadout font="zerbydoo_54_orange" fontScale=".7"><![CDATA[0]]></scoreReadout>
+		<powerupAvailabeButton font="zerbydoo_42_white_stroke" fontScale=".55"><![CDATA[POWERUP AVAILABLE]]></powerupAvailabeButton>
+	</global>
+
+	<medals>
+		<!-- <none font="zerbydoo_54_orange" fontScale=".7"><![CDATA[AWARDED]]></none> -->
+		<bronze font="zerbydoo_54_orange" fontScale="1"><![CDATA[BRONZE]]></bronze>
+		<silver font="zerbydoo_54_orange" fontScale="1"><![CDATA[SILVER]]></silver>
+		<gold font="zerbydoo_54_orange" fontScale="1"><![CDATA[GOLD]]></gold>
+	</medals>
+
+	<enterCode>
+		<enterCode font="zerbydoo_54_orange" fontScale="1"><![CDATA[ENTER CODE]]></enterCode>
+		<announcement font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[ANNOUNCEMENT]]></announcement>
+		
+		<unknownCode font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[Unknown code: ]]></unknownCode>
+		
+		<HockeyGameScene font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[Spongebob Spread Shot unlocked.]]></HockeyGameScene>
+		<BobsledGameScene font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[TMNT Takedown unlocked.]]></BobsledGameScene>
+		<SnowboardGameScene font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[Breadwinners Invincible Spring Board unlocked.]]></SnowboardGameScene>
+		<SkiJumpGameScene font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[Bloom's Fire Flier unlocked.]]></SkiJumpGameScene> 
+		
+		<alreadyUnlockedHockeyGameScene font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[Spongebob Spread Shot already unlocked.]]></alreadyUnlockedHockeyGameScene>
+		<alreadyUnlockedBobsledGameScene font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[TMNT Takedown already unlocked.]]></alreadyUnlockedBobsledGameScene>
+		<alreadyUnlockedSnowboardGameScene font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[Breadwinners Spring Board already unlocked.]]></alreadyUnlockedSnowboardGameScene>
+		<alreadyUnlockedSkiJumpGameScene font="zerbydoo_42_white_stroke" fontScale=".65"><![CDATA[Bloom's Fire Flier already unlocked.]]></alreadyUnlockedSkiJumpGameScene>
+	</enterCode>
+
+	<prompt>
+		<clearMedalsHeading font="zerbydoo_54_orange" fontScale=".9"><![CDATA[ARE YOU SURE?]]></clearMedalsHeading>
+		<clearMedalsBody font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[THIS WILL RESET THE MEDALS YOU
+			HAVE EARNED FOR THIS GAME.]]></clearMedalsBody>
+		<quitGameHeading font="zerbydoo_54_orange" fontScale=".9"><![CDATA[ARE YOU SURE?]]></quitGameHeading>
+		<quitGameBody font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[QUITTING NOW WILL LOSE YOUR
+			CURRENT PROGRESS.]]></quitGameBody>
+
+		<yes font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[YES]]></yes>
+		<no font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[NO]]></no>
+	</prompt>
+	
+	<instructions>
+		<title font="zerbydoo_54_orange" fontScale=".7"><![CDATA[HOW TO PLAY]]></title>
+		<button font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[OK! LET’S PLAY!]]></button>
+		<nextPage font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[NEXT >]]></nextPage>		
+	</instructions>
+	
+	<characterChooserPrompt>
+		<heading font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[PICK YOUR TEAM]]></heading>
+	    <spongeBob font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[SB]]></spongeBob>
+		<turtles font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[TMNT]]></turtles>
+		<breadWinners font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[BW]]></breadWinners>
+		<winx font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[WINX]]></winx>
+	</characterChooserPrompt>
+
+	<hubScene>
+		<enterCodeButton font="zerbydoo_42_white_stroke" fontScale=".55"><![CDATA[ENTER CODE]]></enterCodeButton>
+
+		<hockeyGameScene font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[BIKINI BOTTOM SHOOTOUT!]]></hockeyGameScene>
+		<bobsledGameScene font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[NINJA BOBSLED BLAST!]]></bobsledGameScene>
+		<snowboardGameScene font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[BACKWOODS BREADBOARDING!]]></snowboardGameScene>
+		<skiJumpGameScene font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[WINX WINGED SKI SOAR!]]></skiJumpGameScene>
+		<medalCeremonyScene font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[CHILL CHAMPIONS PODIUM!]]></medalCeremonyScene>
+		<cleared font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[CLEARED!]]></cleared>
+
+		<opponent0 font="zerbydoo_42_white_stroke" fontScale=".5"><![CDATA[YOU]]></opponent0>
+		<opponent1 font="zerbydoo_42_white_stroke" fontScale=".5"><![CDATA[TMNT]]></opponent1>
+		<opponent2 font="zerbydoo_42_white_stroke" fontScale=".5"><![CDATA[BW]]></opponent2>
+		<opponent3 font="zerbydoo_42_white_stroke" fontScale=".5"><![CDATA[WINX]]></opponent3>
+	</hubScene>
+
+	<resultsScreen>
+		<noMedal font="zerbydoo_54_orange" fontScale=".8"><![CDATA[NO MEDAL AWARDED]]></noMedal>
+		<youveWon font="zerbydoo_54_orange" fontScale=".7"><![CDATA[YOU'VE WON]]></youveWon>
+		<finalScore font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[FINAL SCORE:]]></finalScore>
+		<scoreNumber font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[0]]></scoreNumber>
+		<nextRound font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[NEXT ROUND]]></nextRound>
+		<backToHub font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[BACK TO HUB]]></backToHub>
+	</resultsScreen>
+
+	<loading>
+		<loading font="zerbydoo_42_white_stroke" fontScale=".5"><![CDATA[LOADING]]></loading>
+	</loading>
+
+	<title>
+		<heading1 font="zerbydoo_54_orange" fontScale=".9"><![CDATA[CHAMPIONS]]></heading1>
+		<heading2 font="zerbydoo_54_orange" fontScale=".9"><![CDATA[OF THE CHILL]]></heading2>
+		<tapToPlay font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[TAP ANYWHERE TO PLAY]]></tapToPlay>
+		<clickToPlay font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[CLICK ANYWHERE TO PLAY]]></clickToPlay>
+		<play font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[PLAY]]></play>
+		<continue font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[CONTINUE]]></continue>
+		<newGame font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[NEW GAME]]></newGame>
+		<enterCode font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[ENTER CODE]]></enterCode> 
+		
+		<releaseDate1 font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[2/24/14]]></releaseDate1>
+		<releaseDate2 font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[3/3/14]]></releaseDate2>
+	</title>
+
+	<hockeyGameScene>
+		<ltReadout font="diphtong_pixel_28_white" fontScale="1"><![CDATA[SCORE]]></ltReadout>
+		<rtReadout font="diphtong_pixel_28_white" fontScale="1"><![CDATA[TIME]]></rtReadout>
+
+		<resultsLine1 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[GOALS SCORED:]]></resultsLine1>
+		<resultsLine2 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[BONUS PLANKTONS:]]></resultsLine2>
+
+		<instructionsPanel1 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[HOLD DOWN AND PULL BACK TO AIM. LET GO TO SHOOT!]]></instructionsPanel1>
+		<instructionsPanel2 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[SCORE GOALS. DON’T LET PATRICK BLOCK YOUR SHOTS!]]></instructionsPanel2>
+		<instructionsPanel3 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[HIT PLANKTON TARGETS FOR BONUS POINTS!]]></instructionsPanel3>
+	</hockeyGameScene>
+
+	<skiJumpGameScene>
+		<resultsLine1 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[DISTANCE:]]></resultsLine1>
+		<resultsLine2 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[HAZARDS AVOIDED:]]></resultsLine2>
+		<ltReadout font="diphtong_pixel_28_white" fontScale="1"><![CDATA[SCORE]]></ltReadout>
+		<rtReadout font="diphtong_pixel_28_white" fontScale="1"><![CDATA[DISTANCE]]></rtReadout>
+
+		<useMagic font="zerbydoo_42_white_stroke" fontScale=".8"><![CDATA[HOLD SPACEBAR TO FLY!]]></useMagic>
+		<useMagic_mobile font="zerbydoo_42_white_stroke" fontScale=".8"><![CDATA[TAP AND HOLD TO FLY!]]></useMagic_mobile>
+
+
+		<instructionsPanel1_mobile font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[TAP THE FIRE ORBS
+			TO CHARGE YOUR
+			MAGIC METER.]]></instructionsPanel1_mobile>
+		<instructionsPanel2_mobile font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[WHILE AIRBORNE,
+			TAP & HOLD TO
+			USE YOUR MAGIC
+			TO FLY HIGHER.]]></instructionsPanel2_mobile>
+		<instructionsPanel3_mobile font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[AVOID HAZARDS.
+			THEY WILL SLOW
+			YOU DOWN.]]></instructionsPanel3_mobile>
+
+		<instructionsPanel1 font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[CLICK THE FIRE ORBS
+			TO CHARGE YOUR
+			MAGIC METER.]]></instructionsPanel1>
+		<instructionsPanel2 font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[WHILE AIRBORNE,
+			HOLD 'SPACE' TO
+			USE YOUR MAGIC
+			TO FLY HIGHER.]]></instructionsPanel2>
+		<instructionsPanel3 font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[AVOID HAZARDS.
+			THEY WILL SLOW
+			YOU DOWN.]]></instructionsPanel3>
+
+	</skiJumpGameScene>
+
+	<bobsledGameScene>
+		<ltReadout font="diphtong_pixel_28_white" fontScale="1"><![CDATA[SCORE]]></ltReadout>
+		<rtReadout font="diphtong_pixel_28_white" fontScale="1"><![CDATA[TIME]]></rtReadout>
+
+		<tapStart font="zerbydoo_54_orange" fontScale=".9"><![CDATA[TAP SCREEN QUICKLY!]]></tapStart>
+		<clickStart font="zerbydoo_54_orange" fontScale=".9"><![CDATA[CLICK QUICKLY!]]></clickStart>
+		<tapFaster font="zerbydoo_54_orange" fontScale=".9"><![CDATA[TAP SCREEN FASTER!]]></tapFaster>
+		<clickFaster font="zerbydoo_54_orange" fontScale=".9"><![CDATA[CLICK FASTER!]]></clickFaster>
+
+		<resultsLine1 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[VILLAINS CLEARED:]]></resultsLine1>
+		<resultsLine2 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[TIME BONUS:]]></resultsLine2>
+
+		<instructionsPanel1 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[TAP/CLICK RAPIDLY TO GAIN SPEED]]></instructionsPanel1>
+		<instructionsPanel2 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[DRAG LEFT OR RIGHT TO MOVE]]></instructionsPanel2>
+		<instructionsPanel3 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[HIT SNOWMEN FOR EXTRA POINTS]]></instructionsPanel3>
+		<instructionsPanel4 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[AVOID HAZARDS. THEY WILL SLOW YOU DOWN.]]></instructionsPanel4>
+		<instructionsPanel5 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[GRAB PIZZA FOR SPEED BOOSTS]]></instructionsPanel5>
+		<instructionsPanel6 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[HIT BOOST PADS FOR MAJOR SPEED!]]></instructionsPanel6>
+
+		<distance font="diphtong_pixel_28_white" fontScale="1"><![CDATA[DISTANCE]]></distance>
+	</bobsledGameScene>
+
+	<snowboardGameScene>
+		<ltReadout font="diphtong_pixel_28_white" fontScale="1"><![CDATA[SCORE]]></ltReadout>
+		<rtReadout font="diphtong_pixel_28_white" fontScale="1"><![CDATA[TIME]]></rtReadout>  
+		
+		<distance font="diphtong_pixel_28_white" fontScale="1"><![CDATA[DISTANCE]]></distance>
+
+		<frontFlip1 font="zerbydoo_54_orange" fontScale="1"><![CDATA[BOOTY BLAST!]]></frontFlip1>
+		<frontFlip2 font="zerbydoo_54_orange" fontScale="1"><![CDATA[FEATHERLICKER!]]></frontFlip2>
+		<frontFlip3 font="zerbydoo_54_orange" fontScale="1"><![CDATA[LUMPERNICKEL!]]></frontFlip3>
+		<frontFlip4 font="zerbydoo_54_orange" fontScale="1"><![CDATA[B-B-BOOTY FLIP!]]></frontFlip4>
+		<backFlip1 font="zerbydoo_54_orange" fontScale="1"><![CDATA[BUBBLE NUGGET!]]></backFlip1>
+		<backFlip2 font="zerbydoo_54_orange" fontScale="1"><![CDATA[FREAK THE BEAK!]]></backFlip2>
+		<backFlip3 font="zerbydoo_54_orange" fontScale="1"><![CDATA[RIDUCKULOUS!]]></backFlip3>
+		<backFlip4 font="zerbydoo_54_orange" fontScale="1"><![CDATA[SKIDUCKLE!]]></backFlip4>
+
+		<resultsLine1 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[NUMBER OF FLIPS:]]></resultsLine1>
+		<resultsLine2 font="zerbydoo_42_white_stroke" fontScale=".7"><![CDATA[TIME BONUS:]]></resultsLine2>
+		
+		<instructionsPanel1_mobile font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[TAP TO JUMP.
+			JUMP MONSTERS
+			FOR EXTRA AIR.]]></instructionsPanel1_mobile>
+		<instructionsPanel2_mobile font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[WHILE AIRBORNE
+			TAP LEFT OR RIGHT
+			OF PLAYER TO 
+			DO TRICKS]]></instructionsPanel2_mobile>
+		<instructionsPanel3_mobile font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[THE LARGER YOUR
+			TRICK, THE MORE 
+			POINTS YOU'LL EARN!]]></instructionsPanel3_mobile>
+		<instructionsPanel4_mobile font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[GO OFF RAMPS
+			FOR MAJOR AIR!]]></instructionsPanel4_mobile>
+		<instructionsPanel5_mobile font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[TO LAND A TRICK,
+			LEVEL BACK OUT.]]></instructionsPanel5_mobile>
+		<instructionsPanel6_mobile font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[AVOID HAZARDS.
+			THEY WILL SLOW
+			YOU DOWN.]]></instructionsPanel6_mobile>
+
+		<instructionsPanel1 font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[HIT 'SPACE' TO JUMP.
+			JUMP MONSTERS FOR
+			EXTRA AIR.]]></instructionsPanel1>
+		<instructionsPanel2 font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[WHILE AIRBORNE USE
+			ARROW KEYS TO 
+			DO TRICKS FOR
+			MAJOR POINTS!]]></instructionsPanel2>
+		<instructionsPanel3 font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[THE LARGER YOUR TRICK,
+			THE MORE POINTS
+			YOU'LL EARN!]]></instructionsPanel3>
+		<instructionsPanel4 font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[GO OFF RAMPS FOR
+			MAJOR AIR!]]></instructionsPanel4>
+		<instructionsPanel5 font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[TO LAND A TRICK,
+			LEVEL BACK OUT.]]></instructionsPanel5>
+		<instructionsPanel6 font="zerbydoo_42_white_stroke" fontScale=".45"><![CDATA[AVOID HAZARDS.
+			THEY WILL SLOW
+			YOU DOWN.]]></instructionsPanel6>
+		
+	</snowboardGameScene>
+
+	<medalsScreen>
+		<noMedal font="zerbydoo_54_orange" fontScale=".8"><![CDATA[NO MEDAL AWARDED]]></noMedal>
+		<youveWon font="zerbydoo_54_orange" fontScale=".7"><![CDATA[YOU'VE WON]]></youveWon>
+		<playAgain font="zerbydoo_42_white_stroke" fontScale=".6"><![CDATA[PLAY AGAIN]]></playAgain>
+	</medalsScreen>
+
+
+</strings>

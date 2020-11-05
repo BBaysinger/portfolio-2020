@@ -1,0 +1,1 @@
+define(["app/Follower"],function(Follower){var SliderView=function(){this.element=document.createElement("div"),this.element.className="dcalc_slider",this.progress=document.createElement("div"),this.progress.className="dcalc_progress",this.element.appendChild(this.progress)},p=SliderView.prototype;return SliderView})

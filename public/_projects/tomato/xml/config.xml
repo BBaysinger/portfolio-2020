@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!--  SERVICES  -->
+	<!--  Enable, disable, and configure services here  -->
+	<services>
+		<!-- <service type="analytics" enabled="true" id="4932907072807498742"/> -->
+		<service type="analytics" enabled="false" id="4932907072807498742"/>
+	</services>
+</config>

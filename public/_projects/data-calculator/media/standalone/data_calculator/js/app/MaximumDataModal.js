@@ -1,0 +1,136 @@
+define([
+
+"../lib/utils/trace"
+,
+"../lib/utils/signals"
+],
+
+function(
+
+trace
+,
+signals
+)
+{
+	var MaximumDataModal = function()
+	{
+		var _this = this;
+		
+		this.aAlreadyOpened = [];
+		
+		this.opened = new signals.Signal();
+		
+		this.overlay = document.getElementById("dcalc_modal_overlay");
+		
+		this.element = document.createElement("div");
+		this.element.className = "dcalc_maximum_data_modal";
+		
+		this.header = document.createElement("span");
+		this.header.className = "dcalc_maximum_data_modal_header";
+		//this.header.innerHTML = "5GB Data Plan";
+		
+		this.copy = document.createElement("p");
+		this.copy.className = "dcalc_maximum_data_modal_copy";
+		//this.copy.innerHTML =
+		
+		this.message = "Data in excess of your package plan will be automatically billed at ${{RATE_PER_GB}}/GB. " +
+		"If your data needs exceed {{EXCEED_GB}}GB, consider an " +
+		"<a target='_top' href='https://www.att.com/shop/wireless/data-plans.html#fbid=J_j0aMoai_u?tab2'>" +
+		"AT&T Mobile Share plan</a>.";
+		
+		this.btnClose = document.createElement("a");
+		this.btnClose.className =  "dcalc_btn_close";
+		this.btnClose.href =  "#";
+		this.btnClose.innerHTML = "Close";
+		
+		this.element.appendChild(this.header);
+		this.element.appendChild(this.btnClose);
+		this.element.appendChild(this.copy);
+		
+		jQuery(this.btnClose).bind("click", function(e) {
+			e.preventDefault();
+			_this.close();
+		});
+		
+	}
+	
+	var p = MaximumDataModal.prototype;
+	
+	/* ---------------------------------------------------------------------------------------- */
+	
+	p.open = function()
+	{
+		if(!this.bOpen)
+		{
+			this.element.style.display = "block";
+			this.overlay.style.display = "block";
+			this.bOpen = true;
+			this.opened.dispatch();
+		}
+	}
+	
+	/* ---------------------------------------------------------------------------------------- */
+	
+	p.close = function()
+	{
+		if(this.bOpen)
+		{
+			this.element.style.display = "none";
+			this.overlay.style.display = "none";
+			this.bOpen = false;
+		}
+	}
+	
+	/* ---------------------------------------------------------------------------------------- */
+	
+	p.update = function($nUsage, $nMaxUsage, $nRatePerGB, $nExceedGB)
+	{   
+		if (jQuery.inArray($nMaxUsage, this.aAlreadyOpened) == -1)
+		{   
+			var nUsage = Number($nUsage.toFixed(2));
+			
+			if(nUsage > $nMaxUsage && !this.bOpen)
+			{   
+				var message = this.message.replace("{{RATE_PER_GB}}", $nRatePerGB);
+				message = message.replace("{{EXCEED_GB}}", $nExceedGB);
+				
+				this.header.innerHTML = $nMaxUsage + "GB Data Plan";
+				
+				this.copy.innerHTML = message;
+				this.open();
+				this.aAlreadyOpened.push($nMaxUsage);
+			}
+			else if (nUsage <= $nMaxUsage && this.bOpen)
+			{
+				this.close();
+			}
+		}
+	}
+	
+	/* ---------------------------------------------------------------------------------------- */
+	
+	return MaximumDataModal;
+	
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

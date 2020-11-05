@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+========================
+	SAMPLE SECTION
+========================
+
+<title>
+	<gameName font="FONT1" size="68" color="0xff0000" align="left"><![CDATA[GAME NAME HERE]]></gameName>
+</title>
+
+The id for this would be title.gameName.  The text, font, font size, and alignment would all be set for us.
+
+Any tags omitted would use the default text field's values.
+-->
+
+<strings>
+
+	<loading>
+		<loading font="burbank_sm_blk_100_black" fontScale="0.4"><![CDATA[LOADING..]]></loading>
+		<percent font="burbank_sm_blk_100_black" fontScale="0.55"><![CDATA[0%]]></percent>
+	</loading>
+	
+	<global>
+		<heading font="burbank_sm_blk_100_black" fontScale="0.48"></heading>
+		
+		<quizType_property font="burbank_sm_blk_100_black" fontScale="0.48"><![CDATA[KNOW YOUR SHOW]]></quizType_property>
+		<quizType_topic font="burbank_sm_blk_100_black" fontScale="0.48"><![CDATA[NICK IQ]]></quizType_topic>
+		<quizType_random font="burbank_sm_blk_100_black" fontScale="0.48"><![CDATA[RANDOM QUIZ]]></quizType_random>		
+	</global>
+	
+	<categoryNames>
+		
+		<henry_danger>Henry Danger</henry_danger>
+		<wits_academy>WITS Academy</wits_academy>
+		<bella_bulldogs>Bella and the Bulldogs</bella_bulldogs>
+		<nrdd>Nicky, Ricky, Dicky &amp; Dawn</nrdd>
+		<n100_things>100 Things to do Before High School</n100_things>
+		<game_shakers>Game Shakers</game_shakers>
+		
+		<icarly>iCarly</icarly>
+		<sam_and_cat>Sam &amp; Cat</sam_and_cat>
+		<victorious>Victorious</victorious>
+		<every_witch_way>Every Witch Way</every_witch_way>
+		<pr_megaforce>Power Rangers Megaforce</pr_megaforce>
+		<spongebob>SpongeBob</spongebob>
+		<tmnt>Teenage Mutant Ninja Turtles</tmnt>
+		<lok_atla>Legend of Korra / Avatar: The Last Airbender</lok_atla>
+		<harvey_beaks>Harvey Beaks</harvey_beaks>
+		<pr_dino_charge>Power Rangers Dino Charge</pr_dino_charge>
+
+		<test1>Test Quiz 1</test1>
+		
+		<anatomy>Body Parts</anatomy>
+		<animals>Furry Friends</animals>
+		<arts_crafts>DIY!</arts_crafts>
+		<babies>Baby, Baby, Baby Oh</babies>
+		<big_things>Really Big Things</big_things>
+		<catchphrases>That's My Line!</catchphrases>
+		<chronology>What Happened Next?</chronology>
+		<close_ups>Close Ups</close_ups>
+		<clothing>Clothing</clothing>
+		<color>Who's Hue?</color>
+		<dancing>Dancing</dancing>
+		<dwellings>Bedrooms / Houses</dwellings>
+		<education>Teachers / School</education>
+		<enemies>Welcome To The Dark Side</enemies>
+		<events>Mark Your Calendar!</events>
+		<eyebrows>Eyebrows</eyebrows>
+		<family>It's All Relative!</family>
+		<fears>Fears</fears>
+		<fighting>Put 'Em Up! (Fighting / Powers)</fighting>
+		<first_meetings>First Impressions</first_meetings>
+		<food>Chew On This!</food>
+		<friends>Friends</friends>
+		<gadgets>Gadgets</gadgets>
+		<green>Go Green!</green>
+		<gross>Eww...</gross>
+		<hair>Hairstyles</hair>
+		<impossible>Impossible</impossible>
+		<jobs>Jobs / Bosses</jobs>
+		<jokes>Jokes On You / Pull My Finger</jokes>
+		<letter_r>"R" You Ready?</letter_r>
+		<love>Crushes / Love</love>
+		<music>Music / Instruments</music>
+		<names>Names</names>
+		<neighbors>Howdy, Neighbor!</neighbors>
+		<number_4>Stuff Around the Number 4</number_4>
+		<numbers>How Many?</numbers>
+		<personality>The Most Random Personality Quiz Ever</personality>
+		<places>Places</places>
+		<quotes>Who Said It?</quotes>
+		<rather>Would You Rather?</rather>
+		<restaurants>Do You Deliver?</restaurants>
+		<round_stuff>Round and Round</round_stuff>
+		<secrets>Secrets</secrets>
+		<shows_within_shows>Shows within Shows</shows_within_shows>
+		<smells>Do You Smell That? / PU!</smells>
+		<space>Outta' This World / The Final Frontier</space>
+		<sports>Sports</sports>
+		<talent>Nick's Got Talent!</talent>
+		<technology>Txt Me ;)</technology>
+		<theme_songs>Know That Tune!</theme_songs>
+		<transportation>From A To B</transportation>
+		<vacations>Vacations</vacations>
+	</categoryNames>
+
+	<title>
+		<play font="burbank_sm_blk_72_white" fontScale="0.43" align="center"><![CDATA[CLICK ANYWHERE TO PLAY]]></play>
+		<play_mob font="burbank_sm_blk_72_white" fontScale="0.43" align="center"><![CDATA[TAP ANYWHERE TO PLAY]]></play_mob>
+	</title>
+	
+	<quizSelect>
+		<btn font="burbank_sm_blk_72_white" fontScale="0.5"></btn>
+	</quizSelect>
+
+	<question>
+		<questionText font="burbank_sm_blk_72_white" fontScale="0.43"></questionText>
+		<option font="burbank_sm_blk_100_black" fontScale="0.32"></option>
+		
+		<matchingQuery font="burbank_sm_blk_100_black" fontScale="0.30"></matchingQuery>
+		<matchingOption font="burbank_sm_blk_100_black" fontScale="0.30"></matchingOption>
+
+		<true>True</true>
+		<false>False</false>
+		
+		<feedbackCorrect font="burbank_sm_blk_72_white" fontScale="1.0">CORRECT</feedbackCorrect>
+		<feedbackIncorrect font="burbank_sm_blk_72_white" fontScale="1.0">INCORRECT</feedbackIncorrect>
+		
+		<feedbackNeutral1 font="burbank_sm_blk_72_white" fontScale="1.0">OH RLY?</feedbackNeutral1>
+		<feedbackNeutral2 font="burbank_sm_blk_72_white" fontScale="1.0">SAY WHAAAA?!</feedbackNeutral2>
+		<feedbackNeutral3 font="burbank_sm_blk_72_white" fontScale="1.0">LOL!</feedbackNeutral3>
+		<feedbackNeutral4 font="burbank_sm_blk_72_white" fontScale="1.0">OMG!</feedbackNeutral4>
+		<feedbackNeutral5 font="burbank_sm_blk_72_white" fontScale="1.0">GR8!</feedbackNeutral5>
+
+		<numCorrect font="burbank_sm_blk_100_black" fontScale="0.5"></numCorrect>
+		<numCorrectLabel font="burbank_sm_blk_100_black" fontScale="0.245">CORRECT</numCorrectLabel>
+		<numStrikes font="burbank_sm_blk_100_black" fontScale="0.5"></numStrikes>
+		<numStrikesLabel font="burbank_sm_blk_100_black" fontScale="0.245">STRIKES</numStrikesLabel>
+	</question>
+
+	<pause>
+		<confirmQuit font="burbank_sm_blk_72_white" fontScale="0.6"><![CDATA[ARE YOU SURE?]]></confirmQuit>
+		<yes font="burbank_sm_blk_72_white" fontScale="0.6"><![CDATA[YES]]></yes>
+		<no font="burbank_sm_blk_72_white" fontScale="0.6"><![CDATA[NO]]></no>
+	</pause>
+
+	<results>
+		<btnReplay font="burbank_sm_blk_100_black" fontScale="0.35"><![CDATA[RETAKE QUIZ]]></btnReplay>
+		<btnRandom font="burbank_sm_blk_100_black" fontScale="0.30"><![CDATA[TAKE ANOTHER<br>RANDOM QUIZ]]></btnRandom>
+		<btnHub font="burbank_sm_blk_100_black" fontScale="0.35"><![CDATA[BRAIN HUB]]></btnHub>
+		
+		<successMsg font="burbank_sm_blk_100_black" fontScale="0.35"><![CDATA[HOW MANY YOU GOT RIGHT!]]></successMsg>
+		<failMsg font="burbank_sm_blk_100_black" fontScale="0.35"><![CDATA[NICE TRY!]]></failMsg>
+		<numCorrect font="burbank_sm_blk_100_black" fontScale="0.35"><![CDATA[CORRECT ANSWERS]]></numCorrect>
+		
+		<digit font="burbank_sm_blk_100_black" fontScale="1"><![CDATA[0]]></digit>
+		
+		<ratherDesc1 font="burbank_sm_blk_100_black" fontScale="0.35">How about this is our little secret? Those were some scary answers.</ratherDesc1>
+		<ratherDesc2 font="burbank_sm_blk_100_black" fontScale="0.35">You'll be President some day. Spot-on decisions. And we will just ignore the bad ones you made.</ratherDesc2>
+		<ratherDesc3 font="burbank_sm_blk_100_black" fontScale="0.35">Yikes. What interesting choices (backs away from you slowly).</ratherDesc3>
+		<ratherDesc4 font="burbank_sm_blk_100_black" fontScale="0.35">Those were some solid choices. Go tell your mom, she'll get you something nice.</ratherDesc4>
+		<ratherDesc5 font="burbank_sm_blk_100_black" fontScale="0.35">Well, you definitely raised some eyebrows. Great job!</ratherDesc5>
+		<ratherDesc6 font="burbank_sm_blk_100_black" fontScale="0.35">Wowsers. You're sure one of a kind. Unrelated question: do you wear a tinfoil hat?</ratherDesc6>		
+		
+		<personalityHead1 font="burbank_sm_blk_100_black" fontScale="0.434">You're a 4-day old bandaid!</personalityHead1>
+		<personalityDesc1 font="burbank_sm_blk_100_black" fontScale="0.35">Stop holding on to your ugly past. You're dirty and tattered. It's time to let go.</personalityDesc1>
+		<personalityHead2 font="burbank_sm_blk_100_black" fontScale="0.434">You're the cutest Corgi on Internet.</personalityHead2>
+		<personalityDesc2 font="burbank_sm_blk_100_black" fontScale="0.30">Everyone wants to pinch and hug you and you have 4 million views. Even the people who are deathly allergic.</personalityDesc2>
+		<personalityHead3 font="burbank_sm_blk_100_black" fontScale="0.434">Your'e a Salt &amp; Vinegar potato chip.</personalityHead3>
+		<personalityDesc3 font="burbank_sm_blk_100_black" fontScale="0.35">Some people adore you and can't get enough. Some people think you are terrible.</personalityDesc3>
+		<personalityHead4 font="burbank_sm_blk_100_black" fontScale="0.434">You're Einstien's younger brother.</personalityHead4>
+		<personalityDesc4 font="burbank_sm_blk_100_black" fontScale="0.35">Well, he didn't have one, but it'd be you, smarty pants. Weird pants, but mostly smarty.</personalityDesc4>
+		<personalityHead5 font="burbank_sm_blk_100_black" fontScale="0.434">You're a phone charger.</personalityHead5>
+		<personalityDesc5 font="burbank_sm_blk_100_black" fontScale="0.35">People fight after you and need you in a pinch. But you can be easily forgotten and left behind.</personalityDesc5>
+		<personalityHead6 font="burbank_sm_blk_100_black" fontScale="0.434">You're a baby koala.</personalityHead6>
+		<personalityDesc6 font="burbank_sm_blk_100_black" fontScale="0.35">How are you able to read this?</personalityDesc6>
+		<personalityHead7 font="burbank_sm_blk_100_black" fontScale="0.434">You're a clogged milkshake straw.</personalityHead7>
+		<personalityDesc7 font="burbank_sm_blk_100_black" fontScale="0.35">Kudos for being such a hard worker. But you're in over your head with that cookie chunk.</personalityDesc7>
+		<personalityHead8 font="burbank_sm_blk_100_black" fontScale="0.434">You're a unicorn.</personalityHead8>
+		<personalityDesc8 font="burbank_sm_blk_100_black" fontScale="0.35">Magestic. Wise. Graceful. Totally imaginary.</personalityDesc8>
+		<personalityHead9 font="burbank_sm_blk_100_black" fontScale="0.434">You're a wet dog nose.</personalityHead9>
+		<personalityDesc9 font="burbank_sm_blk_100_black" fontScale="0.35">You're so adorably gross. Everyone wuvs your wittle sniffer. Ok, that'll do! Stop please.</personalityDesc9>
+	
+	</results>
+
+	<brainHub>
+		<selectCTA font="burbank_sm_blk_100_black" fontScale="0.32"><![CDATA[SELECT A QUIZ!]]></selectCTA>
+		
+		<brainSectionCallout font="burbank_sm_blk_100_black" fontScale="0.28"></brainSectionCallout>
+		
+		<emptyBrainSection_0><![CDATA[Take some quizzes to fill your brain with knowledge and nonsense!]]></emptyBrainSection_0>
+		<emptyBrainSection_1><![CDATA[Take some quizzes to fill your brain with knowledge and nonsense!]]></emptyBrainSection_1>
+		<emptyBrainSection_2><![CDATA[Take some quizzes to fill your brain with knowledge and nonsense!]]></emptyBrainSection_2>
+		<emptyBrainSection_3><![CDATA[Take some quizzes to fill your brain with knowledge and nonsense!]]></emptyBrainSection_3>
+		<emptyBrainSection_4><![CDATA[Take some quizzes to fill your brain with knowledge and nonsense!]]></emptyBrainSection_4>
+		<emptyBrainSection_5><![CDATA[Take some quizzes to fill your brain with knowledge and nonsense!]]></emptyBrainSection_5>
+		<emptyBrainSection_6><![CDATA[Take some quizzes to fill your brain with knowledge and nonsense!]]></emptyBrainSection_6>
+		
+		<trait_test1>Test</trait_test1>
+		<trait_food>Jeez. When was the last time you ate?</trait_food>
+		<trait_rather>You made some fantastic pointless decisions.</trait_rather>
+		<trait_color>So you'd also ace the crayon quiz.</trait_color>
+		<trait_love>Your crush called and is wondering what you're doing tonight.</trait_love>
+		<trait_family>You know blood is thicker than water. But not syrup.</trait_family>
+		<trait_friends>You're the good friend that deletes bad selfies outtakes.</trait_friends>
+		<trait_enemies>No one better cross you.</trait_enemies>
+		<trait_education>You're teacher's pet.</trait_education>
+		<trait_quotes>How big are your ears? You can sure listen.</trait_quotes>
+		<trait_dwellings>You're seen at all the right places.</trait_dwellings>
+		<trait_fighting>You got your black belt in MAGIC!</trait_fighting>
+		<trait_jobs>Don't quit your day job.</trait_jobs>
+		<trait_animals>You're an animal lover, but are you a potty trainer?</trait_animals>
+		<trait_clothing>You're a Nick fashionista.</trait_clothing>
+		<trait_jokes>U R LOLZ</trait_jokes>
+		<trait_gadgets>Nerd alert! Where are your glasses?</trait_gadgets>
+		<trait_transportation>You stepped on it!</trait_transportation>
+		<trait_music>Now it's stuck in your head!</trait_music>
+		<trait_talent>This is YOUR talent.</trait_talent>
+		<trait_hair>You there, big hair, don't care.</trait_hair>
+		<trait_gross>Eww. That was disgusting. Clean yourself up.</trait_gross>
+		<trait_anatomy>You know head, shoulders, knees and guts, knees and guts.</trait_anatomy>
+		<trait_neighbors>You've kicked a ball into your neighbor's yard too many times, it seems.</trait_neighbors>
+		<trait_sports>You must be a jock.</trait_sports>
+		<trait_events>You're the life of the party. Even when you're the only one.</trait_events>
+		<trait_names>You don't forget a name. Or a face. Or a butt.</trait_names>
+		<trait_theme_songs>Mistro! You know your tunes.</trait_theme_songs>
+		<trait_fears>You must get Nick nightmares.</trait_fears>
+		<trait_babies>You must have one clean diaper.</trait_babies>
+		<trait_eyebrows>You raised some eyebrows!</trait_eyebrows>
+		<trait_restaurants>Did you supersize that?</trait_restaurants>
+		<trait_dancing>Everyone wants to watch you whiiiiiiip.</trait_dancing>
+		<trait_technology>You're from the future!</trait_technology>
+		<trait_vacations>Seems like you take a lot of pictures of your feet in the sand.</trait_vacations>
+		<trait_smells>You stink. Light a match!</trait_smells>
+		<trait_chronology>You know what time it is.</trait_chronology>
+		<trait_space>Houston, we don't really have any problems. You won the universe.</trait_space>
+		<trait_close_ups>Whoa. You should take a giant step back! </trait_close_ups>
+		<trait_numbers>You can count. Not sure if you can spell.</trait_numbers>
+		<trait_secrets>You're an expert pinky swearer.</trait_secrets>
+		<trait_letter_r>You're rrrrrrrrrrrrrrrrrrrrright on the money.</trait_letter_r>
+		<trait_places>Where HAVEN'T you been?</trait_places>
+		<trait_first_meetings>When you meet people, it's LOL at first sight.</trait_first_meetings>
+		<trait_big_things>You must be big time.</trait_big_things>
+		<trait_catchphrases>Time to get your own catchphrase.</trait_catchphrases>
+		<trait_number_4>Wow!!!!! You can cout to 4?????!!!!!</trait_number_4>
+		<trait_round_stuff>Hey, when you know a shape, you know a shape.</trait_round_stuff>
+		<trait_shows_within_shows>So you're a DOUBLE TV expert.</trait_shows_within_shows>
+		<trait_green>So you're definitely not color blind.</trait_green>
+		<trait_impossible>And they said it couldn't be done. You're a wizard.</trait_impossible>
+		<trait_arts_crafts>You must know your way around a scrapbook.</trait_arts_crafts>
+		<trait_personality>Results are in: You're weird.</trait_personality>
+
+		<trait_henry_danger>You're an expert on heroics and keeping secrets. BTW, can you spare a piece of gum?</trait_henry_danger>
+		<trait_wits_academy>You've got the smarts to guard any realm.</trait_wits_academy>
+		<trait_bella_bulldogs>You know your way around the feild and never fumble.</trait_bella_bulldogs>
+		<trait_nrdd>You know your stuff 4 times as well as most, but you also have 4 times the laundry to do.</trait_nrdd>
+		<trait_n100_things>You probably know way more than 100 things about 100 Things.</trait_n100_things>
+		<trait_game_shakers>Gaming is your thing and you own any high-score screen.</trait_game_shakers>
+		<trait_every_witch_way>You bring the magic that makes everyday life more interesting.</trait_every_witch_way>
+		<trait_harvey_beaks>Pachoooooooooooooo to youuuuuuuuuuuu!</trait_harvey_beaks>
+		<trait_icarly>You're an iExpert</trait_icarly>
+		<trait_lok_atla>Ain't nothing you can't bend. All others respect your skills.</trait_lok_atla>
+		<trait_pr_dino_charge>You're favorite things are probably dinosaurs, robots and dinosaur-robots.</trait_pr_dino_charge>
+		<trait_pr_megaforce>When you and your squad get together, things get legendary.</trait_pr_megaforce>
+		<trait_sam_and_cat>Opposites attract and so do you. </trait_sam_and_cat>
+		<trait_spongebob>You're in an elite club of Spongeheads.</trait_spongebob>
+		<trait_tmnt>You fight for what's right. Especially the right pizza-toppings.</trait_tmnt>
+		<trait_victorious>You get jazz hands all around!!!!</trait_victorious>
+		
+	</brainHub>
+
+</strings>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
