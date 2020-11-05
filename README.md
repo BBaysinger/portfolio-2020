@@ -2,7 +2,7 @@ Obvs, a portfolio site to present history, accomplishments, and projects.
 
 Really, just a simple SPA with dynamic routing, built to later integrate with headless CMS. It runs off of JSON containing flags to activate different features of various pieces.
 
-To call out a few things that could fly under the radar, check out the swipe feature in the portfolio peice view, and, on mobile/touch/landscape, my solution for activating the informational state of the thumbnails in either two or three-column breakpoints.
+To call out a few things that could fly under the radar... check out the swipe feature in the portfolio peice view, and, on mobile/touch/landscape, my solution for activating the informational state of the thumbnails in either two or three-column breakpoints.
 
 I also kinda dig my mobile nav drawer slideout. There should be more like it out there. :)
 
