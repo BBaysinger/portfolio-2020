@@ -1,43 +1,44 @@
 @import "_global-vars";
 
 header {
-  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
   letter-spacing: 1px;
   background-color: $lighterThemeColor;
-  position: relative;
 
-  &.header_sub {
-    .header_container {
-      margin-top: 50px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-  }
+  &.header_main {
 
-  .header_container {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    min-height: 30vw;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-    
-    img { 
+    height: 100vh;
+    max-height: 812px;
+
+    .header-logo {
+      opacity: 0.3;
+      height: 40vh;
+      max-height: 300px;
       position: relative;
-      top: -20px;
+      top: -11px;
     }
 
-    h4, .h4, h5, .h5, h6, .h6 {
-      margin-bottom: 0px;
+    .view_portfolio {
+      img {
+        position: relative;
+        top: 10px;
+      }
     }
   }
 
-  .header_container h1 {
+  min-height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  h4, .h4, h5, .h5, h6, .h6 {
+    margin-bottom: 0px;
+  }
+
+  h1 {
     font-weight: 400; // Only a factor before fonts load.
     margin-top: 0px;
     margin-bottom: 0px;
@@ -73,10 +74,6 @@ header {
     background-color: $lighterThemeColor;
   }
 
-
-
-
-
   .bull {
     font-size: 60%;
   }
@@ -104,11 +101,5 @@ header {
     100% {
       opacity: 0.5;
     }
-  }
-
-  .header-logo {
-    opacity: 0.3;
-    height: 40vh;
-    max-height: 300px;
   }
 }

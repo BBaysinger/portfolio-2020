@@ -1,7 +1,5 @@
 import React from "react";
 
-import ExecutionEnvironment from "exenv";
-import Sniffer from "../../utils/Sniffer";
 import NavBar from "./NavBar";
 import Scroll from "react-scroll";
 
@@ -18,6 +16,8 @@ import caret from "../../assets/images/main-header/caret.png";
 
 /**
  * This is the header on the home page only, which is distinct from the header on every other page.
+ *
+ * TODO: Started TS conversion and aborted. Finish when there's down time!
  *
  * @author Bradley Baysinger
  * @since  x.x.x
@@ -40,6 +40,7 @@ export default class HeaderMain extends React.Component {
 
   /**
    *Creates an instance of HeaderMain.
+   * 
    * @memberof HeaderMain
    */
   // constructor(props: Props) {
@@ -47,18 +48,17 @@ export default class HeaderMain extends React.Component {
     super(props);
 
     this.state = {
-      height: this.getHeight(),
       caretAnimationStyle: "",
     };
   }
 
   /**
-   *
+   * Needed for the scroll-to-thumbs feature!
    *
    * @returns
    * @memberof HeaderMain
    */
-  getHeight() {
+  get eight() {
     // 812 is iPhone X height in portrait.
     return Math.max(Math.min(window.innerHeight, 812), 500);
   }
@@ -88,18 +88,6 @@ export default class HeaderMain extends React.Component {
   /**
    *
    *
-   * @param {*} e
-   * @memberof HeaderMain
-   */
-  handleResize = (e) => {
-    setTimeout(() => {
-      this.setState({ height: this.getHeight() });
-    }, 0); // Delay because width and height properties are not changed util after orientationchange fires.
-  };
-
-  /**
-   *
-   *
    * @memberof HeaderMain
    */
   handleScroll = () => {
@@ -112,21 +100,9 @@ export default class HeaderMain extends React.Component {
    * @memberof HeaderMain
    */
   componentDidMount() {
-    //Exclude mobile because resize triggers when scrolling (iOS).
-    //TODO: Fix to detect iOS Safari instead.
-    if (ExecutionEnvironment.canUseDOM && !Sniffer.mobile) {
-      window.addEventListener("resize", this.handleResize);
-    }
-
     setTimeout(() => {
       window.addEventListener("scroll", this.handleScroll);
     }, 50);
-
-    window.addEventListener("orientationchange", () => {
-      // Apparently if you run this right away, it will run before the
-      // new dimesions are readable.
-      setTimeout(this.handleResize, 100);
-    });
   }
 
   /**
@@ -135,9 +111,7 @@ export default class HeaderMain extends React.Component {
    * @memberof HeaderMain
    */
   componentWillUnmount() {
-    window.removeEventListener("resize", this.handleResize);
     window.removeEventListener("scroll", this.handleScroll);
-    window.removeEventListener("orientationchange", this.handleResize);
   }
 
   /**
@@ -150,15 +124,14 @@ export default class HeaderMain extends React.Component {
     return (
       <header className="header_main">
         <div className="overheadFill"></div>
-        <div className="header_container">
-          <img src={headerLogo} className="header-logo" alt="BB Logo" />
-          <h1>Bradley Baysinger</h1>
 
-          <h5 className="subhead">
-            <span className="nobr">Interactive Web</span> &bull;{" "}
-            <span className="nobr">Front-end Developer</span>
-          </h5>
-        </div>
+        <img src={headerLogo} className="header-logo" alt="BB Logo" />
+        <h1>Bradley Baysinger</h1>
+
+        <h5 className="subhead">
+          <span className="nobr">Interactive Web</span> &bull;{" "}
+          <span className="nobr">Front-end Developer</span>
+        </h5>
 
         <div
           className="view_portfolio"
