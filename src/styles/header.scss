@@ -5,8 +5,16 @@ header {
   display: flex;
   flex-direction: column;
 
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+
   letter-spacing: 1px;
   background-color: $lighterThemeColor;
+
+  &.header_sub {
+    padding-top: 50px;
+  }
 
   &.header_main {
 
@@ -28,11 +36,6 @@ header {
       }
     }
   }
-
-  min-height: 200px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
 
   h4, .h4, h5, .h5, h6, .h6 {
     margin-bottom: 0px;

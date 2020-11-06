@@ -3,7 +3,9 @@ import React from "react";
 import HeaderSub from "../components/layout/HeaderSub";
 
 /**
- * Page for references. Mostly a static page.
+ * My about page, titled as a question for some pseudo-mystery. Who's The Riddler now?
+ * 
+ * Mostly a static page.
  *
  * @author Bradley Baysinger
  * @since  x.x.x
@@ -43,18 +45,19 @@ export default class WhoAmI extends React.Component {
             </div> */}
 
             <p>
-              I'm a born native, and so far, a nearly lifelong resident of the
-              beautiful City of Spokane on the eastern side of Washington State.
-              In addition to my love for bringing beautiful web projects to
-              life, I have a history in fine arts and industrial&nbsp;arts.
+              To put it simply, I love to create. The personal reward I get from
+              making beautiful things makes it not work to me. It really doesn't
+              matter if it's a sculpture, a painting on canvas, or a very
+              technical progressive web application; as many people have
+              witnessed, I don't back down to&nbsp;challenges.
             </p>
 
             <p>
               To put it simply, I love to create. The personal reward I get from
               making beautiful things makes it not work to me. It really doesn't
               matter if it's a sculpture, a painting on canvas, or a very
-              technical progressive web application; as many people are witness,
-              I don't back down to&nbsp;challenges.
+              technical progressive web application; as many people have
+              witnessed, I don't back down to&nbsp;challenges.
             </p>
           </section>
 
@@ -63,23 +66,22 @@ export default class WhoAmI extends React.Component {
 
             <p>
               The advertising industry where I've spent many years is known for
-              turn-and-burn projects, and that couldn't be <i>more</i> true in
-              digital advertising. Agencies treat developers and designers well,
-              but when deadlines loom, in every way we are expected to sacrifice
-              from our personal lives for our projects, clients,
-              and&nbsp;colleagues.
+              turn-and-burn projects, and that couldn't be more true in digital
+              advertising. Agencies treat developers and designers well, but
+              when deadlines loom, in every way we are expected to sacrifice
+              from our personal lives for our projects, clients, and&nbsp;colleagues.
             </p>
           </section>
           <section>
             <h5>Leisure</h5>
 
             <p>
-              Over the last few years I've been increasingly pursing a healthy
-              and active lifestyle. This has lead me to becoming a bit of an
+              Over the last few years, I've been increasingly pursuing a healthy
+              and active lifestyle. This has led me to becoming a bit of an
               adventurer. I prefer to bike to work every day of the year, even
               through hard winters, and am emphatic about all things cycling. It
-              is absolutely a lifestyle for me, and leaves me with many tales to
-              tell. I wont do that here, but I will say, as I often do with
+              is absolutely a lifestyle for me and leaves me with many tales to
+              tell. I won't do that here, but I will say, as I often do with
               technical challenges, I take on things that are daunting, and I
               make them&nbsp;happen.
             </p>

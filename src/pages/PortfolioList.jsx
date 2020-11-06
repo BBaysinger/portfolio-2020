@@ -200,24 +200,24 @@ export default class PortfolioList extends React.Component {
 
             <p>
               I am a front-end web developer with fifteen years of industry
-              experience in fluid client-side scripting and interactive
+              experience in client-side scripting and fluid interactive
               experiences. I've worked on countless projects for Fortune 500
-              companies, as well as a few federal government&nbsp;agencies.
+              companies as well as a few federal government&nbsp;agencies.
             </p>
 
             <p>
-              I've presented just a few of my favorite projects to give a taste
-              of work I've done over the years. I've prevailed over some wildly
-              diverse challenges and a staggering number of <i>insane</i>{" "}
-              deadlines. From my experience I've gained an incredibly unique
-              view of UI and UX, and an endless toolbox of techniques I can
+              I've presented here just a few of my favorite projects to give a
+              taste of work I've done over the years. I've prevailed over some
+              wildly diverse challenges and a staggering number of insane
+              deadlines. From my experience, I've gained an incredibly unique
+              view of UI and UX and an endless toolbox of techniques that I can
               bring to the front-end&nbsp;scene.
             </p>
 
             <p>
               Meticulous perfectionism is my tendency, but what's brought me
               fantastic opportunities has been my passion for breathing life
-              into projects. Let's build some great things.
+              into projects. Let's build some great&nbsp;things.
             </p>
           </div>
         </div>
