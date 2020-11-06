@@ -58,7 +58,7 @@ export default class HeaderMain extends React.Component {
    * @returns
    * @memberof HeaderMain
    */
-  get eight() {
+  getHeight = () => {
     // 812 is iPhone X height in portrait.
     return Math.max(Math.min(window.innerHeight, 812), 500);
   }
