@@ -357,7 +357,6 @@ export default class PieceDetail extends React.Component<
    * @memberof PieceDetail
    */
   render() {
-    console.log(this.state);
     const pieceId = this.state.currentPieceId;
 
     if (typeof json[pieceId] === "undefined") {
