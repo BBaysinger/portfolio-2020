@@ -18,7 +18,7 @@ header {
 
   &.header_main {
 
-    height: 100vh;
+    // Not setting height here, as we're relying on ios-inner-height
     max-height: 812px;
 
     .header-logo {

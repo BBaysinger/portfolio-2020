@@ -2,6 +2,7 @@ import React from "react";
 
 import NavBar from "./NavBar";
 import Scroll from "react-scroll";
+import innerHeight from "ios-inner-height";
 
 import headerLogo from "../../assets/images/main-header/logo-header.png";
 import caret from "../../assets/images/main-header/caret.png";
@@ -40,7 +41,7 @@ export default class HeaderMain extends React.Component {
 
   /**
    *Creates an instance of HeaderMain.
-   * 
+   *
    * @memberof HeaderMain
    */
   // constructor(props: Props) {
@@ -61,7 +62,7 @@ export default class HeaderMain extends React.Component {
   getHeight = () => {
     // 812 is iPhone X height in portrait.
     return Math.max(Math.min(window.innerHeight, 812), 500);
-  }
+  };
 
   /**
    *
@@ -122,7 +123,7 @@ export default class HeaderMain extends React.Component {
    */
   render() {
     return (
-      <header className="header_main">
+      <header className="header_main" style={{ height: innerHeight() + "px" }}>
         <div className="overheadFill"></div>
 
         <img src={headerLogo} className="header-logo" alt="BB Logo" />
