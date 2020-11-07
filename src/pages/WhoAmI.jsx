@@ -70,6 +70,9 @@ export default class WhoAmI extends React.Component {
               when deadlines loom, in every way we are expected to sacrifice
               from our personal lives for our projects, clients,
               and&nbsp;colleagues.
+
+              (This was also true of my particular experience in data science, but
+              I'm not one to say if that is typical or not.
             </p>
           </section>
           <section>

@@ -110,7 +110,6 @@
 .list_note {
   display: flex;
   padding-bottom: 42px;
-  // background-color: #222222;
   background: linear-gradient(#111, #444);
   position: relative;
   z-index: 1000;
@@ -141,7 +140,7 @@
 
   p {
     font-size: 20px;
-    color: $heavierThemeColor; // #be7901;
+    color: $heavierThemeColor;
     line-height: 28px;
     margin-bottom: 30px;
   }
@@ -158,5 +157,13 @@
 
   a:visited {
     color: $noteLinkColor;
+  }
+
+  .asterisk {
+    float: left;
+    font-size: 92px;
+    line-height: 85px;
+    margin-right: 16px;
+    margin-bottom: -40px;
   }
 }

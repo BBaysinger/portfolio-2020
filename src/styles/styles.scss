@@ -32,6 +32,7 @@ body {
 .layout_content {
   background-color: #ffffff;
 }
+
 /* Boostrap (theme) override stuff. */
 //Fixes an issue with nav height changing for unknown reason.
 //TODO: May want this to
@@ -108,9 +109,13 @@ h5 .right-sub {
   vertical-align: bottom;
 }
 
-// .container {
-//   max-width: 860px;
-// }
+.container {
+  max-width: 1024px;
+}
+
+.yellow-orange {
+  color: $yellowOrange !important;
+}
 
 #main_content {
   margin-top: 50px;
@@ -144,10 +149,6 @@ h5 .right-sub {
     font-weight: 400 !important;
     margin-top: 0px;
     margin-block-end: 6px;
-    // border: 1px solid blue;
-    // &:first-of-type {
-    //   margin-top: -8px;
-    // }
   }
 
   div.section {
@@ -170,7 +171,6 @@ h5 .right-sub {
   ul {
     list-style: none;
     padding: 0;
-    // margin: 0;
   }
 
   li {
