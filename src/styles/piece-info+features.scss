@@ -29,6 +29,17 @@
   }
 
   .game_desktop_preferred,
+  .game_mobile_unavailable,
+  .site_mobile_unavailable {
+    a:link {
+      color: black !important;
+    }
+    a:visited {
+      color: black !important;
+    }
+  }
+
+  .game_desktop_preferred,
   .game_mobile_unavailable {
     color: $orange;
   }

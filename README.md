@@ -10,7 +10,7 @@ I've started refactoring for TypeScript, but gonna come back to it after frying 
 
 Another todo is that I built this with the intention to make the technical scope tags for each project into filters, so clickable to link out to a portfolio view of items filtered by the tag. Or it may be crazy to have that many portfolio items, but I think originally the idea was that I may want to continously contribute to projects, but only have a subset featured on the home page... Maybe in the next iteration...
 
-Some of the portfolio peices were a major undertaking bringing back to life... MAJOR time sink. And the only way I can think to make that not a problem in the future is just to be keeping up on your portfolio.
+Some of the portfolio peices were a major undertaking bringing back to life... MAJOR time sink. And the only way I can think to make that not a problem in the future is just to be keeping up on a portfolio at all times...
 
 That home hero design is going to change any day now, I swear. 🙂
 
