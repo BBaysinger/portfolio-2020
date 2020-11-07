@@ -10,9 +10,12 @@ import ExecutionEnvironment from "exenv";
 import Sniffer from "../utils/Sniffer";
 
 /**
- * The list of portfolio pieces, each represented by buttons on the home/portfolio page.
- * On mobile/touch devices, the thumbnail closest to the middle of the viewport is highlighted
- * like a rollover. If there are rows, the highlight then goes left-to-right across each row.
+ * The list of portfolio pieces, each represented by buttons/thumbnails on the home/portfolio page that are
+ * highlighted when they are in 'focus', which is determined by either a rollover or by scroll position.
+ * On mobile/touch devices, the thumbnail closest to the middle of the viewport is focused in single column,
+ * or if there are multiple columns, the focus proceeds through
+ * items in each row from left to right when scrolling downward (or opposite).
+ * That is determined by using math from scroll position.
  *
  * @author Bradley Baysinger
  * @since  x.x.x

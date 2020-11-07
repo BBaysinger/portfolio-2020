@@ -4,7 +4,7 @@ import HeaderSub from "../components/layout/HeaderSub";
 
 /**
  * My about page, titled as a question for some pseudo-mystery. Who's The Riddler now?
- * 
+ *
  * Mostly a static page.
  *
  * @author Bradley Baysinger
@@ -45,11 +45,10 @@ export default class WhoAmI extends React.Component {
             </div> */}
 
             <p>
-              To put it simply, I love to create. The personal reward I get from
-              making beautiful things makes it not work to me. It really doesn't
-              matter if it's a sculpture, a painting on canvas, or a very
-              technical progressive web application; as many people have
-              witnessed, I don't back down to&nbsp;challenges.
+              I'm a born native and, so far, a nearly lifelong resident of the
+              beautiful City of Spokane on the eastern side of Washington State.
+              In addition to my love for bringing beautiful web projects to
+              life, I have a history in fine arts and industrial&nbsp;arts.
             </p>
 
             <p>
@@ -69,7 +68,8 @@ export default class WhoAmI extends React.Component {
               turn-and-burn projects, and that couldn't be more true in digital
               advertising. Agencies treat developers and designers well, but
               when deadlines loom, in every way we are expected to sacrifice
-              from our personal lives for our projects, clients, and&nbsp;colleagues.
+              from our personal lives for our projects, clients,
+              and&nbsp;colleagues.
             </p>
           </section>
           <section>
