@@ -2,7 +2,6 @@ import React from "react";
 
 import NavBar from "./NavBar";
 import Scroll from "react-scroll";
-import innerHeight from "ios-inner-height";
 
 import headerLogo from "../../assets/images/main-header/logo-header.png";
 import caret from "../../assets/images/main-header/caret.png";
@@ -123,7 +122,7 @@ export default class HeaderMain extends React.Component {
    */
   render() {
     return (
-      <header className="header_main" style={{ height: innerHeight() + "px" }}>
+      <header className="header_main" style={{ height: this.getHeight() + "px" }}>
         <div className="overheadFill"></div>
 
         <img src={headerLogo} className="header-logo" alt="BB Logo" />
