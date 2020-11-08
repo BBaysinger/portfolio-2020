@@ -226,10 +226,10 @@ export default class PortfolioList extends React.Component {
             <p className="yellow-orange">
               <span className="asterisk">*</span>{" "}
               <div class="asterisk-copy">
-                There's one little asterisk about my portfolio right now. Lots
-                of jQuery. That wouldn't be my choice nowadays other than for
-                legacy support or another specific reason. Anyhow, I can speak
-                to how that has come to&nbsp;be. ✌️
+                About the abundance of jQuery in here, that wouldn't be my
+                choice nowadays other than for legacy support or another
+                specific reason. Anyhow, I can speak to how that has come
+                to&nbsp;be. ✌️
               </div>
             </p>
           </div>
