@@ -55,8 +55,8 @@ export default class WhoAmI extends React.Component {
               To put it simply, I love to create. The personal reward I get from
               making beautiful things makes it not work to me. It really doesn't
               matter if it's a sculpture, a painting on canvas, or a very
-              technical progressive web application; as many people have
-              witnessed, I don't back down to&nbsp;challenges.
+              technical progressive web application. I also love to challenge
+              myself and, as many people have witnessed, I don't back down.
             </p>
           </section>
 
@@ -69,10 +69,8 @@ export default class WhoAmI extends React.Component {
               advertising. Agencies treat developers and designers well, but
               when deadlines loom, in every way we are expected to sacrifice
               from our personal lives for our projects, clients,
-              and&nbsp;colleagues.
-
-              (This was also true of my particular experience in data science, but
-              I'm not one to say if that is typical or not.
+              and&nbsp;colleagues. (Also happens to be true of my
+              particular experience in data science.)
             </p>
           </section>
           <section>
