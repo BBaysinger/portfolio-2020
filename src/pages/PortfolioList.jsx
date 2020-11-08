@@ -93,9 +93,8 @@ export default class PortfolioList extends React.Component {
    * @param {*} e
    * @memberof PortfolioList
    */
-  update(e) {
+  update = (e) => {
     if (ExecutionEnvironment.canUseDOM) {
-      this.focusedThumbIndex = -1;
       if (Sniffer.mobile) {
         let offset;
         let absOffset;
@@ -118,15 +117,11 @@ export default class PortfolioList extends React.Component {
           if (absOffset < targetMaxOffset) {
             inRange.push(thumbRef);
           }
-          //  else {
-          //   component.setState({ highlight: false });
-          // }
         });
 
-        // Loop over the ones in range to see which ones to highlight.
-        inRange.forEach((thumb, index) => {
-          console.log(thumb);
-          thumbDOMNode = ReactDOM.findDOMNode(thumb);
+        // Loop over the ones in range to see which one to highlight.
+        inRange.forEach((thumbRef, index) => {
+          thumbDOMNode = ReactDOM.findDOMNode(thumbRef);
           bounding = thumbDOMNode.getBoundingClientRect();
           linkHeight = parseInt(thumbDOMNode.offsetHeight) / inRange.length;
           let top = bounding.top + linkHeight * index;
@@ -135,22 +130,15 @@ export default class PortfolioList extends React.Component {
           absOffset = Math.abs(offset);
 
           if (absOffset < targetMaxOffset) {
-            this.focusedThumbIndex = index;
+            console.log(thumbRef.props.index);
+
+            this.focusedThumbIndex = thumbRef.index;
           }
-          // if (absOffset < targetMaxOffset) {
-          //   active[index].setState({ highlight: true });
-          // } else {
-          //   active[index].setState({ highlight: false });
-          // }
         });
       } else {
         if (e.type === "resize") {
           // Force reset to hover mode.
           this.focusedThumbIndex = -1;
-          // this.pieceThumbRefs.forEach((component) => {
-          //   component.state.highlight = false;
-          //   component.setState(component.state);
-          // });
         }
       }
     }
