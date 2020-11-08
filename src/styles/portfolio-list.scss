@@ -24,6 +24,8 @@
     left: 0px;
     z-index: 0;
     opacity: 0.8;
+    will-change: opacity;
+    transition: opacity 0.5s linear;
   }
 
   .thumb-content {
@@ -33,7 +35,7 @@
     padding-top: 20px;
     width: 100%;
     height: 100px;
-    opacity: 0.01; // Too small a decimal causes frame drop!
+    opacity: 0.01; // Too small a decimal causes a frame drop!
     will-change: opacity, filter;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100px;
@@ -68,7 +70,7 @@
 
   .hover-highlight-vinette {
     opacity: 0.5;
-    transition: opacity 0.9s linear;
+    transition: opacity 0.3s linear;
   }
 
   .hover_enabled.piece-thumbnail:hover .vingette {
