@@ -508,7 +508,7 @@ export default class CurriculumVitae extends React.Component {
                 <div className="right-sub">[2003 - 2005]</div>
               </h5>
 
-              <p>A.A.S. Web Design — Honors — Awards</p>
+              <p>A.A.S. Web Design — Honors</p>
             </div>
           </div>
           <div className="section">

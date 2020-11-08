@@ -6,6 +6,7 @@
  */
 
 // TODO: This needs finished splitting out for detail device and infos.
+// We split those up for separation of concerns.
 
 @mixin flipX() {
   -moz-transform: scaleX(-1);
@@ -253,27 +254,27 @@
     // But it is necessary to prevent excess of 9-12 (scaled) piece shots from rendering (at negligible opacity).
     // For now, using left:-10000px with optimism that it helps, but TODO: need to research.
     position: absolute;
-    left: -10000px;
+    transform: translateX(-10000px);
 
     .shot {
       // NOTE: iOS Chrome does not load images in elements where opacity is zero.
       // Set it to minium allowed value instead of zero.
-      transition: left 0s;
+      transition: transform 0s;
     }
   }
 
   .trans_in .shot {
     opacity: 1;
-    left: 0;
+    transform: translateX(0);
     top: 0;
   }
 
   .trans_out .shot {
-    opacity: 0.01;
+    opacity: 0.001;
   }
 
   .init .shot {
-    opacity: 0.01;
+    opacity: 0.001;
   }
 
   .init .full_piece_desktop_shot {
@@ -295,18 +296,18 @@
   &.slide_lt {
     .trans_out {
       .full_piece_desktop_shot {
-        left: -150px;
+        transform: translateX(-150px);
       }
       .full_piece_mobile_shot {
-        left: -300px;
+        transform: translateX(-300px);
       }
     }
     .reset {
       .full_piece_desktop_shot {
-        left: 150px;
+        transform: translateX(150px);
       }
       .full_piece_mobile_shot {
-        left: 200px;
+        transform: translateX(200px);
       }
     }
   }
@@ -314,18 +315,18 @@
   &.slide_rt {
     .trans_out {
       .full_piece_desktop_shot {
-        left: 150px;
+        transform: translateX(150px);
       }
       .full_piece_mobile_shot {
-        left: 200px;
+        transform: translateX(200px);
       }
     }
     .reset {
       .full_piece_desktop_shot {
-        left: -150px;
+        transform: translateX(-150px);
       }
       .full_piece_mobile_shot {
-        left: -300px;
+        transform: translateX(-300px);
       }
     }
   }
