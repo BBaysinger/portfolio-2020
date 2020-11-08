@@ -13,6 +13,7 @@
   text-align: left;
   display: inline-block;
   overflow: visible;
+  // will-change: opacity, transform; // Didn't help?
 
   > * {
     position: relative;
@@ -25,7 +26,7 @@
   }
 
   .warn_paragraph {
-    color: #fcaa00; // TODO: Used to be red. We probably need two.
+    color: #fcaa00; // TODO: Used to be red. We probably need separate orange and red...
   }
 
   .game_desktop_preferred,
@@ -68,18 +69,18 @@
   // NOTE: iOS Chrome does not load images in elements where opacity is zero.
   // Set it to minium allowed value instead of zero.
   opacity: 0.001;
-  top: 20px;
+  transform: translateY(20px);
 }
 
 .trans_in #piece-info-and-features > * {
   opacity: 1;
   left: 0;
-  top: 0;
+  transform: translateY(0);
 }
 
 .trans_out #piece-info-and-features > * {
   opacity: 0.001;
-  top: -5px;
+  transform: translateY(-5px);
 }
 
 .init #piece-info-and-features > * {

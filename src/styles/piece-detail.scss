@@ -254,6 +254,7 @@
     // But it is necessary to prevent excess of 9-12 (scaled) piece shots from rendering (at negligible opacity).
     // For now, using left:-10000px with optimism that it helps, but TODO: need to research.
     position: absolute;
+    will-change: transform, opacity;
     transform: translateX(-10000px);
 
     .shot {

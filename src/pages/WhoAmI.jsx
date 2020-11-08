@@ -94,7 +94,7 @@ export default class WhoAmI extends React.Component {
               className="emphasis"
               style={{ fontSize: "16px", lineHeight: "22px" }}
             >
-              Personal challenges are part of my character. I take a great deal
+              Personal challenges are part of my character. And I take a great deal
               of pride in my work. If all goes well, you'll see these things in
               me. Let's make awesome projects&nbsp;together!
             </p>
