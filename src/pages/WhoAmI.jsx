@@ -68,9 +68,9 @@ export default class WhoAmI extends React.Component {
               turn-and-burn projects, and that couldn't be more true in digital
               advertising. Agencies treat developers and designers well, but
               when deadlines loom, in every way we are expected to sacrifice
-              from our personal lives for our projects, clients,
-              and&nbsp;colleagues. (Also happens to be true of my
-              particular experience in data science.)
+              from our personal lives for our projects, clients, and colleagues.
+              (Also happens to be true of my particular experience in
+              data&nbsp;science.)
             </p>
           </section>
           <section>
@@ -79,12 +79,12 @@ export default class WhoAmI extends React.Component {
             <p>
               Over the last few years, I've been increasingly pursuing a healthy
               and active lifestyle. This has led me to becoming a bit of an
-              adventurer. I prefer to bike to work every day of the year, even
-              through hard winters, and am emphatic about all things cycling. It
-              is absolutely a lifestyle for me and leaves me with many tales to
-              tell. I won't do that here, but I will say, as I often do with
-              technical challenges, I take on things that are daunting, and I
-              make them&nbsp;happen.
+              adventurer. But I have long prefered to bike to work every day of
+              the year, even through hard winters, and am emphatic about all
+              things cycling. It is absolutely a lifestyle for me and leaves me
+              with many tales to tell. I won't do that here, but I will say, as
+              I often do with technical challenges, I take on things that are
+              daunting, and I make them&nbsp;happen.
             </p>
           </section>
           <section>

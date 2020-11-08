@@ -12,15 +12,21 @@ const keys = Object.keys(json);
 
 const activeKeys = [];
 const activePieces = [];
+const listedPieces = [];
+const listedKeys = [];
 const activePiecesMap = {};
-let j = 0;
+let activeIndex = 0;
 
-keys.forEach((key, index) => {
+keys.forEach((key) => {
   if (json[key].active === "1") {
-    activeKeys[j] = key;
-    activePieces[j] = json[activeKeys[j]];
-    activePiecesMap[key] = json[activeKeys[j]];
-    j++;
+    if (json[key].omitFromList !== "1") {
+      listedPieces.push(json[key]);
+      listedKeys.push(key);
+    }
+    activeKeys[activeIndex] = key;
+    activePieces[activeIndex] = json[key];
+    activePiecesMap[key] = json[key];
+    activeIndex++;
   }
 });
 
@@ -57,6 +63,8 @@ const nextKey = (key) => {
 exports.nextKey = nextKey;
 exports.prevKey = prevKey;
 exports.getPieceIndex = pieceIndex;
+exports.listedKeys = listedKeys;
 exports.activeKeys = activeKeys;
+exports.listedPieces = listedPieces;
 exports.activePieces = activePieces;
 exports.activePiecesMap = activePiecesMap;

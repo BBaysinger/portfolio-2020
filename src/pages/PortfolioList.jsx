@@ -152,8 +152,8 @@ export default class PortfolioList extends React.Component {
       <div>
         <HeaderMain />
         <div className="portfolio_list">
-          {portfolioData.activePieces.map((pieceData, index) => {
-            let id = portfolioData.activeKeys[index];
+          {portfolioData.listedPieces.map((pieceData, index) => {
+            let id = portfolioData.listedKeys[index];
             let {
               title,
               omitFromList,
