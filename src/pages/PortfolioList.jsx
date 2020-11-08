@@ -225,7 +225,7 @@ export default class PortfolioList extends React.Component {
 
             <p className="yellow-orange">
               <span className="asterisk">*</span>{" "}
-              <div class="asterisk-copy">
+              <div className="asterisk-copy">
                 About the abundance of jQuery in here, that wouldn't be my
                 choice nowadays other than for legacy support or another
                 specific reason. Anyhow, I can speak to how that has come
