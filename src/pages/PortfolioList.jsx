@@ -27,14 +27,7 @@ export default class PortfolioList extends React.Component {
    *
    * @memberof PortfolioList
    */
-  pieceThumbs = null;
-
-  /**
-   *
-   *
-   * @memberof PortfolioList
-   */
-  pieceThumbComponents = [];
+  pieceThumbRefs = [];
 
   /**
    *
@@ -44,48 +37,11 @@ export default class PortfolioList extends React.Component {
   ticking = false;
 
   /**
-   * Creates an instance of PortfolioList.
+   *
+   *
    * @memberof PortfolioList
    */
-  constructor() {
-    super();
-
-    this.pieceThumbs = portfolioData.activePieces.map((pieceData, i) => {
-      let id = portfolioData.activeKeys[i];
-      let {
-        title,
-        omitFromList,
-        clientId,
-        property,
-        shortDesc,
-        desc,
-      } = pieceData;
-
-      return (
-        <PieceThumbnail
-          key={Math.random()} //facebook.github.io/react/docs/multiple-components.html#dynamic-children
-          index={i}
-          omitFromList={omitFromList}
-          pieceId={id}
-          title={title}
-          clientId={clientId}
-          property={property}
-          shortDesc={shortDesc}
-          desc={desc}
-          ref={(c) => {
-            this.pieceThumbComponents.push(c);
-          }}
-        />
-      );
-    });
-
-    // Backwards loop.
-    for (let i = this.pieceThumbs.length - 1; i >= 0; i--) {
-      if (StringUtil.stringToBool(this.pieceThumbs[i].props.omitFromList)) {
-        this.pieceThumbs.splice(i, 1);
-      }
-    }
-  }
+  focusedThumbIndex = -1;
 
   /**
    *
@@ -106,6 +62,14 @@ export default class PortfolioList extends React.Component {
     document.removeEventListener("scroll", this.handleScrollOrResize);
     window.removeEventListener("resize", this.handleScrollOrResize);
   }
+
+  /**
+   *
+   * @param {*} thumbComponent
+   */
+  setThumbRef = (thumbComponent) => {
+    this.pieceThumbRefs.push(thumbComponent);
+  };
 
   /**
    * This manages the thumbnails highlights that occur when scrolled to the middle
@@ -131,21 +95,20 @@ export default class PortfolioList extends React.Component {
    */
   update(e) {
     if (ExecutionEnvironment.canUseDOM) {
+      this.focusedThumbIndex = -1;
       if (Sniffer.mobile) {
         let offset;
         let absOffset;
         let bounding;
         let thumbDOMNode;
-        let component;
         let linkHeight;
         let targetMaxOffset;
         /* The row closest to vertical middle. */
-        let active = [];
+        let inRange = [];
 
-        this.pieceThumbComponents.forEach((comp, index) => {
-          component = comp;
-
-          thumbDOMNode = ReactDOM.findDOMNode(this.pieceThumbComponents[index]);
+        // Collect the 1, 2, or 3 that are closest to the middle of the viewport.
+        this.pieceThumbRefs.forEach((thumbRef, index) => {
+          thumbDOMNode = ReactDOM.findDOMNode(this.pieceThumbRefs[index]);
           bounding = thumbDOMNode.getBoundingClientRect();
           linkHeight = parseInt(thumbDOMNode.offsetHeight);
           targetMaxOffset = linkHeight / 2;
@@ -153,34 +116,41 @@ export default class PortfolioList extends React.Component {
           absOffset = Math.abs(offset);
 
           if (absOffset < targetMaxOffset) {
-            active.push(component);
-          } else {
-            component.setState({ highlight: false });
+            inRange.push(thumbRef);
           }
+          //  else {
+          //   component.setState({ highlight: false });
+          // }
         });
 
-        active.forEach((theActive, index) => {
-          thumbDOMNode = ReactDOM.findDOMNode(theActive);
+        // Loop over the ones in range to see which ones to highlight.
+        inRange.forEach((thumb, index) => {
+          console.log(thumb);
+          thumbDOMNode = ReactDOM.findDOMNode(thumb);
           bounding = thumbDOMNode.getBoundingClientRect();
-          linkHeight = parseInt(thumbDOMNode.offsetHeight) / active.length;
+          linkHeight = parseInt(thumbDOMNode.offsetHeight) / inRange.length;
           let top = bounding.top + linkHeight * index;
           targetMaxOffset = linkHeight / 2;
           offset = window.innerHeight / 2 - (top + targetMaxOffset);
           absOffset = Math.abs(offset);
 
           if (absOffset < targetMaxOffset) {
-            active[index].setState({ highlight: true });
-          } else {
-            active[index].setState({ highlight: false });
+            this.focusedThumbIndex = index;
           }
+          // if (absOffset < targetMaxOffset) {
+          //   active[index].setState({ highlight: true });
+          // } else {
+          //   active[index].setState({ highlight: false });
+          // }
         });
       } else {
         if (e.type === "resize") {
           // Force reset to hover mode.
-          this.pieceThumbComponents.forEach((component, index) => {
-            component.state.highlight = false;
-            component.setState(component.state);
-          });
+          this.focusedThumbIndex = -1;
+          // this.pieceThumbRefs.forEach((component) => {
+          //   component.state.highlight = false;
+          //   component.setState(component.state);
+          // });
         }
       }
     }
@@ -193,10 +163,45 @@ export default class PortfolioList extends React.Component {
    * @memberof PortfolioList
    */
   render() {
+    let pieceThumbs = portfolioData.activePieces.map((pieceData, index) => {
+      let id = portfolioData.activeKeys[index];
+      let {
+        title,
+        omitFromList,
+        clientId,
+        property,
+        shortDesc,
+        desc,
+      } = pieceData;
+
+      return (
+        <PieceThumbnail
+          focused={this.focusedThumbIndex === index}
+          key={Math.random()} //facebook.github.io/react/docs/multiple-components.html#dynamic-children
+          index={index}
+          omitFromList={omitFromList}
+          pieceId={id}
+          title={title}
+          clientId={clientId}
+          property={property}
+          shortDesc={shortDesc}
+          desc={desc}
+          ref={this.setThumbRef}
+        />
+      );
+    });
+
+    // Backwards loop.
+    for (let i = pieceThumbs.length - 1; i >= 0; i--) {
+      if (StringUtil.stringToBool(pieceThumbs[i].props.omitFromList)) {
+        pieceThumbs.splice(i, 1);
+      }
+    }
+
     return (
       <div>
         <HeaderMain />
-        <div className="portfolio_list">{this.pieceThumbs}</div>
+        <div className="portfolio_list">{pieceThumbs}</div>
         <div className="list_note">
           <div className="container">
             <h3>Welcome!</h3>
