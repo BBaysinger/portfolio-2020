@@ -4,7 +4,6 @@ import ReactDOM from "react-dom";
 import PieceThumbnail from "../components/PieceThumbnail";
 import HeaderMain from "../components/layout/HeaderMain";
 
-import StringUtil from "../utils/StringUtil";
 import portfolioData from "../components/PortfolioData";
 import ExecutionEnvironment from "exenv";
 import Sniffer from "../utils/Sniffer";
@@ -41,7 +40,7 @@ export default class PortfolioList extends React.Component {
    *
    * @memberof PortfolioList
    */
-  focusedThumbIndex = -1;
+  state = { focusedThumbIndex: -1 };
 
   /**
    *
@@ -130,19 +129,17 @@ export default class PortfolioList extends React.Component {
           absOffset = Math.abs(offset);
 
           if (absOffset < targetMaxOffset) {
-            console.log(thumbRef.props.index);
-
-            this.focusedThumbIndex = thumbRef.index;
+            this.setState({ focusedThumbIndex: thumbRef.props.index });
           }
         });
       } else {
         if (e.type === "resize") {
           // Force reset to hover mode.
-          this.focusedThumbIndex = -1;
+          this.setState({ test: 1, focusedThumbIndex: -1 });
         }
       }
     }
-  }
+  };
 
   /**
    *
@@ -151,45 +148,38 @@ export default class PortfolioList extends React.Component {
    * @memberof PortfolioList
    */
   render() {
-    let pieceThumbs = portfolioData.activePieces.map((pieceData, index) => {
-      let id = portfolioData.activeKeys[index];
-      let {
-        title,
-        omitFromList,
-        clientId,
-        property,
-        shortDesc,
-        desc,
-      } = pieceData;
-
-      return (
-        <PieceThumbnail
-          focused={this.focusedThumbIndex === index}
-          key={Math.random()} //facebook.github.io/react/docs/multiple-components.html#dynamic-children
-          index={index}
-          omitFromList={omitFromList}
-          pieceId={id}
-          title={title}
-          clientId={clientId}
-          property={property}
-          shortDesc={shortDesc}
-          desc={desc}
-          ref={this.setThumbRef}
-        />
-      );
-    });
-
-    // Backwards loop.
-    for (let i = pieceThumbs.length - 1; i >= 0; i--) {
-      if (StringUtil.stringToBool(pieceThumbs[i].props.omitFromList)) {
-        pieceThumbs.splice(i, 1);
-      }
-    }
-
     return (
       <div>
         <HeaderMain />
-        <div className="portfolio_list">{pieceThumbs}</div>
+        <div className="portfolio_list">
+          {portfolioData.activePieces.map((pieceData, index) => {
+            let id = portfolioData.activeKeys[index];
+            let {
+              title,
+              omitFromList,
+              clientId,
+              property,
+              shortDesc,
+              desc,
+            } = pieceData;
+
+            return (
+              <PieceThumbnail
+                focused={this.state.focusedThumbIndex === index}
+                key={title} //facebook.github.io/react/docs/multiple-components.html#dynamic-children
+                index={index}
+                omitFromList={omitFromList}
+                pieceId={id}
+                title={title}
+                clientId={clientId}
+                property={property}
+                shortDesc={shortDesc}
+                desc={desc}
+                ref={this.setThumbRef}
+              />
+            );
+          })}
+        </div>
         <div className="list_note">
           <div className="container">
             <h3>Welcome!</h3>

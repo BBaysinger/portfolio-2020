@@ -11,24 +11,6 @@ import Sniffer from "../utils/Sniffer";
  */
 export default class PieceThumbnail extends React.Component {
   /**
-   *Creates an instance of PieceThumbnail.
-   * @memberof PieceThumbnail
-   */
-  constructor() {
-    super();
-    this.state = {};
-  }
-
-  /**
-   *
-   *
-   * @memberof PieceThumbnail
-   */
-  update() {
-    this.setState(this.state);
-  }
-
-  /**
    *
    *
    * @returns
@@ -41,7 +23,7 @@ export default class PieceThumbnail extends React.Component {
       backgroundImage: "url('/images/thumbs/" + pieceId + ".jpg')",
     };
 
-    const highlight = !!this.state.highlight ? "piece-thumbnail-highlight" : "";
+    const highlight = this.props.focused ? "piece-thumbnail-highlight" : "";
     const hoverEnabled = !Sniffer.mobile ? "hover_enabled" : "";
 
     return (
