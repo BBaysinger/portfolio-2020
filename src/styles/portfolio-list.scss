@@ -21,7 +21,6 @@
     position: absolute;
     background-position: center center;
     background-size: cover;
-    top: 0;
     left: 0px;
     z-index: 0;
     opacity: 0.8;
@@ -34,30 +33,29 @@
     padding-top: 20px;
     width: 100%;
     height: 100px;
-    opacity: 0.001;
+    opacity: 0.0001;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100px;
-    transition: opacity 0.3s ease-in-out, top 0.1s ease-out, height 0.1s ease-in-out;
+    transition: opacity 0.3s ease-in-out, height 0.1s ease-in-out;
     overflow: hidden;
 
     > * {
       position: relative;
-      left: -20%;
-      transition: opacity 0.4s ease-out, left 0.4s ease-out, top 0.1s ease-out, filter 0.3s linear;
+      transform: translateX(-20%);
+      transition: opacity 0.4s ease-out, transform 0.4s ease-out, filter 0.3s linear;
       filter: blur(10px);
 
       &:nth-child(2) {
         transition-delay: 0.03s;
-        left: 20%;
+        transform: translateX(20%);
       }
     }
 
     &.hover-highlight-thumb-content {
       opacity: 1;
-      top: 0px;
 
       > * {
-        left: 0px;
+        transform: translateX(0px);
         filter: blur(0px);
 
         &:nth-child(1) {
