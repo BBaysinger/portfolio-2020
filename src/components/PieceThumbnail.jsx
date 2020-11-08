@@ -23,14 +23,14 @@ export default class PieceThumbnail extends React.Component {
       backgroundImage: "url('/images/thumbs/" + pieceId + ".jpg')",
     };
 
-    const highlight = this.props.focused ? "piece-thumbnail-highlight" : "";
+    const focus = this.props.focused ? "piece-thumbnail-focus" : "";
     const hoverEnabled = !Sniffer.mobile ? "hover_enabled" : "";
 
     return (
       <div
         className={
           "col-lg-4 col-md-6 col-sm-6 piece-thumbnail " +
-          highlight +
+          focus +
           " " +
           hoverEnabled
         }

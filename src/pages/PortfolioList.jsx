@@ -10,7 +10,7 @@ import Sniffer from "../utils/Sniffer";
 
 /**
  * The list of portfolio pieces, each represented by buttons/thumbnails on the home/portfolio page that are
- * highlighted when they are in 'focus', which is determined by either a rollover or by scroll position.
+ * focused when they are either rolled over or scrolled to the vertical middle of the viewport.
  * On mobile/touch devices, the thumbnail closest to the middle of the viewport is focused in single column,
  * or if there are multiple columns, the focus proceeds through
  * items in each row from left to right when scrolling downward (or opposite).
@@ -71,8 +71,8 @@ export default class PortfolioList extends React.Component {
   };
 
   /**
-   * This manages the thumbnails highlights that occur when scrolled to the middle
-   * of the viewport (mobile), or hovered over (desktop).
+   * A best practice that can help performace for processes that
+   * may cause dropped frames on scroll.
    *
    * @param {*} e
    */
@@ -118,7 +118,7 @@ export default class PortfolioList extends React.Component {
           }
         });
 
-        // Loop over the ones in range to see which one to highlight.
+        // Loop over the ones in range to see which one to focus.
         inRange.forEach((thumbRef, index) => {
           thumbDOMNode = ReactDOM.findDOMNode(thumbRef);
           bounding = thumbDOMNode.getBoundingClientRect();
@@ -209,8 +209,8 @@ export default class PortfolioList extends React.Component {
             <p className="yellow-orange">
               <span className="asterisk">*</span>{" "}
               <span className="asterisk-copy">
-                About the abundance of jQuery in here, that wouldn't be my
-                choice nowadays other than for legacy support or another
+                Regarding the abundance of jQuery here, that wouldn't be my
+                choice nowadays other than for legacy support or any
                 specific reason. Anyhow, I can speak to how that has come
                 to&nbsp;be. ✌️
               </span>

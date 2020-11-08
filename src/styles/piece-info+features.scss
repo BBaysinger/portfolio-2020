@@ -67,7 +67,7 @@
 .reset #piece-info-and-features > * {
   // NOTE: iOS Chrome does not load images in elements where opacity is zero.
   // Set it to minium allowed value instead of zero.
-  opacity: 0;
+  opacity: 0.01;
   top: 20px;
 }
 
@@ -78,12 +78,12 @@
 }
 
 .trans_out #piece-info-and-features > * {
-  opacity: 0;
+  opacity: 0.01;
   top: -5px;
 }
 
 .init #piece-info-and-features > * {
-  opacity: 0;
+  opacity: 0.01;
   transition: top 0.3s ease-out, opacity 0.3s;
 }
 

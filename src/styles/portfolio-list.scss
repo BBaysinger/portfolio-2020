@@ -54,7 +54,7 @@
       }
     }
 
-    &.hover-highlight-thumb-content {
+    &.hover-focus-thumb-content {
       opacity: 1;
 
       > * {
@@ -68,25 +68,25 @@
     }
   }
 
-  .hover-highlight-vinette {
+  .hover-focus-vinette {
     opacity: 0.5;
     transition: opacity 0.3s linear;
   }
 
   .hover_enabled.piece-thumbnail:hover .vingette {
-    @extend .hover-highlight-vinette;
+    @extend .hover-focus-vinette;
   }
 
   .hover_enabled.piece-thumbnail:hover .thumb-content {
-    @extend .hover-highlight-thumb-content;
+    @extend .hover-focus-thumb-content;
   }
 
-  .piece-thumbnail-highlight .vingette {
-    @extend .hover-highlight-vinette;
+  .piece-thumbnail-focus .vingette {
+    @extend .hover-focus-vinette;
   }
 
-  .piece-thumbnail-highlight .thumb-content {
-    @extend .hover-highlight-thumb-content;
+  .piece-thumbnail-focus .thumb-content {
+    @extend .hover-focus-thumb-content;
   }
 
   .client-logo {
