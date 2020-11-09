@@ -104,8 +104,10 @@ export default class PortfolioList extends React.Component {
         /* The row closest to vertical middle. */
         let inRange = [];
 
-        // Collect the 1, 2, or 3 that are closest to the middle of the viewport.
+        // Collect the 1, 2, or 3 (of a row) that are closest to the middle of the viewport.
         this.pieceThumbRefs.forEach((thumbRef, index) => {
+          // TODO: Should be able to ref a memeber of THIS component rather
+          // than reaching for the child's DOM node. 🤔
           thumbDOMNode = ReactDOM.findDOMNode(this.pieceThumbRefs[index]);
           bounding = thumbDOMNode.getBoundingClientRect();
           linkHeight = parseInt(thumbDOMNode.offsetHeight);
