@@ -3,6 +3,9 @@ import React from "react";
 /**
  * "Shot" as in screenshots. This is a component to display screenshots
  * within device images in the device details pages.
+ * 
+ * TODO: Noticing on this iteration that the screen shots are not preloading on
+ * iOS Safari. This may have started when I switched to using translateX over left property.
  *
  * @author Bradley Baysinger
  * @since  x.x.x
