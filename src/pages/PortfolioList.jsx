@@ -214,7 +214,7 @@ export default class PortfolioList extends React.Component {
                 Regarding the abundance of jQuery here, that wouldn't be my
                 choice nowadays other than for legacy support or any
                 specific reason. Anyhow, I can speak to how that has come
-                to&nbsp;be. ✌️
+                to&nbsp;be. I'm looking to move forward. ✌️
               </span>
             </p>
           </div>
