@@ -208,7 +208,7 @@ export default class PortfolioList extends React.Component {
               into projects. Let's build some great&nbsp;things.
             </p>
 
-            <p className="yellow-orange">
+            {/* <p className="yellow-orange">
               <span className="asterisk">*</span>{" "}
               <span className="asterisk-copy">
                 Regarding the abundance of jQuery here, that wouldn't be my
@@ -216,7 +216,7 @@ export default class PortfolioList extends React.Component {
                 specific reason. Anyhow, I can speak to how that has come
                 to&nbsp;be. I'm looking to move forward. ✌️
               </span>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
