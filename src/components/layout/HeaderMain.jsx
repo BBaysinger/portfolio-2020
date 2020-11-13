@@ -47,7 +47,11 @@ export default class HeaderMain extends React.Component {
   constructor(props) {
     super(props);
 
+    // Height is on state because of the toolbar issue with iOS Safari
+    // We control when a change can affect our element, and use state
+    // to trigger a rerender.
     this.state = {
+      height: this.getHeight(),
       caretAnimationStyle: "",
     };
   }
@@ -88,6 +92,18 @@ export default class HeaderMain extends React.Component {
   /**
    *
    *
+   * @param {*} e
+   * @memberof HeaderMain
+   */
+  handleResize = (e) => {
+    setTimeout(() => {
+      this.setState({ height: this.getHeight() });
+    }, 0); // Delay because width and height properties are not changed util after orientationchange fires.
+  };
+
+  /**
+   *
+   *
    * @memberof HeaderMain
    */
   handleScroll = () => {
@@ -122,7 +138,7 @@ export default class HeaderMain extends React.Component {
    */
   render() {
     return (
-      <header className="header_main" style={{ height: this.getHeight() + "px" }}>
+      <header className="header_main" style={{ minHeight: this.state.height + "px" }}>
         <div className="overheadFill"></div>
 
         <img src={headerLogo} className="header-logo" alt="BB Logo" />

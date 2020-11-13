@@ -315,6 +315,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <div className="sub-container">
                   <div className="left-sub">
+                    {/* Interactive Developer */}
                     Lead Browser Game / Flash Developer
                   </div>
                   <div className="break"></div>
