@@ -18,6 +18,8 @@ The desision to use Bootstrap was made a long time ago. I would not make that ch
 
 Merely that I feel like I know my audience here, there's no support for IE like I would have in every other project.
 
+Yeah there's more jQuery in this than I would like. Those choices haven't always been up to me.
+
 If anyone out there wants to use this, pleast just ask, and maybe contribute. 😉
 
 Ok, that's all I have to say for now. ✌️
