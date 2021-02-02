@@ -187,36 +187,31 @@ export default class PortfolioList extends React.Component {
             <h3>Welcome!</h3>
 
             <p>
-              I am a front-end web developer with fifteen years of industry
-              experience in client-side scripting and fluid interactive
-              experiences. I've worked on countless projects for Fortune 500
-              companies as well as a few federal government&nbsp;agencies.
+              I am an interactive and front-end web developer with fifteen years
+              of industry experience in client-side scripting and fluid
+              interactive experiences. Aside from a chunk of years in
+              proprietary and/or specialized technologies, I have been
+              manipulating DOM heavily since around 2001 upon my initial
+              interest. Then since earning a degree in web design in 2005 and
+              landing a spot in a top-tier digital advertising agency, I
+              continued to pursue coding, as the quality results were as
+              unending as the prolific&nbsp;projects.
             </p>
 
             <p>
-              I've presented here just a few of my favorite projects to give a
-              taste of work I've done over the years. I've prevailed over some
-              wildly diverse challenges and a staggering number of insane
-              deadlines. From my experience, I've gained an incredibly unique
-              view of UI and UX and an endless toolbox of techniques that I can
-              bring to the front-end&nbsp;scene.
+              Inventing and learning have been a constant and every single
+              deadline was totally insane. From this experience I've gained an
+              unique view of UX, UI, front-end, and working with ever-changing
+              teams and&nbsp;processes.
             </p>
 
             <p>
-              Meticulous perfectionism is my tendency, but what's brought me
-              fantastic opportunities has been my passion for breathing life
-              into projects. Let's build some great&nbsp;things.
+              Meticulous perfectionism, adherence to best practices, and
+              flexible solutions have always been my strength and preference
+              when time permits, but what's brought me fantastic opportunities
+              has been my unending passion for making beautiful concepts come to
+              life. Let's build some great&nbsp;things.
             </p>
-
-            {/* <p className="yellow-orange">
-              <span className="asterisk">*</span>{" "}
-              <span className="asterisk-copy">
-                Regarding the abundance of jQuery here, that wouldn't be my
-                choice nowadays other than for legacy support or any
-                specific reason. Anyhow, I can speak to how that has come
-                to&nbsp;be. I'm looking to move forward. ✌️
-              </span>
-            </p> */}
           </div>
         </div>
       </div>

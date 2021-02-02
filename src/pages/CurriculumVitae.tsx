@@ -518,16 +518,14 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     In a notoriously fragmented era for browsers, took on
-                    cross-platform challenges, partly to stand out from other
-                    developers, but mostly as an interesting and
-                    rewarding&nbsp;challenge
+                    cross-platform and backward-compatible challenges, partly to
+                    stand out from other developers, but mostly as an
+                    interesting and rewarding&nbsp;challenge
                   </li>
                   <li>
                     This lead me to creating effects that looked like Flash at
-                    the time, but also
-                    <span className="nobr">backwards-compatible</span>, and
-                    <span className="nobr">cross-platform</span>, no matter how
-                    trivial the details, merely because it was interesting
+                    the time with only early DOM elements, which had developers
+                    scratching their heads as to how I did what I did
                   </li>
                 </ul>
               </div>
