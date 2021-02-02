@@ -14,7 +14,7 @@ Some of the portfolio peices were a major undertaking bringing back to life... M
 
 That home hero design is going to change any day now, I swear. 🙂
 
-The desision to use Bootstrap was made a long time ago. I would not make that choice today.
+TODO: Swap out Bootstrap grid for flextbox.
 
 Merely that I feel like I know my audience here, there's no support for IE like I would have in every other project.
 
