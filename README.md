@@ -2,7 +2,7 @@ Obvs, a portfolio site to present history, accomplishments, and projects.
 
 Really, just a simple SPA with dynamic routing, built to later integrate with headless CMS and/or SSR/SSG. It runs off of static JSON containing flags to activate different features of various portfolio pieces.
 
-To call out a few things that could fly under the radar... on mobile/touch/landscape, my solution for activating the informational state of the thumbnails (without the hover present on non-mobile) in either two or three-column breakpoints. And my swipe feature in the portfolio piece detail view.
+To call out a few things that could fly under the radar... on tablet/touch/landscape, my solution for activating the informational state of the thumbnails (without the hover present on non-mobile) in either two or three-column breakpoints. And my swipe feature in the portfolio piece detail view.
 
 I also kinda dig my mobile-nav drawer slideout. There should be more like it out there. Or maybe it's old news, I tend to be a little old fashioned! J/k!
 
