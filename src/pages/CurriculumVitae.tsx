@@ -39,17 +39,17 @@ export default class CurriculumVitae extends React.Component {
    * @memberof CurriculumVitae
    */
   code = [
-    "TypeScript",
+    "TypeScript (preferred)",
     "ES6",
     "ES5 (vanilla JavaScript)",
-    "jQuery",
     "HTML / HTML5",
     "CSS / CSS3",
     "SASS / SCSS",
     "Node / NPM",
     "Angular 2+",
     "React",
-    "Vue",
+    "Vue (tinkering)",
+    "jQuery",
     "SVG",
     "HTML5 Canvas",
     "Webpack",
@@ -61,22 +61,25 @@ export default class CurriculumVitae extends React.Component {
     "XSL",
     "REST",
     "APIs",
-    "PHP",
+    "PHP (learning)",
     "RxJS",
-    "Handlebars",
+    "Moustache / Handlebars",
     "Require / AMD",
     "Twig",
     "Git",
-    "Elastic Search",
+    "Elasticsearch",
     "DHTML",
     "OOP",
-    "AS3 (like Java)",
+    "SEO",
+    "Design Patterns (AS3)",
+    "AS3 (like Java / ECMAScript)",
     "Haxe (like Java)",
-    "Greensock",
+    "Greensock / GSAP",
     "Tween / Animation Engines",
     "Game Engines",
     "Create / EaselJS",
     "Mapbox",
+    "PixiJS",
   ];
 
   /**
@@ -94,12 +97,13 @@ export default class CurriculumVitae extends React.Component {
   software = [
     "Illustrator",
     "Photoshop",
-    "Animate",
+    "Animate (w/ scripting & HTML5 export)",
     "Craft CMS",
     "VSCode",
     "Atom Editor",
     "VirtualBox",
     "SauceLabs",
+    "BrowserStack",
   ];
 
   /**
@@ -130,16 +134,44 @@ export default class CurriculumVitae extends React.Component {
    */
   clients = [
     "Nickelodeon",
-    "Disney",
+    "Nick Jr.",
     "Nintendo",
+    "Disney",
+    "Addicting Games",
+    "The N",
     "AT&T",
+    "T-Mobile",
+    "Premera Blue Cross",
+    "Expedia",
+    "Bravo",
+    "Earthbound Farms",
+    "Cingular",
     "New Line Cinema",
+    "The Weinstein Company",
+    "HTC",
+    "OnSet Productions",
+    "Postopia",
     "Netflix",
+    "Ronix Wakeboards",
+    "RedHook Brewery",
+    "Stoli Vodka",
+    "Tanteo Tequila",
+    "National Geographic",
+    "Tobacco Smokes You",
+    "UBS Financial Services",
+    "Washington Trust Bank",
+    "Wildbrain",
     "Mattel",
+    "XM Radio",
+    "Lincoln Mercury",
     "MTV",
+    "Avista",
     "WildBrain",
+    "Yesmail",
     "USDA",
     "EPA",
+    "NIFA",
+    "Novo Nordisk",
     "and many more...",
   ];
 
@@ -174,7 +206,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Freelance / Contract</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">Front-end Web Developer</div>
+                  <div className="left-sub">Interactive Developer</div>
                   <div className="break"></div>
                   <div className="right-sub">[2019 - Present]</div>
                 </div>
@@ -183,12 +215,13 @@ export default class CurriculumVitae extends React.Component {
                   Provided technical leadership in consulting and website
                   production of specialized and focused projects for diverse
                   clients, including local businesses, nationally-targeted
-                  startups, and an international charity
+                  startups, an international charity, and a pharmaceutical
+                  marketing&nbsp;agency
                 </p>
 
                 <p className="scope">
                   <span>Technical Scope:</span> Angular 2+, TypeScript, React,
-                  HTML5, CSS3, SVG, SCSS, Craft CMS,&nbsp;Wordpress
+                  HTML5, CSS3, SVG, SCSS,&nbsp;Craft CMS
                 </p>
 
                 <ul>
@@ -208,8 +241,12 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Built and integrated an Angular employment application
-                    tracking system with Elastic Search
+                    tracking system with Elasticsearch
                     (consumed&nbsp;via&nbsp;REST)
+                  </li>
+                  <li>
+                    Collaborated and organized with teams remotely via Jira and
+                    video conferencing
                   </li>
                 </ul>
               </div>
@@ -220,7 +257,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Seven2 Interactive</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">Front-end Web Developer</div>
+                  <div className="left-sub">Interactive Developer</div>
                   <div className="break"></div>
                   <div className="right-sub">[2018 - 2019]</div>
                 </div>
@@ -253,7 +290,8 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Contribution and technical oversight of concepts with teams
-                    of designers, developers, and&nbsp;animators
+                    of designers, developers, and animators via Trello (Kanban
+                    style, slimilar to&nbsp;Jira)
                   </li>
                 </ul>
               </div>
@@ -264,9 +302,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>ChalkLabs</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">
-                    Designer / Front-end Web Developer
-                  </div>
+                  <div className="left-sub">UI Developer</div>
                   <div className="break"></div>
                   <div className="right-sub">[2017 - 2018]</div>
                 </div>
@@ -279,7 +315,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <p className="scope">
                   <span>Technical Scope:</span> (Heavy) Angular 2+, TypeScript,
-                  Bootstrap, Mapbox, Elastic Search, HTML5,&nbsp;Canvas
+                  Bootstrap, Mapbox, Elasticsearch, HTML5,&nbsp;Canvas
                 </p>
 
                 <ul>
@@ -314,10 +350,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Seven2 Interactive</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">
-                    {/* Interactive Developer */}
-                    Lead Browser Game / Flash Developer
-                  </div>
+                  <div className="left-sub">Interactive Developer</div>
                   <div className="break"></div>
                   <div className="right-sub">[2005 - 2016]</div>
                 </div>
@@ -415,7 +448,9 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Freelance</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">Designer / Front-end Developer</div>
+                  <div className="left-sub">
+                    Designer / Front-end Web Developer
+                  </div>
                   <div className="break"></div>
                   <div className="right-sub">[2003 - 2005]</div>
                 </div>
@@ -456,7 +491,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Hobbyist</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">Designer / Front-end Developer</div>
+                  <div className="left-sub">Interactive Tinkerer</div>
                   <div className="break"></div>
                   <div className="right-sub">[2001 - 2003]</div>
                 </div>
@@ -473,7 +508,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <ul>
                   <li>
-                    Operating solely on inspiration to experiment, boldly delved
+                    Operating solely on inspiration to experiment, delved deeply
                     into creative UI concepts beyond my skill and nurtured
                     technical understanding to accomplish&nbsp;them
                   </li>
@@ -484,11 +519,15 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     In a notoriously fragmented era for browsers, took on
                     cross-platform challenges, partly to stand out from other
-                    developers, but mostly as an interesting&nbsp;challenge
+                    developers, but mostly as an interesting and
+                    rewarding&nbsp;challenge
                   </li>
                   <li>
                     This lead me to creating effects that looked like Flash at
-                    the time, all <span className="nobr">cross-platform</span>
+                    the time, but also
+                    <span className="nobr">backwards-compatible</span>, and
+                    <span className="nobr">cross-platform</span>, no matter how
+                    trivial the details, merely because it was interesting
                   </li>
                 </ul>
               </div>
