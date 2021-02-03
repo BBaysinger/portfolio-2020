@@ -1,12 +1,12 @@
 Obvs, a portfolio site to present history, accomplishments, and projects.
 
-Really, just a simple SPA with dynamic routing, built to later integrate with headless CMS. It runs off of JSON containing flags to activate different features of various portfolio pieces.
+Really, just a simple SPA with dynamic routing, built to later integrate with headless CMS and/or SSR/SSG. It so far runs off of static JSON containing flags to activate different features of various portfolio pieces.
 
-To call out a few things that could fly under the radar... on mobile/touch/landscape, my solution for activating the informational state of the thumbnails (without the hover present on non-mobile) in either two or three-column breakpoints. And my swipe feature in the portfolio piece detail view.
+To call out a few things that could fly under the radar... on tablet/touch/landscape, my solution for activating the informational state of the thumbnails (without the hover present on desktop/laptop) in either two or three-column breakpoints. And my swipe feature in the portfolio piece detail view.
 
 I also kinda dig my mobile-nav drawer slideout. There should be more like it out there. Or maybe it's old news, I tend to be a little old fashioned! J/k!
 
-I've started refactoring for TypeScript, but gonna come back to it after frying some bigger fish. It's pretty tedious, but important as I like to set up certain things up to extract features into later projects. ¯\\_(ツ)\_/¯
+I've started refactoring for TypeScript, but gonna come back to it after frying some bigger fish. It's pretty tedious, but important as I like to set up certain things to extract features into later projects. ¯\\_(ツ)\_/¯
 
 Another todo is that I built this with the intention to make the technical scope tags for each project into filters, so clickable to link out to a portfolio view of items filtered by the tag. Or it may be crazy to have that many portfolio items, but I think originally the idea was that I may want to continously contribute to projects, but only have a subset featured on the home page... Maybe in the next iteration...
 
@@ -14,9 +14,11 @@ Some of the portfolio peices were a major undertaking bringing back to life... M
 
 That home hero design is going to change any day now, I swear. 🙂
 
-The desision to use Bootstrap was made a long time ago. I would not make that choice today.
+TODO: Swap out Bootstrap grid for flextbox.
 
 Merely that I feel like I know my audience here, there's no support for IE like I would have in every other project.
+
+Yeah there's more jQuery in this than I would like. Those choices haven't always been up to me.
 
 If anyone out there wants to use this, pleast just ask, and maybe contribute. 😉
 
