@@ -536,7 +536,9 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     This lead me to creating effects that looked like Flash at
                     the time with only early DOM elements, which had developers
-                    scratching their heads as to how I did what I did
+                    scratching their heads as to how I did what I did (You
+                    almost had to be a little nutty to even try at that point.
+                    Thankfully things have improved&nbsp;vastly.)
                   </li>
                 </ul>
               </div>

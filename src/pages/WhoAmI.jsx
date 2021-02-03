@@ -34,7 +34,9 @@ export default class WhoAmI extends React.Component {
             aliquip ex ea commodo consequat.
           </p>*/}
 
-          <h4>You know what. Now <i>who.</i></h4>
+          <h4>
+            You know what now. Now <i>who.</i>
+          </h4>
 
           <section>
             <h5>Introduction</h5>
@@ -45,8 +47,15 @@ export default class WhoAmI extends React.Component {
             </div> */}
 
             <p>
-              I'm a born native and, so far, a nearly lifelong resident of the
-              beautiful City of Spokane on the eastern side of Washington State.
+              I'm a nearly lifelong resident of the beautiful City of Spokane on
+              the eastern side of Washington State, near the Idaho Panhandle. I
+              live within walking distance of an expanse of parks that National
+              Geographic has listed in the top ten urban parks in the country,
+              which winds along with the Spokane River, a tribuary to the
+              Columbia&nbsp;River.
+            </p>
+
+            <p>
               In addition to my love for bringing beautiful web projects to
               life, I have a history in fine arts and industrial&nbsp;arts.
             </p>
@@ -56,7 +65,8 @@ export default class WhoAmI extends React.Component {
               making beautiful things makes it not work to me. It really doesn't
               matter if it's a sculpture, a painting on canvas, or a very
               technical progressive web application. I also love to challenge
-              myself and, as many people have witnessed, I don't back down.
+              myself and, as many people have witnessed, I sometimes go big
+              on&nbsp;challenges.
             </p>
           </section>
 
@@ -94,9 +104,9 @@ export default class WhoAmI extends React.Component {
               className="emphasis"
               style={{ fontSize: "16px", lineHeight: "22px" }}
             >
-              Personal challenges are part of my character. And I take a great deal
-              of pride in my work. If all goes well, you'll see these things in
-              me. Let's make awesome projects&nbsp;together!
+              Personal challenges are part of my character. And I take a great
+              deal of pride in my work. If all goes well, you'll see these
+              things in me. Let's make awesome projects&nbsp;together!
             </p>
           </section>
         </div>
