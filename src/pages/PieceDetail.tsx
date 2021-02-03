@@ -38,7 +38,7 @@ interface PieceDetailProps extends RouteComponentProps<PieceDetailRouterProps> {
 /**
  * The parent component that owns the different parts of the display of each portfolio item.
  * There are screenshots, paragraphs, and then buttons.
- * 
+ *
  * Screenshots are displayed within depictions of devices. The paragraphs are sometimes styled
  * differently depending on the type of information. And the buttons
  * that link out to the features available for each portfolio peice. Features and some paragraph types
@@ -52,7 +52,6 @@ export default class PieceDetail extends React.Component<
   PieceDetailProps,
   PieceDetailState
 > {
-  
   /**
    *
    *
@@ -123,10 +122,10 @@ export default class PieceDetail extends React.Component<
   infoReactElems: Array<JSX.Element> = [];
 
   /**
-   * We're retaining references to some subcomponents merely to inspecet their height and 
+   * We're retaining references to some subcomponents merely to inspecet their height and
    * adjust for it with a tween. Maybe not ideal, but it's only a side effect.
-   * 
-   * TODO: Determine if there is a better solution. 
+   *
+   * TODO: Determine if there is a better solution.
    *
    * @type {Array<PieceInfoAndFeatures>}
    * @memberof PieceDetail
@@ -422,11 +421,11 @@ export default class PieceDetail extends React.Component<
       );
     });
 
-    let piece,
+    let piece: any,
       showMobile,
       id,
       transition = "";
-    const activeKeys = portfolioData.activeKeys;
+    const activeKeys: Array<string> = portfolioData.activeKeys;
 
     this.infoReactElems = activeKeys.map((key, i) => {
       piece = portfolioData.activePieces[i];
