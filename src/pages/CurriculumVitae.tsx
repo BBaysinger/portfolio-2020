@@ -11,20 +11,32 @@ import HeaderSub from "../components/layout/HeaderSub";
  */
 export default class CurriculumVitae extends React.Component {
   /**
+   * Function also serves to help migrate inline lists into
+   * Illustrator or whatever else with rich text formatting intact.
+   * It needs to use actual spaces, not simulated with margins,
+   * to be spaced correctly in migration.
    *
+   * To migrate into Illustrator with formatting intact
+   * (green bullet, grey text) copy from browser and paste into
+   * an RTF document. Then in Illustrator open that RTF, and your
+   * formatting will be intact there.
+   *
+   * And now you don't have to manually replicate
+   * these lists every time you update your CV.
    *
    * @param {Array<string>} phrases
    * @returns
    * @memberof CurriculumVitae
    */
   wrapPhrases(phrases: Array<string>) {
-    let wrappedPhrases = phrases.map((data, i) => {
+    let wrappedPhrases = phrases.map((data: string, i: number) => {
       return (
-        <span className="nobr" key={i}>
-          <span className="phrase">{data} </span>
-          <span key={i * 2 - 1} className="bullet">
-            {" "}
-            •{" "}
+        <span className="inline-list-item" key={i}>
+          <span className="phrase">{data}</span>
+          <span key={i} className="bullet">
+            &nbsp;&nbsp;•&nbsp;
+            {/* Allow wrap. */}
+            <span>&#32;</span>
           </span>
         </span>
       );
@@ -39,19 +51,19 @@ export default class CurriculumVitae extends React.Component {
    * @memberof CurriculumVitae
    */
   code = [
-    "TypeScript (preferred)",
+    "TypeScript (preferred everywhere)",
     "ES6",
     "ES5 (vanilla JavaScript)",
     "HTML / HTML5",
     "CSS / CSS3",
     "SASS / SCSS",
-    "Node / NPM",
+    "NPM",
     "Angular 2+",
     "React",
-    "Vue (tinkering)",
+    "Vue (dabbling)",
     "jQuery",
     "SVG",
-    "HTML5 Canvas",
+    "Canvas",
     "Webpack",
     "Grunt",
     "Gulp",
@@ -147,7 +159,7 @@ export default class CurriculumVitae extends React.Component {
     "Earthbound Farms",
     "Cingular",
     "New Line Cinema",
-    "The Weinstein Company",
+    "The Weinstein Company (eesh, yep)",
     "HTC",
     "OnSet Productions",
     "Postopia",
@@ -159,13 +171,12 @@ export default class CurriculumVitae extends React.Component {
     "National Geographic",
     "Tobacco Smokes You",
     "UBS Financial Services",
-    "Washington Trust Bank",
-    "Wildbrain",
     "Mattel",
     "XM Radio",
     "Lincoln Mercury",
     "MTV",
-    "Avista",
+    "Dannon",
+    "Yoplait",
     "WildBrain",
     "Yesmail",
     "USDA",

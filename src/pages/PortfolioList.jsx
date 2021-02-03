@@ -184,16 +184,16 @@ export default class PortfolioList extends React.Component {
         </div>
         <div className="list_note">
           <div className="container">
-            <h3>Welcome!</h3>
+            <h3>First things first.</h3>
 
             <p>
               {/* Leave just "front-end developer" here to avoid sounding repetitious with "interactive". */}
-              I am a front-end web developer with fifteen+ industry years in
-              client-side scripting and fluid interactive experiences. Aside
+              Hello! I am a front-end web progammer with fifteen+ industry years in
+              client-side scripting and building fluid interactive experiences. Aside
               from chunks of time coding proprietary and/or specialized rich
               media, I've been manipulating DOM at runtime since 2001 upon
-              becoming aquainted with JavaScript, as visual effects were
-              everything to me. I started by doing everything the hard way on
+              becoming acquainted with JavaScript, as visual effects were
+              everything to me. I started by doing it all the hard way on
               purpose. Then, since earning my degree in web design in 2005 and
               landing a spot in a top-tier digital advertising agency, I
               continued to pursue programming, as the quality results were as
@@ -204,8 +204,8 @@ export default class PortfolioList extends React.Component {
               Inventing and learning have been a constant and every deadline has
               been somewhere between unreasonable and insane. I've been the lead
               architect on every project after getting my feet wet in anything
-              that was ever new. From this experience I've gained a unique view
-              of UX/UI, front-end, and working with ever-changing teams
+              that was ever new. Through this atypical path I've gained a unique
+              view of UX/UI, front-end, and working with ever-changing teams
               and&nbsp;processes.
             </p>
 

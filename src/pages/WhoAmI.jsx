@@ -34,7 +34,7 @@ export default class WhoAmI extends React.Component {
             aliquip ex ea commodo consequat.
           </p>*/}
 
-          <h4>Greetings!</h4>
+          <h4>You know what. Now <i>who.</i></h4>
 
           <section>
             <h5>Introduction</h5>
