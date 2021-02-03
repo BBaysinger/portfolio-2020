@@ -17,8 +17,8 @@ import Sniffer from "../utils/Sniffer";
  * That is determined by using math from scroll position.
  *
  * @author Bradley Baysinger
- * @since  x.x.x
- * @version N/A
+ * @since  The beginning of time.
+ * @version 0.1.0
  */
 export default class PortfolioList extends React.Component {
   /**
@@ -187,22 +187,24 @@ export default class PortfolioList extends React.Component {
             <h3>Welcome!</h3>
 
             <p>
-              I am an interactive and front-end web developer with fifteen years
-              of industry experience in client-side scripting and fluid
-              interactive experiences. Aside from a chunk of years in
-              proprietary and/or specialized technologies, I have been
-              manipulating DOM heavily since around 2001 upon my initial
-              interest. Then since earning a degree in web design in 2005 and
-              landing a spot in a top-tier digital advertising agency, I
-              continued to pursue coding, as the quality results were as
-              unending as the prolific&nbsp;projects.
+              {/* Leave just "front-end developer" here to avoid sounding repetitious with "interactive". */}
+              I am a front-end web developer with fifteen+ industry years in
+              client-side scripting and fluid interactive experiences. Aside
+              from a block of time coding proprietary and/or specialized rich
+              media, I've been manipulating DOM heavily since around 2001 upon
+              learning HTML. Then, since earning my degree in web design in 2005
+              and landing a spot in a top-tier digital advertising agency, I
+              continued to pursue programming, as the quality results were as
+              unending as the prolific projects slung my&nbsp;direction.
             </p>
 
             <p>
-              Inventing and learning have been a constant and every single
-              deadline was totally insane. From this experience I've gained an
-              unique view of UX, UI, front-end, and working with ever-changing
-              teams and&nbsp;processes.
+              Inventing and learning have been a constant and every deadline has
+              been somewhere between unreasonable and insane. I've been the lead
+              architect on every project after getting my feet wet in anything
+              that was ever new. From this experience I've gained a unique view
+              of UX/UI, front-end, and working with ever-changing teams
+              and&nbsp;processes.
             </p>
 
             <p>
