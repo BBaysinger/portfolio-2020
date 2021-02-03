@@ -2,6 +2,8 @@
 
 /build
 
+.eslintcache #temporary remove after react-scripts 4.0.1
+
 # dependencies
 node_modules
 
@@ -11,3 +13,4 @@ node_modules
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+/.eslintcache
