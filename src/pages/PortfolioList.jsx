@@ -190,10 +190,12 @@ export default class PortfolioList extends React.Component {
               {/* Leave just "front-end developer" here to avoid sounding repetitious with "interactive". */}
               I am a front-end web developer with fifteen+ industry years in
               client-side scripting and fluid interactive experiences. Aside
-              from a block of time coding proprietary and/or specialized rich
-              media, I've been manipulating DOM heavily since around 2001 upon
-              learning HTML. Then, since earning my degree in web design in 2005
-              and landing a spot in a top-tier digital advertising agency, I
+              from chunks of time coding proprietary and/or specialized rich
+              media, I've been manipulating DOM at runtime since 2001 upon
+              becoming aquainted with JavaScript, as visual effects were
+              everything to me. I started by doing everything the hard way on
+              purpose. Then, since earning my degree in web design in 2005 and
+              landing a spot in a top-tier digital advertising agency, I
               continued to pursue programming, as the quality results were as
               unending as the prolific projects slung my&nbsp;direction.
             </p>
@@ -212,7 +214,7 @@ export default class PortfolioList extends React.Component {
               flexible solutions have always been my strength and preference
               when time permits, but what's brought me fantastic opportunities
               has been my unending passion for making beautiful concepts come to
-              life. Let's build some great&nbsp;things.
+              life. I'm humble af and ready to build more great&nbsp;things.
             </p>
           </div>
         </div>
