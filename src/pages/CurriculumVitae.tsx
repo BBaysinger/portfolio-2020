@@ -75,7 +75,7 @@ export default class CurriculumVitae extends React.Component {
     "APIs",
     "PHP (learning)",
     "RxJS",
-    "Moustache / Handlebars",
+    "Mustache / Handlebars",
     "Require / AMD",
     "Twig",
     "Git",

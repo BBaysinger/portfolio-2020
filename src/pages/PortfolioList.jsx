@@ -188,24 +188,25 @@ export default class PortfolioList extends React.Component {
 
             <p>
               {/* Leave just "front-end developer" here to avoid sounding repetitious with "interactive". */}
-              Hello! I am a front-end web progammer with fifteen+ industry years in
-              client-side scripting and building fluid interactive experiences. Aside
-              from chunks of time coding proprietary and/or specialized rich
-              media, I've been manipulating DOM at runtime since 2001 upon
-              becoming acquainted with JavaScript, as visual effects were
-              everything to me. I started by doing it all the hard way on
-              purpose. Then, since earning my degree in web design in 2005 and
-              landing a spot in a top-tier digital advertising agency, I
-              continued to pursue programming, as the quality results were as
-              unending as the prolific projects slung my&nbsp;direction.
+              Hello! I am a front-end web progammer with fifteen+ industry years
+              in both client-side scripting and building fluid interactive
+              experiences. Aside from chunks of time coding proprietary and/or
+              specialized rich media, I've been manipulating DOM at runtime
+              since 2001 upon becoming acquainted with JavaScript, as visual
+              effects were everything to me. I started by doing it all the hard
+              way to learn everything about compatibility. Then, since earning
+              my degree in web design in 2005 and landing a spot in a top-tier
+              digital advertising agency, I continued to pursue programming, as
+              the quality results were as unending as were the prolific projects
+              slung in my&nbsp;direction.
             </p>
 
             <p>
-              Inventing and learning have been a constant and every deadline has
+              Inventing and learning have been constant, and every deadline has
               been somewhere between unreasonable and insane. I've been the lead
               architect on every project after getting my feet wet in anything
-              that was ever new. Through this atypical path I've gained a unique
-              view of UX/UI, front-end, and working with ever-changing teams
+              that was ever new. Through this path I've gained a unique view of
+              UX/UI, front-end, and working with ever-changing teams
               and&nbsp;processes.
             </p>
 
