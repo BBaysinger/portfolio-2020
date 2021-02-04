@@ -50,16 +50,6 @@
       position: relative;
       top: 1.75px;
       left: 0.75px;
-
-      @media (max-width: $smpx) {
-        margin-left: 2px;
-        margin-right: 7px;
-      }
-
-      @media (max-width: $xspx) {
-        margin-left: 0px;
-        margin-right: 5px;
-      }
     }
   }
 

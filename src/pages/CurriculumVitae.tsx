@@ -13,7 +13,7 @@ export default class CurriculumVitae extends React.Component {
   /**
    * Function also serves to help migrate inline lists into
    * Illustrator or whatever else with rich text formatting intact.
-   * It needs to use actual spaces, not simulated with margins,
+   * It needs to use actual spaces (not simulated with margins)
    * to be spaced correctly in migration.
    *
    * To migrate into Illustrator with formatting intact
@@ -50,48 +50,24 @@ export default class CurriculumVitae extends React.Component {
    *
    * @memberof CurriculumVitae
    */
-  code = [
-    "TypeScript (preferred everywhere)",
+  lang = [
+    "TypeScript (preferred)",
     "ES6",
-    "ES5 (vanilla JavaScript)",
+    "ES5",
+    "vanilla JavaScript",
+    "Haxe (like Java)",
+    "JSX",
     "HTML / HTML5",
     "CSS / CSS3",
     "SASS / SCSS",
-    "NPM",
-    "Angular 2+",
-    "React",
-    "Vue (dabbling)",
-    "jQuery",
-    "SVG",
-    "Canvas",
-    "Webpack",
-    "Grunt",
-    "Gulp",
-    "Bootstrap",
     "JSON",
     "XML",
     "XSL",
-    "REST",
-    "APIs",
     "PHP (learning)",
-    "RxJS",
     "Mustache / Handlebars",
-    "Require / AMD",
     "Twig",
-    "Git",
-    "Elasticsearch",
-    "DHTML",
-    "OOP",
-    "SEO",
-    "Design Patterns (AS3)",
     "AS3 (like Java / ECMAScript)",
-    "Haxe (like Java)",
-    "Greensock / GSAP",
-    "Tween / Animation Engines",
-    "Game Engines",
-    "Create / EaselJS",
-    "Mapbox",
-    "PixiJS",
+    "AS2",
   ];
 
   /**
@@ -99,7 +75,57 @@ export default class CurriculumVitae extends React.Component {
    *
    * @memberof CurriculumVitae
    */
-  codeElems = this.wrapPhrases(this.code);
+  langElems = this.wrapPhrases(this.lang);
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  tech = [
+    "Angular 2+",
+    "React",
+    "Vue (dabbling)",
+    "jQuery",
+    "RxJS",
+    "Babel",
+    "Craft CMS",
+    "NPM",
+    "Webpack",
+    "Grunt",
+    "Gulp",
+    "Bootstrap",
+    "REST",
+    "APIs",
+    "SVG",
+    "Canvas",
+    "Require / AMD",
+    "Git",
+    "SVN",
+    "Elasticsearch",
+    "SEO",
+    "DHTML",
+    "Design Patterns",
+    "Greensock / GSAP",
+    "Game Engines",
+    "Tween / Animation Engines",
+    "Create / Easel",
+    "Mapbox",
+    "PixiJS",
+    "OOP",
+    "SEO",
+    "Greensock / GSAP",
+    "Create / EaselJS",
+    "PixiJS",
+    "OSX",
+  ];
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  techElems = this.wrapPhrases(this.tech);
 
   /**
    *
@@ -110,12 +136,20 @@ export default class CurriculumVitae extends React.Component {
     "Illustrator",
     "Photoshop",
     "Animate (w/ scripting & HTML5 export)",
-    "Craft CMS",
     "VSCode",
     "Atom Editor",
+    "Sublime Text",
+    "Dreamweaver",
     "VirtualBox",
     "SauceLabs",
     "BrowserStack",
+    "Git Tower",
+    "SourceTree",
+    "MAMP",
+    "Jira",
+    "Trello",
+    "Google Docs",
+    "Confluence",
   ];
 
   /**
@@ -149,9 +183,11 @@ export default class CurriculumVitae extends React.Component {
     "Nick Jr.",
     "Nintendo",
     "Disney",
+    "Mattel",
+    "AT&T",
+    "MTV",
     "Addicting Games",
     "The N",
-    "AT&T",
     "T-Mobile",
     "Premera Blue Cross",
     "Expedia",
@@ -159,10 +195,9 @@ export default class CurriculumVitae extends React.Component {
     "Earthbound Farms",
     "Cingular",
     "New Line Cinema",
-    "The Weinstein Company (eesh, yep)",
+    "The Weinstein Company",
     "HTC",
     "OnSet Productions",
-    "Postopia",
     "Netflix",
     "Ronix Wakeboards",
     "RedHook Brewery",
@@ -171,12 +206,11 @@ export default class CurriculumVitae extends React.Component {
     "National Geographic",
     "Tobacco Smokes You",
     "UBS Financial Services",
-    "Mattel",
     "XM Radio",
     "Lincoln Mercury",
-    "MTV",
     "Dannon",
     "Yoplait",
+    "Post",
     "WildBrain",
     "Yesmail",
     "USDA",
@@ -567,9 +601,13 @@ export default class CurriculumVitae extends React.Component {
               <h4>Skills</h4>
             </div>
             <div className={divClassRt}>
+            <div className="cv-listing">
+                <h5>Languages</h5>
+                <p>{this.langElems}</p>
+              </div>
               <div className="cv-listing">
-                <h5>Code</h5>
-                <p>{this.codeElems}</p>
+                <h5>Technologies</h5>
+                <p>{this.techElems}</p>
               </div>
               <div className="cv-listing">
                 <h5>Software</h5>

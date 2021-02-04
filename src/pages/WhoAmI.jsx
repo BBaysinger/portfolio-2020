@@ -47,12 +47,11 @@ export default class WhoAmI extends React.Component {
             </div> */}
 
             <p>
-              I'm a nearly lifelong resident of the beautiful City of Spokane on
-              the eastern side of Washington State, near the Idaho Panhandle. I
-              live within walking distance of an expanse of parks that National
-              Geographic has listed in the top ten urban parks in the country,
-              which winds along with the Spokane River, a tribuary to the
-              Columbia&nbsp;River.
+              I'm a nearly lifelong resident of the beautiful city of Spokane on
+              the eastern side of Washington State near the Idaho Pandhandle.
+              I'm highly recreative in the many outdoorsy hotspots in the area,
+              including Spokane Riverfront Park, which National Geographic has
+              listed as one of the top ten urban parks in the coutry.
             </p>
 
             <p>

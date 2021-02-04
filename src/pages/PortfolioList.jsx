@@ -189,7 +189,7 @@ export default class PortfolioList extends React.Component {
             <p>
               {/* Leave just "front-end developer" here to avoid sounding repetitious with "interactive". */}
               Hello! I am a front-end web progammer with fifteen+ industry years
-              in both client-side scripting and building fluid interactive
+              in client-side scripting and of building fluid interactive
               experiences. Aside from chunks of time coding proprietary and/or
               specialized rich media, I've been manipulating DOM at runtime
               since 2001 upon becoming acquainted with JavaScript, as visual
