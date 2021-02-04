@@ -64,7 +64,7 @@ export default class WhoAmI extends React.Component {
               making beautiful things makes it not work to me. It really doesn't
               matter if it's a sculpture, a painting on canvas, or a very
               technical progressive web application. I also love to challenge
-              myself and, as many people have witnessed, I sometimes go big
+              myself and, as many people have witnessed, I go big
               on&nbsp;challenges.
             </p>
           </section>

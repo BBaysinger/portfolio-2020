@@ -111,7 +111,6 @@ export default class CurriculumVitae extends React.Component {
     "Tween / Animation Engines",
     "Create / Easel",
     "Mapbox",
-    "PixiJS",
     "OOP",
     "SEO",
     "Greensock / GSAP",
@@ -613,10 +612,10 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Software</h5>
                 <p>{this.softwareElems}</p>
               </div>
-              <div className="cv-listing">
+              {/* <div className="cv-listing">
                 <h5>Other</h5>
                 <p>{this.otherElems}</p>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -636,7 +635,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <div className="row">
                   <div className="col-xs-12">
-                    People's Choice - Art Website of the&nbsp;Year&nbsp;
+                    People's Choice - Art Website of the&nbsp;Year&nbsp; - Artocracy.org
                   </div>
                 </div>
               </div>
