@@ -23,6 +23,11 @@ export default class CurriculumVitae extends React.Component {
    *
    * And now you don't have to manually replicate
    * these lists every time you update your CV.
+   * 
+   * TODO: Make more consideration for migrating info from here
+   * into PDF versions. That may involve changing up PDF designs.
+   * 
+   * TODO: Consider a programmatic export option from this page.
    *
    * @param {Array<string>} phrases
    * @returns
@@ -254,7 +259,7 @@ export default class CurriculumVitae extends React.Component {
                 <div className="sub-container">
                   <div className="left-sub">Interactive Web Developer</div>
                   <div className="break"></div>
-                  <div className="right-sub">[2019 - Present]</div>
+                  <div className="right-sub">[ 2019 - Present ]</div>
                 </div>
 
                 <p className="desc">
@@ -305,7 +310,7 @@ export default class CurriculumVitae extends React.Component {
                 <div className="sub-container">
                   <div className="left-sub">Interactive Web Developer</div>
                   <div className="break"></div>
-                  <div className="right-sub">[2018 - 2019]</div>
+                  <div className="right-sub">[ 2018 - 2019 ]</div>
                 </div>
 
                 <p className="desc">
@@ -350,7 +355,7 @@ export default class CurriculumVitae extends React.Component {
                 <div className="sub-container">
                   <div className="left-sub">UI Developer</div>
                   <div className="break"></div>
-                  <div className="right-sub">[2017 - 2018]</div>
+                  <div className="right-sub">[ 2017 - 2018 ]</div>
                 </div>
 
                 <p className="desc">
@@ -398,7 +403,7 @@ export default class CurriculumVitae extends React.Component {
                 <div className="sub-container">
                   <div className="left-sub">Interactive Web Developer</div>
                   <div className="break"></div>
-                  <div className="right-sub">[2005 - 2016]</div>
+                  <div className="right-sub">[ 2005 - 2016 ]</div>
                 </div>
 
                 <p className="desc">
@@ -458,7 +463,7 @@ export default class CurriculumVitae extends React.Component {
                     Designer / Front-end Web Developer
                   </div>
                   <div className="break"></div>
-                  <div className="right-sub">[2005]</div>
+                  <div className="right-sub">[ 2005 ]</div>
                 </div>
 
                 <p className="desc">
@@ -498,7 +503,7 @@ export default class CurriculumVitae extends React.Component {
                     Designer / Front-end Web Developer
                   </div>
                   <div className="break"></div>
-                  <div className="right-sub">[2003 - 2005]</div>
+                  <div className="right-sub">[ 2003 - 2005 ]</div>
                 </div>
 
                 <p className="desc">
@@ -539,7 +544,7 @@ export default class CurriculumVitae extends React.Component {
                 <div className="sub-container">
                   <div className="left-sub">Interactive Tinkerer</div>
                   <div className="break"></div>
-                  <div className="right-sub">[2001 - 2003]</div>
+                  <div className="right-sub">[ 2001 - 2003 ]</div>
                 </div>
 
                 <p className="desc">
@@ -591,7 +596,7 @@ export default class CurriculumVitae extends React.Component {
                   Spokane Falls Community&nbsp;College
                 </div>
                 <div className="break"></div>
-                <div className="right-sub">[2003 - 2005]</div>
+                <div className="right-sub">[ 2005 ]</div>
               </h5>
 
               <p>A.A.S. Web Design — Honors</p>
@@ -632,7 +637,7 @@ export default class CurriculumVitae extends React.Component {
                 <div className="sub-container">
                   <div className="left-sub">International</div>
                   <div className="break"></div>
-                  <div className="right-sub">[2008]</div>
+                  <div className="right-sub">[ 2008 ]</div>
                 </div>
 
                 <div className="row">
@@ -647,7 +652,7 @@ export default class CurriculumVitae extends React.Component {
                 <div className="sub-container">
                   <div className="left-sub">Spokane</div>
                   <div className="break"></div>
-                  <div className="right-sub">[2009 - 2019]</div>
+                  <div className="right-sub">[ 2009 - 2019 ]</div>
                 </div>
                 <div className="row">
                   <div className="col-md-12">
