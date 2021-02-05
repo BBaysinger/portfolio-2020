@@ -106,7 +106,6 @@ export default class CurriculumVitae extends React.Component {
     "SEO",
     "DHTML",
     "Design Patterns",
-    "Greensock / GSAP",
     "Game Engines",
     "Tween / Animation Engines",
     "Create / Easel",
@@ -116,7 +115,6 @@ export default class CurriculumVitae extends React.Component {
     "Greensock / GSAP",
     "Create / EaselJS",
     "PixiJS",
-    "OSX",
   ];
 
   /**
@@ -135,22 +133,26 @@ export default class CurriculumVitae extends React.Component {
     "Illustrator",
     "Photoshop",
     "Animate (w/ scripting & HTML5 export)",
+    "Visual Studio",
     "VSCode",
     "Atom Editor",
     "Sublime Text",
     "Dreamweaver",
     "VirtualBox",
-    "SauceLabs",
+    "Sauce Labs",
     "BrowserStack",
     "Git Tower",
-    "SourceTree",
+    "Sourcetree",
     "MAMP",
     "Jira",
     "Trello",
+    "Smartsheet",
     "Google Docs",
     "Confluence",
+    "OS X",
+    "Windows",
   ];
-
+  
   /**
    *
    *
@@ -250,7 +252,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Freelance / Contract</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">Interactive Developer</div>
+                  <div className="left-sub">Interactive Web Developer</div>
                   <div className="break"></div>
                   <div className="right-sub">[2019 - Present]</div>
                 </div>
@@ -301,7 +303,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Seven2 Interactive</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">Interactive Developer</div>
+                  <div className="left-sub">Interactive Web Developer</div>
                   <div className="break"></div>
                   <div className="right-sub">[2018 - 2019]</div>
                 </div>
@@ -394,7 +396,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Seven2 Interactive</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">Interactive Developer</div>
+                  <div className="left-sub">Interactive Web Developer</div>
                   <div className="break"></div>
                   <div className="right-sub">[2005 - 2016]</div>
                 </div>
@@ -406,7 +408,7 @@ export default class CurriculumVitae extends React.Component {
                 </p>
 
                 <p className="scope">
-                  <span>Technical Scope:</span> (Heavy) ActionScript,
+                  <span>Technical Scope:</span> (Heavy) ActionScript 3,
                   JavaScript, jQuery, Require,&nbsp;Haxe
                 </p>
 
