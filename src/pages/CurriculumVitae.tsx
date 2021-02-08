@@ -128,7 +128,6 @@ export default class CurriculumVitae extends React.Component {
    */
   concepts = [
     "OOP",
-    "SEO",
     "MVC",
     "MVVM",
     "DHTML",
@@ -138,6 +137,7 @@ export default class CurriculumVitae extends React.Component {
     "Game Engines",
     "Tween Engines",
     "Physics Engines",
+    "SEO",
     "Quality Assurance",
     "Tracking / Analytics",
   ];
@@ -350,9 +350,9 @@ export default class CurriculumVitae extends React.Component {
 
                 <ul>
                   <li>
-                    Logic for central activities, interactivity, and media in
-                    responsive HTML5/CSS3 in websites for Nintendo, Premera Blue
-                    Cross, and other&nbsp;brands
+                    Logic for central activities (games, wallpaper creators,
+                    video players), interactivity, and media in responsive
+                    websites for Nintendo, and other&nbsp;brands
                   </li>
                   <li>
                     Developed APIs to simplify, stabilize, and streamline
@@ -367,11 +367,21 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Contribution and technical oversight of concepts with teams
-                    of designers, developers, and animators
+                    of designers, developers, and animators, synchronizing on
+                    development and QA via Trello (similar to&nbsp;Jira)
                   </li>
                   <li>
-                    Synchronized with teams on project development and QA via
-                    Trello (similar to&nbsp;Jira)
+                    Language localization strategies for deployment in various
+                    international regions (which often necessitates special
+                    design considerations)
+                  </li>
+                  <li>
+                    Interfacing with Nintendo's Nclood API / platform for
+                    managing Nintendo user status and rewards system
+                  </li>
+                  <li>
+                    Strategic considerations for deadlines so tight that
+                    development had to start <i>before</i> client approvals
                   </li>
                 </ul>
               </div>
@@ -400,16 +410,25 @@ export default class CurriculumVitae extends React.Component {
 
                 <ul>
                   <li>
-                    Designed and developed UI for ChalkLabs’ latest iteration of
-                    their Pushgraph web&nbsp;application
+                    With sparse instruction and negligable time for rampup,
+                    designed the entire UI for ChalkLabs’ latest iteration of
+                    their flagship Pushgraph web application in under
+                    three&nbsp;days
                   </li>
                   <li>
-                    Sole developer of ChalkLabs’ new Pushgraph Dashboard
-                    responsive drag/drop widget&nbsp;framework
+                    As a first project, solely developed an iteration of
+                    ChalkLabs’ Pushgraph Dashboard, a user-customizable,
+                    responsive drag/drop widget framework (largely developed
+                    before&nbsp;designed)
                   </li>
                   <li>
-                    In June of 2017, worked 350 hours along with my supervisor
-                    to meet a all-or-nothing deadline/contract with EPA worth
+                    Interfacing with Chalklabs' backend API using search syntax
+                    to query results from databases to populate into in my own
+                    custom infinite-scrolling data grid&nbsp;widgets
+                  </li>
+                  <li>
+                    In June of 2017, worked 350+ hours along with my supervisor
+                    to meet an all-or-nothing deadline/contract with EPA worth
                     five million&nbsp;USD
                   </li>
                   <li>
@@ -471,8 +490,9 @@ export default class CurriculumVitae extends React.Component {
                     framework now known as&nbsp;2Dkit.
                   </li>
                   <li>
-                    Interfacing with backend APIs serving various types of data,
-                    including JSON, XML, and image data
+                    Interfacing with backend APIs exchanging JSON, XML, CSV,
+                    plain text, and image data for many types of user-initiated
+                    server/database transactions
                   </li>
                   <li>
                     Contribution on entire process of project conceptualization
@@ -480,7 +500,7 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     In addition to hundreds of insane deadlines, in June 2014,
-                    worked 350 hours to meet a critical deadline
+                    worked 350+ hours to meet a critical deadline
                     for&nbsp;WildBrain
                   </li>
                 </ul>
