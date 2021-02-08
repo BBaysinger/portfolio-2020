@@ -193,7 +193,7 @@ export default class PortfolioList extends React.Component {
               experiences. Aside from chunks of time coding proprietary and/or
               specialized rich media, I've been manipulating DOM at runtime
               since 2001 upon becoming acquainted with JavaScript. Visual
-              effects were everything to me. I started by doing it all the hard
+              effects were everything to me. I started by doing it the hard
               way to learn everything about compatibility. Then, since earning
               my degree in web design in 2005 and landing a spot in a top-tier
               digital advertising agency, I continued to pursue programming, and
