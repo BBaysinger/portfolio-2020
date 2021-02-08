@@ -34,9 +34,7 @@ export default class WhoAmI extends React.Component {
             aliquip ex ea commodo consequat.
           </p>*/}
 
-          <h4>
-            You know what now. Now <i>who.</i>
-          </h4>
+          <h4>A Creator and Recreator</h4>
 
           <section>
             <h5>Introduction</h5>
@@ -48,10 +46,11 @@ export default class WhoAmI extends React.Component {
 
             <p>
               I'm a nearly lifelong resident of the beautiful city of Spokane on
-              the eastern side of Washington State near the Idaho Pandhandle.
-              I'm highly recreative in the many outdoorsy hotspots in the area,
-              including Spokane Riverfront Park, which National Geographic has
-              listed as one of the top ten urban parks in the coutry.
+              the eastern side of Washington State near the Idaho Panhandle. I'm
+              highly recreative in the many outdoorsy hotspots in an area with
+              76 lakes nearby. One such hotspot is Spokane Riverfront Park,
+              which National Geographic has listed as one of the top ten urban
+              parks in the&nbsp;nation.
             </p>
 
             <p>
@@ -61,11 +60,10 @@ export default class WhoAmI extends React.Component {
 
             <p>
               To put it simply, I love to create. The personal reward I get from
-              making beautiful things makes it not work to me. It really doesn't
-              matter if it's a sculpture, a painting on canvas, or a very
-              technical progressive web application. I also love to challenge
-              myself and, as many people have witnessed, I go big
-              on&nbsp;challenges.
+              making beautiful things makes work seem like not work. It doesn't
+              matter if it's a sculpture, a painting on canvas, or a technical
+              progressive web application. I also love to challenge myself and,
+              as many people have witnessed, I go big on&nbsp;challenges.
             </p>
           </section>
 
@@ -88,7 +86,7 @@ export default class WhoAmI extends React.Component {
             <p>
               Over the last few years, I've been increasingly pursuing a healthy
               and active lifestyle. This has led me to becoming a bit of an
-              adventurer. But I have long prefered to bike to work every day of
+              adventurer. But I have long preferred to bike to work every day of
               the year, even through hard winters, and am emphatic about all
               things cycling. It is absolutely a lifestyle for me and leaves me
               with many tales to tell. I won't do that here, but I will say, as
