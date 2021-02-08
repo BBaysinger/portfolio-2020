@@ -432,18 +432,20 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Learned Angular and TypeScript largely on the clock, and
-                    thrown into the fire of heavy development from the
-                    very&nbsp;start
+                    thrown into the fire of heavy development from the very
+                    start after my initial 'training' in Angular, a brief video
+                    series tutorial and a two-week code test to demonstrate
+                    quick&nbsp;learning
                   </li>
                   <li>
                     Scoping, timelining, estimating tasks to be tracked and
-                    synchronized for sprints via Smartsheet in Kanban workflow
+                    synchronized for sprints via Smartsheet in Kanban&nbsp;workflow
                   </li>
                   <li>
                     In June of 2017, worked 350+ hours along with my supervisor
                     to meet an all-or-nothing deadline/contract with EPA worth
                     five million USD, which was existentially everything for the
-                    company at that time
+                    company at that&nbsp;time
                   </li>
                   <li>
                     Otherwise dominated on a regular steam of
