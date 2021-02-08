@@ -193,12 +193,12 @@ export default class PortfolioList extends React.Component {
               experiences. Aside from chunks of time coding proprietary and/or
               specialized rich media, I've been manipulating DOM at runtime
               since 2001 upon becoming acquainted with JavaScript. Visual
-              effects were everything to me. I started by doing it the hard
-              way to learn everything about compatibility. Then, since earning
-              my degree in web design in 2005 and landing a spot in a top-tier
+              effects were everything to me. I started by doing it the hard way
+              to learn everything about compatibility. Then, since earning my
+              degree in web design in 2005 and landing a spot in a top-tier
               digital advertising agency, I continued to pursue programming, and
               the quality results were as unending as were the prolific projects
-              slung in my&nbsp;direction.
+              slung my&nbsp;direction.
             </p>
 
             <p>
@@ -214,8 +214,8 @@ export default class PortfolioList extends React.Component {
               Meticulous perfectionism, adherence to best practices, and
               flexible solutions have always been my strength and preference as
               time permits, but what's brought me fantastic opportunities has
-              been my unending passion for making beautiful concepts come to
-              life. I'm humble af and ready to build more great&nbsp;things.
+              been my unending passion for breathing life into beautiful
+              concepts. I'm humble af and ready to build more great&nbsp;things.
             </p>
           </div>
         </div>
