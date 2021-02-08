@@ -68,7 +68,6 @@ export default class CurriculumVitae extends React.Component {
     "XML",
     "XSL",
     "PHP (learning)",
-    "Mustache / Handlebars",
     "Twig",
     "Haxe (like Java)",
     "AS3 (like Java / ECMAScript)",
@@ -99,9 +98,12 @@ export default class CurriculumVitae extends React.Component {
     "Webpack",
     "Grunt",
     "Gulp",
+    "Mustache / Handlebars",
     "Bootstrap",
     "SVG",
     "Canvas",
+    "Flexbox",
+    "Grid",
     "Require / AMD",
     "Git",
     "SVN",
@@ -381,7 +383,7 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Strategic considerations for deadlines so tight that
-                    development had to start <i>before</i> client approvals
+                    development had to start <i>before</i> client&nbsp;approvals
                   </li>
                 </ul>
               </div>
@@ -439,13 +441,14 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Scoping, timelining, estimating tasks to be tracked and
-                    synchronized for sprints via Smartsheet in Kanban&nbsp;workflow
+                    synchronized for sprints via Smartsheet in
+                    Kanban&nbsp;workflow
                   </li>
                   <li>
                     In June of 2017, worked 350+ hours along with my supervisor
                     to meet an all-or-nothing deadline/contract with EPA worth
                     five million USD, which was existentially everything for the
-                    company at that&nbsp;time
+                    company at the&nbsp;time
                   </li>
                   <li>
                     Otherwise dominated on a regular steam of
@@ -638,6 +641,14 @@ export default class CurriculumVitae extends React.Component {
                     This lead to creating effects that looked like Flash with
                     only early DOM elements, which was extremely unusual due to
                     notorious incompatibility issues of the&nbsp;era
+                  </li>
+                  <li>
+                    Into a blank browser window, populated a set of
+                    fully-functional custom browser Chrome (UI), including
+                    drop-down menus, history, location bar, navigation buttons,
+                    and proportional scrollbars — all built with theme/color
+                    options, which could have made for a unique user experience,
+                    had it gone beyond an&nbsp;experiment
                   </li>
                 </ul>
               </div>
