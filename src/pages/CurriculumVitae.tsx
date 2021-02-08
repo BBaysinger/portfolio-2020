@@ -321,7 +321,8 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Designed and coded application components in an Agile
-                    environments utilizing a test-driven development&nbsp;approach
+                    environments utilizing a test-driven
+                    development&nbsp;approach
                   </li>
                 </ul>
               </div>
@@ -369,8 +370,8 @@ export default class CurriculumVitae extends React.Component {
                     of designers, developers, and animators
                   </li>
                   <li>
-                    Sychronized with teams on project development and QA via
-                    Trello (slimilar to&nbsp;Jira)
+                    Synchronized with teams on project development and QA via
+                    Trello (similar to&nbsp;Jira)
                   </li>
                 </ul>
               </div>
@@ -422,7 +423,7 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Scoping, timelining, estimating tasks to be tracked and
-                    sychronized for sprints via Smartsheet in Kanban workflow
+                    synchronized for sprints via Smartsheet in Kanban workflow
                   </li>
                 </ul>
               </div>
@@ -499,13 +500,14 @@ export default class CurriculumVitae extends React.Component {
                 </div>
 
                 <p className="desc">
-                  Design and development of websites and apps at the front of
-                  C#/.NET <span className="nobr">back-ends</span>
+                  Design and development of websites and apps for local
+                  businesses at the front of C#/.NET{" "}
+                  <span className="nobr">back-ends</span>
                 </p>
 
                 <p className="scope">
                   <span>Technical Scope:</span> HTML, CSS, vanilla JavaScript,
-                  and Dynamic&nbsp;HTML
+                  Visual Studio,&nbsp;DHTML
                 </p>
 
                 <ul>
@@ -518,9 +520,9 @@ export default class CurriculumVitae extends React.Component {
                     solution, that was then ahead of its&nbsp;time
                   </li>
                   <li>
-                    Was capable of producing a number of tricks that were new to
+                    Produced a number of shortcuts and tricks that were new to
                     others in development, due to the extensive time I had
-                    previously spent with DHTML
+                    previously spent with&nbsp;DHTML
                   </li>
                 </ul>
               </div>
