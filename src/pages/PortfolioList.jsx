@@ -188,8 +188,8 @@ export default class PortfolioList extends React.Component {
 
             <p>
               {/* Leave just "front-end developer" here to avoid sounding repetitious with "interactive". */}
-              I am a passionate front-end web programmer with fifteen+ industry years
-              in client-side scripting and building fluid interactive
+              I am a passionate front-end web programmer with fifteen+ industry
+              years in client-side scripting and building fluid interactive
               experiences. Aside from chunks of time coding proprietary and/or
               specialized rich media, I've been manipulating DOM at runtime
               since 2001 upon becoming acquainted with JavaScript. Visual
@@ -204,17 +204,17 @@ export default class PortfolioList extends React.Component {
             <p>
               Inventing and learning have been constant, and every deadline has
               been somewhere between unreasonable and insane. I've been the lead
-              architect on every project after getting my feet wet in anything
-              that was ever new. Through this path I've gained a unique view of
-              UX/UI, front-end, and working with ever-changing teams
+              architect on nearly every project after getting my feet wet in
+              anything that was ever new. Through this path I've gained a unique
+              view of UX/UI, front-end, and working with ever-changing teams
               and&nbsp;processes.
             </p>
 
             <p>
               Meticulous perfectionism, adherence to best practices, and
-              flexible solutions have always been my strength and preference
-              as time permits, but what's brought me fantastic opportunities
-              has been my unending passion for making beautiful concepts come to
+              flexible solutions have always been my strength and preference as
+              time permits, but what's brought me fantastic opportunities has
+              been my unending passion for making beautiful concepts come to
               life. I'm humble af and ready to build more great&nbsp;things.
             </p>
           </div>
