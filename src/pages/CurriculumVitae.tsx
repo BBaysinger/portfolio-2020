@@ -409,17 +409,16 @@ export default class CurriculumVitae extends React.Component {
                 </p>
 
                 <ul>
-                  <li>
-                    With sparse instruction and negligable time for rampup,
-                    designed the entire UI for ChalkLabs’ latest iteration of
-                    their flagship Pushgraph web application in under
-                    three&nbsp;days
-                  </li>
-                  <li>
+                <li>
                     As a first project, solely developed an iteration of
                     ChalkLabs’ Pushgraph Dashboard, a user-customizable,
                     responsive drag/drop widget framework (largely developed
                     before&nbsp;designed)
+                  </li>
+                  <li>
+                    With sparse instruction and negligable time for rampup,
+                    designed the entire UI for Pushgraph in under
+                    three&nbsp;days
                   </li>
                   <li>
                     Interfacing with Chalklabs' backend API using search syntax
@@ -429,7 +428,8 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     In June of 2017, worked 350+ hours along with my supervisor
                     to meet an all-or-nothing deadline/contract with EPA worth
-                    five million&nbsp;USD
+                    five million USD, which was existentially everything for the
+                    company at that time
                   </li>
                   <li>
                     Otherwise dominated on a regular steam of
