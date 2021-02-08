@@ -409,21 +409,35 @@ export default class CurriculumVitae extends React.Component {
                 </p>
 
                 <ul>
-                <li>
-                    As a first project, solely developed an iteration of
-                    ChalkLabs’ Pushgraph Dashboard, a user-customizable,
+                  <li>
+                    As a first project, solely developed the Dashboard for an
+                    iteration of ChalkLabs’ flashship SaaS software, Pushgraph.
+                    This was the first version as a user-customizable,
                     responsive drag/drop widget framework (largely developed
                     before&nbsp;designed)
                   </li>
                   <li>
                     With sparse instruction and negligable time for rampup,
-                    designed the entire UI for Pushgraph in under
-                    three&nbsp;days
+                    designed the entire UI for the new iteration of Pushgraph in
+                    under three&nbsp;days
                   </li>
                   <li>
                     Interfacing with Chalklabs' backend API using search syntax
                     to query results from databases to populate into in my own
                     custom infinite-scrolling data grid&nbsp;widgets
+                  </li>
+                  <li>
+                    Data visualizations and custom interactions in D3, Mapbox,
+                    Highcharts, and other visualization&nbsp;libraries
+                  </li>
+                  <li>
+                    Learned Angular and TypeScript largely on the clock, and
+                    thrown into the fire of heavy development from the
+                    very&nbsp;start
+                  </li>
+                  <li>
+                    Scoping, timelining, estimating tasks to be tracked and
+                    synchronized for sprints via Smartsheet in Kanban workflow
                   </li>
                   <li>
                     In June of 2017, worked 350+ hours along with my supervisor
@@ -434,15 +448,6 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     Otherwise dominated on a regular steam of
                     blistering&nbsp;deadlines
-                  </li>
-                  <li>
-                    Learned Angular and TypeScript largely on the clock, and
-                    thrown into the fire of heavy development from the
-                    very&nbsp;start
-                  </li>
-                  <li>
-                    Scoping, timelining, estimating tasks to be tracked and
-                    synchronized for sprints via Smartsheet in Kanban workflow
                   </li>
                 </ul>
               </div>
@@ -628,11 +633,9 @@ export default class CurriculumVitae extends React.Component {
                     interesting and rewarding&nbsp;challenge
                   </li>
                   <li>
-                    This lead me to creating effects that looked like Flash at
-                    the time with only early DOM elements, which had developers
-                    scratching their heads as to how I did what I did (You
-                    almost had to be a little nutty to even try at that point.
-                    Thankfully things have improved&nbsp;vastly.)
+                    This lead to creating effects that looked like Flash with
+                    only early DOM elements, which was extremely unusual due to
+                    notorious incompatibility issues of the&nbsp;era
                   </li>
                 </ul>
               </div>
