@@ -184,19 +184,19 @@ export default class PortfolioList extends React.Component {
         </div>
         <div className="list_note">
           <div className="container">
-            <h3>First things first.</h3>
+            <h3>Bonjour, Olá, Guten Tag!</h3>
 
             <p>
               {/* Leave just "front-end developer" here to avoid sounding repetitious with "interactive". */}
-              Hello! I am a passionate front-end web programmer with fifteen+ industry years
-              in client-side scripting and of building fluid interactive
+              I am a passionate front-end web programmer with fifteen+ industry years
+              in client-side scripting and building fluid interactive
               experiences. Aside from chunks of time coding proprietary and/or
               specialized rich media, I've been manipulating DOM at runtime
               since 2001 upon becoming acquainted with JavaScript, as visual
               effects were everything to me. I started by doing it all the hard
               way to learn everything about compatibility. Then, since earning
               my degree in web design in 2005 and landing a spot in a top-tier
-              digital advertising agency, I continued to pursue programming, as
+              digital advertising agency, I continued to pursue programming, and
               the quality results were as unending as were the prolific projects
               slung in my&nbsp;direction.
             </p>
@@ -213,7 +213,7 @@ export default class PortfolioList extends React.Component {
             <p>
               Meticulous perfectionism, adherence to best practices, and
               flexible solutions have always been my strength and preference
-              when time permits, but what's brought me fantastic opportunities
+              as time permits, but what's brought me fantastic opportunities
               has been my unending passion for making beautiful concepts come to
               life. I'm humble af and ready to build more great&nbsp;things.
             </p>

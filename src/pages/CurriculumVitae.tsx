@@ -23,10 +23,10 @@ export default class CurriculumVitae extends React.Component {
    *
    * And now you don't have to manually replicate
    * these lists every time you update your CV.
-   * 
+   *
    * TODO: Make more consideration for migrating info from here
    * into PDF versions. That may involve changing up PDF designs.
-   * 
+   *
    * TODO: Consider a programmatic export option from this page.
    *
    * @param {Array<string>} phrases
@@ -60,7 +60,6 @@ export default class CurriculumVitae extends React.Component {
     "ES6",
     "ES5",
     "vanilla JavaScript",
-    "Haxe (like Java)",
     "JSX",
     "HTML / HTML5",
     "CSS / CSS3",
@@ -71,6 +70,7 @@ export default class CurriculumVitae extends React.Component {
     "PHP (learning)",
     "Mustache / Handlebars",
     "Twig",
+    "Haxe (like Java)",
     "AS3 (like Java / ECMAScript)",
     "AS2",
   ];
@@ -90,7 +90,7 @@ export default class CurriculumVitae extends React.Component {
   tech = [
     "Angular 2+",
     "React",
-    "Vue (dabbling)",
+    "Vue (learning)",
     "jQuery",
     "RxJS",
     "Babel",
@@ -100,23 +100,16 @@ export default class CurriculumVitae extends React.Component {
     "Grunt",
     "Gulp",
     "Bootstrap",
-    "REST",
-    "APIs",
     "SVG",
     "Canvas",
     "Require / AMD",
     "Git",
     "SVN",
     "Elasticsearch",
-    "DHTML",
-    "Design Patterns",
-    "Game Engines",
-    "Tween / Animation Engines",
     "Create / Easel",
     "Mapbox",
-    "OOP",
-    "SEO",
     "Greensock / GSAP",
+    "Flambé / 2DKit",
     "Create / EaselJS",
     "PixiJS",
   ];
@@ -127,6 +120,34 @@ export default class CurriculumVitae extends React.Component {
    * @memberof CurriculumVitae
    */
   techElems = this.wrapPhrases(this.tech);
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  concepts = [
+    "OOP",
+    "SEO",
+    "MVC",
+    "MVVM",
+    "DHTML",
+    "REST",
+    "APIs",
+    "Design Patterns",
+    "Game Engines",
+    "Tween Engines",
+    "Physics Engines",
+    "Quality Assurance",
+    "Tracking / Analytics",
+  ];
+
+  /**
+   *
+   *
+   * @memberof CurriculumVitae
+   */
+  conceptsElems = this.wrapPhrases(this.concepts);
 
   /**
    *
@@ -155,8 +176,9 @@ export default class CurriculumVitae extends React.Component {
     "Confluence",
     "OS X",
     "Windows",
+    "Terminal / Command Prompt",
   ];
-  
+
   /**
    *
    *
@@ -191,11 +213,16 @@ export default class CurriculumVitae extends React.Component {
     "Mattel",
     "AT&T",
     "MTV",
+    "Netflix",
+    "National Geographic",
+    "USDA",
+    "EPA",
+    "NIFA",
+    "Expedia",
     "Addicting Games",
     "The N",
     "T-Mobile",
     "Premera Blue Cross",
-    "Expedia",
     "Bravo",
     "Earthbound Farms",
     "Cingular",
@@ -203,12 +230,10 @@ export default class CurriculumVitae extends React.Component {
     "The Weinstein Company",
     "HTC",
     "OnSet Productions",
-    "Netflix",
     "Ronix Wakeboards",
     "RedHook Brewery",
     "Stoli Vodka",
     "Tanteo Tequila",
-    "National Geographic",
     "Tobacco Smokes You",
     "UBS Financial Services",
     "XM Radio",
@@ -218,9 +243,6 @@ export default class CurriculumVitae extends React.Component {
     "Post",
     "WildBrain",
     "Yesmail",
-    "USDA",
-    "EPA",
-    "NIFA",
     "Novo Nordisk",
     "and many more...",
   ];
@@ -271,7 +293,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <p className="scope">
                   <span>Technical Scope:</span> Angular 2+, TypeScript, React,
-                  HTML5, CSS3, SVG, SCSS,&nbsp;Craft CMS
+                  SVG, SCSS, Elasticsearch, Craft CMS
                 </p>
 
                 <ul>
@@ -280,9 +302,8 @@ export default class CurriculumVitae extends React.Component {
                     development on interactive, responsive&nbsp;websites
                   </li>
                   <li>
-                    Working closely with clients, stakeholders,
-                    and&nbsp;freelance partners to conceptualize custom
-                    UI/UX&nbsp;presentations
+                    Working closely with clients, stakeholders, and freelance
+                    partners to conceptualize custom UI/UX&nbsp;presentations
                   </li>
                   <li>
                     Analyzed business requirements, participated in technical
@@ -295,8 +316,12 @@ export default class CurriculumVitae extends React.Component {
                     (consumed&nbsp;via&nbsp;REST)
                   </li>
                   <li>
-                    Collaborated and organized with teams remotely via Jira and
-                    video conferencing
+                    Collaborated and organized with different teams remotely via
+                    Jira, Smartsheet, Google Docs, and video&nbsp;conferencing
+                  </li>
+                  <li>
+                    Designed and coded application components in an Agile
+                    environments utilizing a test-driven development&nbsp;approach
                   </li>
                 </ul>
               </div>
@@ -325,7 +350,8 @@ export default class CurriculumVitae extends React.Component {
                 <ul>
                   <li>
                     Logic for central activities, interactivity, and media in
-                    responsive HTML5/CSS3&nbsp;websites
+                    responsive HTML5/CSS3 in websites for Nintendo, Premera Blue
+                    Cross, and other&nbsp;brands
                   </li>
                   <li>
                     Developed APIs to simplify, stabilize, and streamline
@@ -340,8 +366,11 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Contribution and technical oversight of concepts with teams
-                    of designers, developers, and animators via Trello (Kanban
-                    style, slimilar to&nbsp;Jira)
+                    of designers, developers, and animators
+                  </li>
+                  <li>
+                    Sychronized with teams on project development and QA via
+                    Trello (slimilar to&nbsp;Jira)
                   </li>
                 </ul>
               </div>
@@ -391,6 +420,10 @@ export default class CurriculumVitae extends React.Component {
                     thrown into the fire of heavy development from the
                     very&nbsp;start
                   </li>
+                  <li>
+                    Scoping, timelining, estimating tasks to be tracked and
+                    sychronized for sprints via Smartsheet in Kanban workflow
+                  </li>
                 </ul>
               </div>
 
@@ -418,7 +451,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <ul>
                   <li>
-                    Continuously relied upon as a lead and key architect of
+                    Continuously relied upon as a lead and key/lead architect of
                     solutions where many developers and animators populated
                     content/games into to flexible templates and frameworks I
                     engineered
@@ -598,7 +631,7 @@ export default class CurriculumVitae extends React.Component {
                 <div className="right-sub">[ 2005 ]</div>
               </h5>
 
-              <p>A.A.S. Web Design — Honors</p>
+              <p>A.A.S. Web Design — Honors — Awards</p>
             </div>
           </div>
           <div className="section">
@@ -606,13 +639,17 @@ export default class CurriculumVitae extends React.Component {
               <h4>Skills</h4>
             </div>
             <div className={divClassRt}>
-            <div className="cv-listing">
+              <div className="cv-listing">
                 <h5>Languages</h5>
                 <p>{this.langElems}</p>
               </div>
               <div className="cv-listing">
                 <h5>Technologies</h5>
                 <p>{this.techElems}</p>
+              </div>
+              <div className="cv-listing">
+                <h5>Concepts</h5>
+                <p>{this.conceptsElems}</p>
               </div>
               <div className="cv-listing">
                 <h5>Software</h5>
@@ -641,7 +678,8 @@ export default class CurriculumVitae extends React.Component {
 
                 <div className="row">
                   <div className="col-xs-12">
-                    People's Choice - Art Website of the&nbsp;Year&nbsp; - Artocracy.org
+                    People's Choice — Art Website of the&nbsp;Year&nbsp; —
+                    Artocracy.org
                   </div>
                 </div>
               </div>
