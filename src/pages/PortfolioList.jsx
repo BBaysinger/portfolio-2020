@@ -184,7 +184,7 @@ export default class PortfolioList extends React.Component {
         </div>
         <div className="list_note">
           <div className="container">
-            <h3>Bonjour, Olá, Guten Tag!</h3>
+            <h3>Bonjour, Olá, Guten Tag</h3>
 
             <p>
               {/* Leave just "front-end developer" here to avoid sounding repetitious with "interactive". */}
