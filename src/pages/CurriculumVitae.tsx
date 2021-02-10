@@ -129,6 +129,7 @@ export default class CurriculumVitae extends React.Component {
    * @memberof CurriculumVitae
    */
   concepts = [
+    "SPAs",
     "OOP",
     "MVC",
     "MVVM",
@@ -271,6 +272,24 @@ export default class CurriculumVitae extends React.Component {
         <HeaderSub head={"Curriculum Vitae"} subhead={""} />
 
         <div id="main_content" className="container cv-page">
+          {/* <div className="section">
+            <div className={divClassLt}>
+              <h4>Education</h4>
+            </div>
+
+            <div className={divClassRt}>
+              <h5 className="sub-container">
+                <div className="left-sub">
+                  Spokane Falls Community&nbsp;College
+                </div>
+                <div className="break"></div>
+                <div className="right-sub">[ 2005 ]</div>
+              </h5>
+
+              <p>A.A.S. Web Design — Honors — Awards</p>
+            </div>
+          </div> */}
+
           <div className="section">
             <div className={divClassLt}>
               <h4>Experience</h4>
@@ -301,7 +320,7 @@ export default class CurriculumVitae extends React.Component {
                 <ul>
                   <li>
                     Consulting, scoping, wire-framing, time-lining, and
-                    development on interactive, responsive&nbsp;websites
+                    development of interactive, responsive&nbsp;websites
                   </li>
                   <li>
                     Working closely with clients, stakeholders, and freelance
@@ -352,9 +371,9 @@ export default class CurriculumVitae extends React.Component {
 
                 <ul>
                   <li>
-                    Logic for central activities (games, wallpaper creators,
-                    video players), interactivity, and media in responsive
-                    websites for Nintendo, and other&nbsp;brands
+                    Logic for central 'activities' (site-wide scavenger hunts,
+                    wallpaper creators, etc), interactivity, and media in
+                    responsive websites for Nintendo
                   </li>
                   <li>
                     Developed APIs to simplify, stabilize, and streamline
@@ -374,8 +393,8 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Language localization strategies for deployment in various
-                    international regions (which often necessitates special
-                    design considerations)
+                    international regions (which necessitates special
+                    design&nbsp;considerations)
                   </li>
                   <li>
                     Interfacing with Nintendo's Nclood API / platform for
@@ -413,13 +432,13 @@ export default class CurriculumVitae extends React.Component {
                 <ul>
                   <li>
                     As a first project, solely developed the Dashboard for an
-                    iteration of ChalkLabs’ flashship SaaS software, Pushgraph.
+                    iteration of ChalkLabs’ flagship SaaS software, Pushgraph.
                     This was the first version as a user-customizable,
                     responsive drag/drop widget framework (largely developed
                     before&nbsp;designed)
                   </li>
                   <li>
-                    With sparse instruction and negligable time for rampup,
+                    With sparse instruction and negligible time for ramp-up,
                     designed the entire UI for the new iteration of Pushgraph in
                     under three&nbsp;days
                   </li>
@@ -451,7 +470,7 @@ export default class CurriculumVitae extends React.Component {
                     company at the&nbsp;time
                   </li>
                   <li>
-                    Otherwise dominated on a regular steam of
+                    Otherwise dominated on a regular stream of
                     blistering&nbsp;deadlines
                   </li>
                 </ul>
@@ -644,7 +663,7 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Into a blank browser window, populated a set of
-                    fully-functional custom browser Chrome (UI), including
+                    fully-functional custom browser chrome (UI), including
                     drop-down menus, history, location bar, navigation buttons,
                     and proportional scrollbars — all built with theme/color
                     options, which could have made for a unique user experience,
@@ -672,6 +691,7 @@ export default class CurriculumVitae extends React.Component {
               <p>A.A.S. Web Design — Honors — Awards</p>
             </div>
           </div>
+
           <div className="section">
             <div className={divClassLt}>
               <h4>Skills</h4>
