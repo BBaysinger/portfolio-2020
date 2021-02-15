@@ -205,9 +205,9 @@ export default class PortfolioList extends React.Component {
               Inventing and learning have been constant, and every deadline has
               been somewhere between unreasonable and insane. I've been the lead
               architect on nearly every project after getting my feet wet in
-              anything that was ever new. Through this path I've gained a unique
-              view of UX/UI, front-end, and working with ever-changing teams
-              and&nbsp;processes.
+              anything that was ever new to the teams. Through this path I've
+              gained a unique view of UX/UI, front-end, and working with
+              ever-changing teams and&nbsp;processes.
             </p>
 
             <p>

@@ -382,7 +382,7 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     Developed a JavaScript timeline animation framework with
                     compact syntax and potential to eliminate the need for CSS3
-                    keyframe animations that we found riddled with
+                    key frame animations that we found riddled with
                     inconsistencies. (This will likely become an open source
                     library at some&nbsp;point)
                   </li>
@@ -398,7 +398,7 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Interfacing with Nintendo's Nclood API / platform for
-                    managing Nintendo user status and rewards system
+                    managing Nintendo user status and rewards&nbsp;system
                   </li>
                   <li>
                     Strategic considerations for deadlines so tight that
@@ -452,11 +452,10 @@ export default class CurriculumVitae extends React.Component {
                     Highcharts, and other visualization&nbsp;libraries
                   </li>
                   <li>
-                    Learned Angular and TypeScript largely on the clock, and
-                    thrown into the fire of heavy development from the very
-                    start after my initial 'training' in Angular, a brief video
-                    series tutorial and a two-week code test to demonstrate
-                    quick&nbsp;learning
+                    Learned Angular and TypeScript on the clock, and thrown into
+                    the fire of heavy development from the start after my
+                    initial 'training' in Angular, a video series tutorial and a
+                    two-week code test to demonstrate quick&nbsp;learning
                   </li>
                   <li>
                     Scoping, timelining, estimating tasks to be tracked and
@@ -502,26 +501,26 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     Continuously relied upon as a lead and key/lead architect of
                     solutions where many developers and animators populated
-                    content/games into to flexible templates and frameworks I
-                    engineered
+                    content/games into to flexible templates and frameworks
+                    I&nbsp;engineered
                   </li>
                   <li>
                     Utilized various existing game mechanics and ones authored
                     by me, per&nbsp;project
                   </li>
                   <li>
-                    Created a performant physics-based tween animation engine
-                    before the advent of systems like Tweener and Greensock
+                    Created a performant physics-based tween engine before the
+                    advent of systems like Tweener and&nbsp;Greensock
                   </li>
                   <li>
                     Contributed a robust cross-platform mobile accelerometer
                     solution to a popular (then) open-source HTML5 game
-                    framework now known as&nbsp;2Dkit.
+                    framework now known as&nbsp;2Dkit
                   </li>
                   <li>
                     Interfacing with backend APIs exchanging JSON, XML, CSV,
                     plain text, and image data for many types of user-initiated
-                    server/database transactions
+                    server/database&nbsp;transactions
                   </li>
                   <li>
                     Contribution on entire process of project conceptualization
@@ -556,17 +555,25 @@ export default class CurriculumVitae extends React.Component {
 
                 <p className="scope">
                   <span>Technical Scope:</span> HTML, CSS, vanilla JavaScript,
-                  Visual Studio,&nbsp;DHTML
+                  Visual Studio, AJAX,&nbsp;DHTML
                 </p>
 
                 <ul>
                   <li>
-                    As the sole designer, produced overall look and feel on
-                    sites for businesses new to an online&nbsp;presence
+                    As the sole designer, produced overall look, feel, and
+                    branding on sites for businesses new to an
+                    online&nbsp;presence
                   </li>
                   <li>
-                    Front-end development of SCW's e-commerce / shopping cart
-                    solution, that was then ahead of its&nbsp;time
+                    Design and front-end development of SCW's reusable
+                    e-commerce / shopping cart platform that was ahead of its
+                    time in an era preceeding solutions like&nbsp;shopify
+                  </li>
+                  <li>
+                    On one particular project, shocked the agency owner by
+                    implementing broad site revisions for under 25% of the
+                    budget. We had to lie to the client about how much budget
+                    we&nbsp;used
                   </li>
                   <li>
                     Produced a number of shortcuts and tricks that were new to
@@ -662,12 +669,15 @@ export default class CurriculumVitae extends React.Component {
                     notorious incompatibility issues of the&nbsp;era
                   </li>
                   <li>
-                    Into a blank browser window, populated a set of
-                    fully-functional custom browser chrome (UI), including
-                    drop-down menus, history, location bar, navigation buttons,
-                    and proportional scrollbars — all built with theme/color
-                    options, which could have made for a unique user experience,
-                    had it gone beyond an&nbsp;experiment
+                    As an experiment, into a blank browser window, populated a
+                    set of fully-functional custom browser chrome (UI),
+                    including drop-down menus, history, location bar, navigation
+                    buttons, and proportional scrollbars — all built with
+                    theme/color&nbsp;options
+                  </li>
+                  <li>
+                    Built my first game withing weeks of learning JavaScript, a
+                    whimsical DHTML slot&nbsp;machine
                   </li>
                 </ul>
               </div>

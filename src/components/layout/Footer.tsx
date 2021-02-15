@@ -82,7 +82,7 @@ class Footer extends React.Component {
                 things to do everywhere else. Feel free to reach out if there's
                 any further information I can provide. I look forward to
                 speaking with you about how I can bring unique interactive and
-                front-end experiences to your&nbsp;enterprise.
+                front-end experiences to your&nbsp;organization.
               </p>
             </div>
 
@@ -155,7 +155,9 @@ class Footer extends React.Component {
                         style={{ backgroundImage: "url(" + location + ")" }}
                       ></div>
                       Spokane, WA{" "}
-                      <span className="not_a_suburb">(eastern WA)</span>
+                      <span className="not_a_suburb">
+                        (<i>not</i> near Seattle)
+                      </span>
                     </a>
                   </li>
                 </ul>

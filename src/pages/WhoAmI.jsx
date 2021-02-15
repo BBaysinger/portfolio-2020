@@ -60,7 +60,7 @@ export default class WhoAmI extends React.Component {
 
             <p>
               To put it simply, I love to create. The personal reward I get from
-              making beautiful things makes work seem like not work. It doesn't
+              making beautiful things makes work seem not like work. It doesn't
               matter if it's a sculpture, a painting on canvas, or a technical
               progressive web application. I also love to challenge myself and,
               as many people have witnessed, I go big on&nbsp;challenges.
