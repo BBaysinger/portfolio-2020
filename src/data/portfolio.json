@@ -173,7 +173,7 @@
     }
   },
   "pushgraph-nifa": {
-    "title": "Chalklabs Pushgraph",
+    "title": "ChalkLabs Pushgraph",
     "active": "1",
     "omitFromList": "0",
     "clientId": "chalklabs",
@@ -182,7 +182,7 @@
     "shortDesc": "",
 		"desc":
 		[
-      "The Pushgraph application is innovative software from Chalklabs that uses semantics to analyze data and find similarities and redudancies. It is used by several government agencies for analyzing research nationwide, saving the federal government billions every year.",
+      "The Pushgraph application is innovative software from ChalkLabs that uses semantics to analyze data and find similarities and redudancies. It is used by several government agencies for analyzing research nationwide, saving the federal government billions every year.",
       "I designed the 2017 iteration front-end of this software, which was a major rework over previous versions. The entirety of this version is delivered through an Angular drag/drop widget dashboard I designed and developed.",
       "As a screenshot is no longer available, this is of a rough design, which was all that was required to start development. All instances of Pushgraph (and other software I developed at ChalkLabs) are highly secure, and there are no live demos. Please review the reel to get a feel for how the project turned out."
     ],

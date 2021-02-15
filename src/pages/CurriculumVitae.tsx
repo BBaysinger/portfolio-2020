@@ -110,7 +110,7 @@ export default class CurriculumVitae extends React.Component {
     "Elasticsearch",
     "Create / Easel",
     "Mapbox",
-    "Greensock / GSAP",
+    "GreenSock / GSAP",
     "Flambé / 2DKit",
     "Create / EaselJS",
     "PixiJS",
@@ -442,7 +442,7 @@ export default class CurriculumVitae extends React.Component {
                     under three&nbsp;days
                   </li>
                   <li>
-                    Interfacing with Chalklabs' backend API using search syntax
+                    Interfacing with ChalkLabs' backend API using search syntax
                     to query results from databases to populate into in my own
                     custom infinite-scrolling data grid&nbsp;widgets
                   </li>
@@ -500,7 +500,7 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     Continuously relied upon as a key / lead architect of
                     solutions where many developers and animators populated
-                    content/games into to flexible templates and frameworks
+                    content / games into to flexible templates and frameworks
                     I&nbsp;engineered
                   </li>
                   <li>
@@ -509,7 +509,7 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Created a performant physics-based tween engine before the
-                    advent of systems like Tweener and&nbsp;Greensock
+                    advent of systems like Tweener and&nbsp;GreenSock
                   </li>
                   <li>
                     Contributed a robust cross-platform mobile accelerometer
@@ -519,7 +519,7 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     Interfacing with backend APIs exchanging JSON, XML, CSV,
                     plain text, and image data for many types of user-initiated
-                    server/database&nbsp;transactions
+                    server / database&nbsp;transactions
                   </li>
                   <li>
                     Contribution on entire process of project conceptualization
@@ -611,7 +611,7 @@ export default class CurriculumVitae extends React.Component {
                     websites for a variety of business in the Spokane&nbsp;area
                   </li>
                   <li>
-                    Dynamic, multiple level navigation redesign and development
+                    Dynamic, multi-level navigation redesign and development
                     for The Heart Institute&nbsp;of&nbsp;Spokane
                   </li>
                   <li>

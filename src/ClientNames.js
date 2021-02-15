@@ -14,6 +14,6 @@ export default class ClientNames {
   static teennick = "Teen Nick";
   static nintendo = "Nintendo";
   static premera = "Premera";
-  static chalklabs = "Chalklabs";
+  static chalklabs = "ChalkLabs";
   static ball_construction = "Ball Constuction";
 }
