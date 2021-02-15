@@ -341,9 +341,8 @@ export default class CurriculumVitae extends React.Component {
                     Jira, Smartsheet, Google Docs, and video&nbsp;conferencing
                   </li>
                   <li>
-                    Designed and coded application components in an Agile
-                    environments utilizing a test-driven
-                    development&nbsp;approach
+                    Designed and coded application components in Agile
+                    environments and development&nbsp;approaches
                   </li>
                 </ul>
               </div>
@@ -499,7 +498,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <ul>
                   <li>
-                    Continuously relied upon as a lead and key/lead architect of
+                    Continuously relied upon as a key / lead architect of
                     solutions where many developers and animators populated
                     content/games into to flexible templates and frameworks
                     I&nbsp;engineered
