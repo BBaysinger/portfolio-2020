@@ -192,21 +192,21 @@ export default class PortfolioList extends React.Component {
               years in client-side scripting and building fluid interactive
               experiences. Aside from chunks of years coding proprietary and/or
               specialized rich media, I've been manipulating the DOM at runtime
-              since 2001 upon learning JavaScript. Visual effects were
-              everything to me. I started by doing it the hard way to learn
-              everything about compatibility. Then, since earning my degree in
-              web design in 2005 and landing a spot in a top-tier digital
-              advertising agency, I continued to pursue programming, and the
-              quality results were as unending as were the prolific projects
-              slung my&nbsp;direction.
+              since 2001 upon learning JavaScript. In those days visual effects
+              were everything to me. But I started by doing it the hard way to
+              learn everything about compatibility. Then, since earning my
+              degree in web design in 2005 and landing a spot in a top-tier
+              digital advertising agency, I continued to pursue client-side
+              programming, and the quality results were as unending as were the
+              prolific projects slung my&nbsp;direction.
             </p>
 
             <p>
               Inventing and learning have been constant, and every deadline has
               been somewhere between unreasonable and insane. I've been the lead
               architect on nearly every project after getting my feet wet in
-              anything that was ever new to the teams. Through this path I've
-              gained a unique view of UX/UI, front-end, and working with
+              anything that was ever new to me and the teams. Through this path
+              I've gained a unique view of UX/UI, front-end, and working with
               ever-changing teams and&nbsp;processes.
             </p>
 

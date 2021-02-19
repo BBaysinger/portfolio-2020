@@ -134,13 +134,13 @@ export default class CurriculumVitae extends React.Component {
     "MVC",
     "MVVM",
     "DHTML",
-    "REST",
-    "APIs",
+    "accessibility",
+    "SEO",
+    "REST APIs",
     "Design Patterns",
     "Game Engines",
     "Tween Engines",
     "Physics Engines",
-    "SEO",
     "Quality Assurance",
     "Tracking / Analytics",
   ];
@@ -425,7 +425,8 @@ export default class CurriculumVitae extends React.Component {
 
                 <p className="scope">
                   <span>Technical Scope:</span> (Heavy) Angular 2+, TypeScript,
-                  Bootstrap, Mapbox, Elasticsearch, HTML5,&nbsp;Canvas
+                  Bootstrap, Mapbox, Elasticsearch, HTML5, REST
+                  APIs,&nbsp;Canvas
                 </p>
 
                 <ul>
@@ -460,6 +461,10 @@ export default class CurriculumVitae extends React.Component {
                     Scoping, timelining, estimating tasks to be tracked and
                     synchronized for sprints via Smartsheet in
                     Kanban&nbsp;workflow
+                  </li>
+                  <li>
+                    Consuming REST APIs to manage users, configuration, and data
+                    processed by the Pushgraph&nbsp;application.
                   </li>
                   <li>
                     In June of 2017, worked 350+ hours along with my supervisor
@@ -611,8 +616,8 @@ export default class CurriculumVitae extends React.Component {
                     websites for a variety of business in the Spokane&nbsp;area
                   </li>
                   <li>
-                    Dynamic, multi-level navigation redesign and development
-                    for The Heart Institute&nbsp;of&nbsp;Spokane
+                    Dynamic, multi-level navigation redesign and development for
+                    The Heart Institute&nbsp;of&nbsp;Spokane
                   </li>
                   <li>
                     Utilized XML and XSL in a simple CMS-like approach for
