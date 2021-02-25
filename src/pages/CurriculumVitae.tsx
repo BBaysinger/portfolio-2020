@@ -56,7 +56,7 @@ export default class CurriculumVitae extends React.Component {
    * @memberof CurriculumVitae
    */
   lang = [
-    "TypeScript (preferred)",
+    "TypeScript",
     "ES6",
     "ES5",
     "vanilla JavaScript",
@@ -87,9 +87,8 @@ export default class CurriculumVitae extends React.Component {
    * @memberof CurriculumVitae
    */
   tech = [
-    "Angular 2+",
+    "Angular 2/4/6/8/10",
     "React",
-    "Vue (learning)",
     "jQuery",
     "RxJS",
     "Babel",
@@ -296,7 +295,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <p className="scope">
                   <span>Technical Scope:</span> Angular 2+, TypeScript, React,
-                  SVG, SCSS, Elasticsearch, Craft CMS
+                  SVG, SCSS, Elasticsearch, Craft&nbsp;CMS
                 </p>
 
                 <ul>
@@ -354,7 +353,7 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     Logic for central 'activities' (site-wide scavenger hunts,
                     wallpaper creators, etc), interactivity, and media in
-                    responsive websites for Nintendo
+                    responsive websites for&nbsp;Nintendo
                   </li>
                   <li>
                     Developed APIs to simplify, stabilize, and streamline
@@ -413,7 +412,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <ul>
                   <li>
-                    As a first project, solely developed the Dashboard for an
+                    As a first project, solely developed the dashboard for an
                     iteration of ChalkLabs’ flagship SaaS software, Pushgraph.
                     This was the first version as a user-customizable,
                     responsive drag/drop widget framework (largely developed
@@ -426,8 +425,8 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Interfacing with ChalkLabs' backend API using search syntax
-                    to query results from databases to populate into in my own
-                    custom infinite-scrolling data grid&nbsp;widgets
+                    to query results from databases to populate into custom
+                    infinite-scrolling data grid widgets that I&nbsp;developed
                   </li>
                   <li>
                     Data visualizations and custom interactions in D3, Mapbox,
@@ -446,7 +445,7 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Consuming REST APIs to manage users, configuration, and data
-                    processed by the Pushgraph&nbsp;application.
+                    processed by the Pushgraph&nbsp;application
                   </li>
                   <li>
                     In June of 2017, worked 350+ hours along with my supervisor
@@ -501,11 +500,11 @@ export default class CurriculumVitae extends React.Component {
                   </li>
                   <li>
                     Lead developer of every one of several first iterations of
-                    data usage calculators for AT&amp;T.
+                    data usage calculators for AT&amp;T
                   </li>
                   <li>
                     Developed custom audio and video players for several
-                    MTV&nbsp;websites.
+                    MTV&nbsp;websites
                   </li>
                   <li>
                     Created a performant physics-based tween engine before the
@@ -519,7 +518,7 @@ export default class CurriculumVitae extends React.Component {
                   <li>
                     Interfacing with backend APIs exchanging JSON, XML, CSV,
                     plain text, and image data for many types of user-initiated
-                    server / database&nbsp;transactions
+                    server / database&nbsp;interactions
                   </li>
                   <li>
                     Contribution on entire process of project conceptualization
