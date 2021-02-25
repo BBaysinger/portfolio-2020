@@ -12,6 +12,7 @@ Some of the portfolio peices were a major undertaking bringing back to life... M
 
 That home hero design is going to change any day now, I swear. 🙂
 
+TODO: URGENT: Expiration Date was found broken in Chrome/Mobile. Maybe a CSS fix. Check all of the Haxe games!!!
 TODO: Swap out Bootstrap grid for flexbox.
 
 Merely that I feel like I know my audience here, there's no support for IE like I would have in every other project.

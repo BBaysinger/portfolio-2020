@@ -107,7 +107,7 @@ class NavBar extends React.Component {
             <p>BRADLEY BAYSINGER</p>
             <p>
               <span className="nobr">Interactive Web</span> &bull;{" "}
-              <span className="nobr">Front-end Developer</span>
+              <span className="nobr">UI Developer</span>
             </p>
           </div>
         </div>

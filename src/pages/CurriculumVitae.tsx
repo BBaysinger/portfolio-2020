@@ -67,10 +67,10 @@ export default class CurriculumVitae extends React.Component {
     "JSON",
     "XML",
     "XSL",
-    "PHP (learning)",
+    "PHP",
     "Twig",
     "Haxe (like Java)",
-    "AS3 (like Java / ECMAScript)",
+    "AS3 (ECMAScript)",
     "AS2",
   ];
 
@@ -272,31 +272,13 @@ export default class CurriculumVitae extends React.Component {
         <HeaderSub head={"Curriculum Vitae"} subhead={""} />
 
         <div id="main_content" className="container cv-page">
-          {/* <div className="section">
-            <div className={divClassLt}>
-              <h4>Education</h4>
-            </div>
-
-            <div className={divClassRt}>
-              <h5 className="sub-container">
-                <div className="left-sub">
-                  Spokane Falls Community&nbsp;College
-                </div>
-                <div className="break"></div>
-                <div className="right-sub">[ 2005 ]</div>
-              </h5>
-
-              <p>A.A.S. Web Design — Honors — Awards</p>
-            </div>
-          </div> */}
-
           <div className="section">
             <div className={divClassLt}>
               <h4>Experience</h4>
             </div>
             <div className={divClassRt}>
               <div className="cv-listing">
-                <h5>Freelance / Contract</h5>
+                <h5>Independent Contractor</h5>
 
                 <div className="sub-container">
                   <div className="left-sub">Interactive Web Developer</div>
@@ -513,6 +495,19 @@ export default class CurriculumVitae extends React.Component {
                     by me, per&nbsp;project
                   </li>
                   <li>
+                    Lead developer of Seven2's first game / project for
+                    Nickelodeon Group, Blue's Clues —
+                    Mix&nbsp;'N&nbsp;Match&nbsp;Dressup
+                  </li>
+                  <li>
+                    Lead developer of every one of several first iterations of
+                    data usage calculators for AT&amp;T.
+                  </li>
+                  <li>
+                    Developed custom audio and video players for several
+                    MTV&nbsp;websites.
+                  </li>
+                  <li>
                     Created a performant physics-based tween engine before the
                     advent of systems like Tweener and&nbsp;GreenSock
                   </li>
@@ -544,9 +539,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>SCW Consulting</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">
-                    Designer / Front-end Web Developer
-                  </div>
+                  <div className="left-sub">Designer / UI Developer</div>
                   <div className="break"></div>
                   <div className="right-sub">[ 2005 ]</div>
                 </div>
@@ -569,9 +562,9 @@ export default class CurriculumVitae extends React.Component {
                     online&nbsp;presence
                   </li>
                   <li>
-                    Design and front-end development of SCW's reusable
-                    e-commerce / shopping cart platform that was ahead of its
-                    time in an era preceeding solutions like&nbsp;shopify
+                    Design and UI development of SCW's reusable e-commerce /
+                    shopping cart platform that was ahead of its time in an era
+                    preceeding solutions like&nbsp;shopify
                   </li>
                   <li>
                     On one particular project, shocked the agency owner by
@@ -593,9 +586,7 @@ export default class CurriculumVitae extends React.Component {
                 <h5>Freelance</h5>
 
                 <div className="sub-container">
-                  <div className="left-sub">
-                    Designer / Front-end Web Developer
-                  </div>
+                  <div className="left-sub">Designer / UI Developer</div>
                   <div className="break"></div>
                   <div className="right-sub">[ 2003 - 2005 ]</div>
                 </div>
@@ -643,7 +634,7 @@ export default class CurriculumVitae extends React.Component {
 
                 <p className="desc">
                   Self-directed learning of graphics software and cross platform
-                  dynamic and interactive front-end coding&nbsp;practices
+                  dynamic and interactive UI coding&nbsp;practices
                 </p>
 
                 <p className="scope">

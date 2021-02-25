@@ -187,18 +187,12 @@ export default class PortfolioList extends React.Component {
             <h3>Bonjour, Olá</h3>
 
             <p>
-              {/* Leave just "front-end developer" here to avoid sounding repetitious with "interactive". */}
-              I am a passionate front-end web programmer with fifteen+ industry
-              years in client-side scripting and building fluid interactive
-              experiences. Aside from chunks of years coding proprietary and/or
-              specialized rich media, I've been manipulating the DOM at runtime
-              since 2001 upon learning JavaScript. In those days visual effects
-              were everything to me. But I started by doing it the hard way to
-              learn everything about compatibility. Then, since earning my
-              degree in web design in 2005 and landing a spot in a top-tier
-              digital advertising agency, I continued to pursue client-side
-              programming, and the quality results were as unending as were the
-              prolific projects slung my&nbsp;direction.
+              I am a developer with three years in UI and front-end frameworks
+              and eleven years in related interactive programming. Since landing
+              a spot in a top-tier digital advertising agency straight out of
+              design school in 2005, I have passionatly pursued client-side
+              programming, and the quality results have been as unending as the
+              prolific projects slung in my&nbsp;direction.
             </p>
 
             <p>
@@ -215,7 +209,7 @@ export default class PortfolioList extends React.Component {
               flexible solutions have been my strength and preference as time
               permits, but what's brought me fantastic opportunities has been my
               unending passion for breathing life into beautiful concepts. I'm
-              humble af and ready to build more great&nbsp;things.
+              always ready to build more great&nbsp;things.
             </p>
           </div>
         </div>

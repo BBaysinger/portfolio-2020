@@ -81,8 +81,8 @@ class Footer extends React.Component {
                 I'm keeping things simple here as there's never any shortage of
                 things to do everywhere else. Feel free to reach out if there's
                 any further information I can provide. I look forward to
-                speaking with you about how I can bring unique interactive and
-                front-end experiences to your&nbsp;organization.
+                speaking with you about how I can bring unique interactive
+                experiences to your&nbsp;organization.
               </p>
             </div>
 
