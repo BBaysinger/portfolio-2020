@@ -97,14 +97,14 @@ class Footer extends React.Component {
                       {this.state.emailAddr}
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="tel:+15092798603">
                       <div
                         style={{ backgroundImage: "url(" + phone + ")" }}
                       ></div>
                       509.279.8603
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="http://www.linkedin.com/in/bradleybaysinger"

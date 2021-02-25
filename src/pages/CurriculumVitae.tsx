@@ -112,7 +112,6 @@ export default class CurriculumVitae extends React.Component {
     "GreenSock / GSAP",
     "Flambé / 2DKit",
     "Create / EaselJS",
-    "PixiJS",
   ];
 
   /**
