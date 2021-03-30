@@ -69,8 +69,8 @@ export default class CurriculumVitae extends React.Component {
     "XSL",
     "PHP",
     "Twig",
-    "Haxe (like Java)",
-    "AS3 (ECMAScript)",
+    "Haxe",
+    "AS3",
     "AS2",
   ];
 
@@ -138,7 +138,6 @@ export default class CurriculumVitae extends React.Component {
     "Design Patterns",
     "Game Engines",
     "Tween Engines",
-    "Physics Engines",
     "Quality Assurance",
     "Tracking / Analytics",
   ];
