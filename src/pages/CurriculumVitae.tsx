@@ -98,6 +98,7 @@ export default class CurriculumVitae extends React.Component {
     "Grunt",
     "Gulp",
     "Mustache / Handlebars",
+    "Docker",
     "Bootstrap",
     "SVG",
     "Canvas",
