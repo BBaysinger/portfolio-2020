@@ -1,0 +1,11 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+/build
+
+.eslintcache #temporary remove after react-scripts 4.0.1
+
+# dependencies
+node_modules
+
+#misc
+.DS_Store
